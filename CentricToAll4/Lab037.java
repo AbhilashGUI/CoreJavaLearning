@@ -13,10 +13,10 @@ public class Lab037
     {
     System.out.println("It is a even number");
     }
-  else
+   else
   {
   System.out.println("It is an odd number");
- }
+  }
 
 }
 }
