@@ -11,7 +11,7 @@ public class Lab037
 
    if(number%2==0)
     {
-    System.out.println("It is a even number");
+    System.out.println("It is an even number");
     }
    else
   {
