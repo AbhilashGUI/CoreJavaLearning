@@ -1,0 +1,33 @@
+package AssignmentPrograms;
+import java.util.Scanner;
+public class Program16 {
+    public static void main(String[] args)
+    {
+           //Palindrome checker
+
+        int temp, remainder, sum = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int number = sc.nextInt();
+        temp = number;
+
+        while (number>0) {
+
+            remainder = number % 10;
+            sum = (sum * 10) + remainder;
+            number = number / 10;
+        }
+        if (temp == sum) {
+            System.out.println("Given number is Palindrome");
+
+        } else {
+            System.out.println("Given number is not Palindrome");
+        }
+    }
+}
+
+
+
+
+
+
