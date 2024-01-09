@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Program13 {
     public static void main(String[] args) {
 
-        ///Prime number should be greater than 1. Any number which is divisible by 1 and itself it is known as prime number.
+
+        //Create a program that checks if a given number is prime or not. Use loops to divide the number by all numbers lesser than it to check for divisibility.
+        //Prime number should be greater than 1. Any number which is divisible by 1 and itself it is known as prime number.
 
         int i = 0;
         int flag = 0;

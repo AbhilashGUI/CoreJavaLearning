@@ -4,6 +4,10 @@ public class Program17
 {
     public static void main(String[] args)
     {
+        //Develop a program to check if a given string or number is a palindrome (reads the same backward as forward).
+
+
+
         String original,reverse="";
         Scanner sc=new Scanner(System.in);
         System.out.println("Check if the given number/string is palindrome or not");

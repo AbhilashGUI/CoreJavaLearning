@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Program16 {
     public static void main(String[] args)
     {
-           //Palindrome checker
+           //Develop a program to check if a given string or number is a palindrome (reads the same backward as forward).
 
         int temp, remainder, sum = 0;
         Scanner sc = new Scanner(System.in);
