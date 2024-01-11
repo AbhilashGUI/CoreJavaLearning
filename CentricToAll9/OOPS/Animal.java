@@ -5,7 +5,7 @@ public class Animal
     //Attributes
 
     String Dog;
-    String Breed;
+    String Breed;   //All these are instance variables
 
     String Origin;
 

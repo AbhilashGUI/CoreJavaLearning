@@ -4,7 +4,7 @@ public class Person
 {
 
     //Attributes
-    String Name;
+    String Name;  //All these are instance variables
     String Gender;
     int Age;
     String Occupation;

@@ -6,7 +6,7 @@ public class Lab144
     {
 
      Person p = new Person();
-     p.Name="Abhilash";
+     p.Name="Abhilash";   //Referring to the instance variables created in the source file with the same class name
      p.Age=27;
      p.Gender="Male";
      System.out.println(p.Name);
