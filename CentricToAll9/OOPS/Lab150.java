@@ -14,7 +14,7 @@ public class Lab150
         //pl.printinfo();   //DC
 
 
-        Programminglanguages pl2=new Programminglanguages("Perl",1987);
+        /*Programminglanguages pl2=new Programminglanguages("Perl",1987);
         pl2.printinfo();
 
         Programminglanguages pl3=new Programminglanguages("C++",1983);
@@ -38,7 +38,7 @@ public class Lab150
         pl8.printinfo();
 
         Programminglanguages pl9=new Programminglanguages("C#",2001);
-        pl9.printinfo();
+        pl9.printinfo();*/
 
 
 
