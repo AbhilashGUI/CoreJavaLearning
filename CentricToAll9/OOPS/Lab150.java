@@ -6,6 +6,8 @@ public class Lab150
     public static void main(String[] args)
     {
 
+        //RUNNER OF PROGRAMMINGLANGUAGESCLASS//
+
         //Inheritance: Is a way to create a new  class from the existing class.
         //It is known as Parent class/Super class/Base Class
         //The reference class are known as Sub class/child class/Derived class

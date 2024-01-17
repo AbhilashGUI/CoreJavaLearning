@@ -5,7 +5,7 @@ public class Lab152
 
     public static void main(String[] args)
     {
-
+           //RUNNER OF PYTHONCLASS//
 
 
         //Single inheritance concept, where child objects referring to the parent class

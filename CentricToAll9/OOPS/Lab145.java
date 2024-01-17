@@ -7,6 +7,8 @@ public class Lab145
     public static void main(String[] args)
     {
 
+        //RUNNER OF ANIMALCLASS//
+
     Animal dog =new Animal();
     dog.Dog="Bhairav";
     dog.Breed="German Shepard";  //Referring to the instance variables created in the source file with the same  class name

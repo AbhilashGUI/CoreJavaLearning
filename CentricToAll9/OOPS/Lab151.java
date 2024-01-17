@@ -4,6 +4,9 @@ public class Lab151
 {
     public static void main(String[] args)
     {
+        //RUNNER OF PROGRAMMINGLANGUAGESCLASS//
+
+
      //Programminglanguages pl=new Programminglanguages();
         // In this case, only parent class is invoked
      //Java j=new Java();

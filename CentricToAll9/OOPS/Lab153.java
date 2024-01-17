@@ -5,6 +5,8 @@ public class Lab153
     public static void main(String[] args)
     {
 
+        //RUNNER OF GRANDFATHERCLASS//
+
      /*GrandFather gf=new GrandFather();
         gf.properties();           //Grandfather is holding 6 properties
 

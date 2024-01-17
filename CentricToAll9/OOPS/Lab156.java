@@ -5,7 +5,10 @@ public class Lab156
 
     public static void main(String[] args)
     {
-  //Hierarchal concept
+
+        //RUNNER OF STATEGOVERNMENTCLASS//
+
+        //Hierarchal concept
         StateGovernment sg= new StateGovernment();
 
         StateExecutive se=new StateExecutive();

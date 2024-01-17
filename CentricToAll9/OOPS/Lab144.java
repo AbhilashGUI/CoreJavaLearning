@@ -5,6 +5,9 @@ public class Lab144
     public static void main(String[] args)
     {
 
+        //RUNNER OF PERSON//
+
+
      Person p = new Person();
      p.Name="Abhilash";   //Referring to the instance variables created in the source file with the same class name
      p.Age=27;
