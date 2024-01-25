@@ -12,8 +12,10 @@ public class Lab178
       }catch (Exception e)
       {
           System.out.println("Exit");
-          //System.exit(0);     //exit function : Does not allows to execute finally statement
+          //System.exit(0);     //exit function : Does not allows to execute finally statement.
       }
+
+      //Since we are disabling the exit() function, it prints the finally block
       finally {
           {
               System.out.println("Mandate, incase of exit is disabled");
