@@ -1,24 +1,23 @@
 package CentricToAll10.OOPS.Exceptions;
 
-import java.io.File;
-import java.io.FileReader;
 public class Lab180
 {
-    public static void main(String[] args)
+
+    public static void main(String args[])
     {
-        try {
-
-            String path = "C/Abhilash/Assignment1.txt";
-            File file = new File(path);
-            FileReader fileReader = new FileReader(file);
-        }catch (Exception e)
-        {
-            System.out.println(e.getMessage());
-        }
-
-
-
+       try {
+           String Amount_debited = "1000";
+           int a = 0;
+           int b = 10 / a;
+       }catch(Exception e)
+       {
+           System.out.println("Due to technical glitch, amount was unable to withdraw. Debited amount will be credited in 24 hours");
+       }
 
 
     }
+
+
+
+
 }

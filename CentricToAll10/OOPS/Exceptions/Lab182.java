@@ -1,16 +1,18 @@
 package CentricToAll10.OOPS.Exceptions;
 
-public class Lab182 {
-    public static void main(String args[]) {
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 
-        //Trying to fetch the lenght of a null. It throws a default error message. Since we are using getMessage() function.
-        try {
+public class Lab182
+{
+    public static void main(String args[]) throws FileNotFoundException {
 
-            String Name = null;
-            Name.length();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+        String path="D/Documents/Image01.jpg";
+        File file=new File(path);
+        FileReader fileReader=new FileReader(file);
+
+
+        //Note: Here, we are using throws keyword and importing the relevant packages.
     }
 }
-
