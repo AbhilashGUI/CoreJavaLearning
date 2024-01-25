@@ -7,17 +7,17 @@ public class Program52
     {
 
 
-        Program48 p1=new Program48();
-        p1.approved();
+        Program48 a=new Program48();
+        a.approved();
 
-        Program49 p2=new Program49();
-        p2.approved();
+        Program49 b=new Program49();
+        b.approved();
 
-        Program50 p3=new Program50();
-        p3.approved();
+        Program50 c=new Program50();
+        c.approved();
 
-        Program51 p4=new Program51();
-        p4.approved();
+        Program51 d=new Program51();
+        d.approved();
 
 
 

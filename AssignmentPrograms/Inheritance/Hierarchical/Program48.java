@@ -5,7 +5,7 @@ public class Program48
 
     void approved()
     {
-    System.out.println("Every state affiliated TECHNOLOGICAL UNIVERSITIES must be approved by AICTE");
+    System.out.println("Every state affiliated TECHNICAL UNIVERSITIES must be approved by AICTE");
     }
 
 
