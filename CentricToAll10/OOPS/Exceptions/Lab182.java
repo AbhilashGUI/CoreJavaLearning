@@ -6,8 +6,8 @@ public class Lab182 {
         //Trying to fetch the lenght of a null. It throws a default error message. Since we are using getMessage() function.
         try {
 
-            String Name = null;
-            Name.length();
+            String name = null;
+            name.length();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

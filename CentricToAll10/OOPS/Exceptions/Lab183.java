@@ -3,7 +3,7 @@ package CentricToAll10.OOPS.Exceptions;
 public class Lab183 {
     public static void main(String[] args) {
         extracted2();
-        System.out.println("Main Execution");
+        System.out.println("Main Method Execution");
     }
 
 
