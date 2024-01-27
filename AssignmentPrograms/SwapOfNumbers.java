@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program4
+public class SwapOfNumbers
 {
     public static void main(String[] args)
     {

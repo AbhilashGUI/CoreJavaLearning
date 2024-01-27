@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program5
+public class ArithmeticOperators
 {
     public static void main(String[] args)
     {

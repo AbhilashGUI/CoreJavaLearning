@@ -1,13 +1,13 @@
 package AssignmentPrograms;
 
-public class Program2 {
+public class Leapyear {
     //Write a program that determines the given year is a leap year
     //A leap year is divisible by 4
     //But not by 100 unless it is divisible by 400.
     //Use an if-else statement to construct the code.
 
 
-    //Understanding: The year which is divisible by 4&100 and 400. It is a leap year.
+    //Understanding: The year which is divisible by 4. If it is divisible by 100 then it is mandate to divisible by 400. It is a leap year.
     public static void main(String[] args)
     {
         int year=2020;

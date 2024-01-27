@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 
-public class Program1
+public class Fizzbuzz
 {
     //Fizz buzz
     /*Write a program that prints numbers from 1 to 100. For multiples of 3 print "FIZZ" and multiples of 5 print "BIZZ"
