@@ -1,6 +1,6 @@
 package CentricToAll7;
 
-public class Lab123 {
+public class    Lab123 {
     public static void main(String[] args) {
         int c = sum(3, 4);         //Declaring 2 arguments
         System.out.println(c);
