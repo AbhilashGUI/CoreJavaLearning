@@ -1,4 +1,4 @@
-package CentricToAll11.CustomziedExceptions;
+package CentricToAll11.CustomizedExceptions;
 
 import java.io.File;
 import java.io.FileReader;

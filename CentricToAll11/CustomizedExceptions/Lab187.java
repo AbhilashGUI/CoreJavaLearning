@@ -1,4 +1,4 @@
-package CentricToAll11.CustomziedExceptions;
+package CentricToAll11.CustomizedExceptions;
 
 public class Lab187 {
   public static void main(String[] args) throws Exception {

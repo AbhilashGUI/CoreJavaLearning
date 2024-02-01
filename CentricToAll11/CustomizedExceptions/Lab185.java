@@ -1,4 +1,4 @@
-package CentricToAll11.CustomziedExceptions;
+package CentricToAll11.CustomizedExceptions;
 
 public class Lab185
 {
