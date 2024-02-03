@@ -8,6 +8,8 @@ public class Lab197
 {
     public static void main(String[] args){
 
+        //Invoking both String and Integer object using iterator interface
+
         List<String> mylist=new LinkedList<>();
         mylist.add("Abhilash");
         mylist.add("Sharma");
@@ -20,11 +22,17 @@ public class Lab197
         mylist1.add(3);
         System.out.println(mylist1);
 
-      //Using the iterator approach 
-        Iterator iterator= mylist1.iterator();
-        while (iterator.hasNext())
-        {
+      //Using the iterator approach for both objects
+        Iterator iterator=mylist.iterator();
+        while (iterator.hasNext()){
             System.out.println(iterator.next());
+        }
+
+        Iterator iterator1= mylist1.iterator();
+        while (iterator1.hasNext())
+        {
+            System.out.println(iterator1.next());
+
         }
 
     }
