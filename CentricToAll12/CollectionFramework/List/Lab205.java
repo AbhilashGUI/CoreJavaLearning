@@ -1,4 +1,4 @@
-package CentricToAll12.CollectionFramework;
+package CentricToAll12.CollectionFramework.List;
 
 import java.util.Enumeration;
 import java.util.Vector;

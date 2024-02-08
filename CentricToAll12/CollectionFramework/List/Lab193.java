@@ -1,4 +1,4 @@
-package CentricToAll12.CollectionFramework;
+package CentricToAll12.CollectionFramework.List;
 
 import java.util.ArrayList;
 import java.util.List;

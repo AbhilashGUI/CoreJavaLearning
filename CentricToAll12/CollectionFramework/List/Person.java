@@ -1,4 +1,4 @@
-package CentricToAll12.CollectionFramework;
+package CentricToAll12.CollectionFramework.List;
 
 public class Person
 {

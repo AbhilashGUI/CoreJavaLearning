@@ -1,10 +1,10 @@
-package CentricToAll12.CollectionFramework;
+package CentricToAll12.CollectionFramework.List;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
-public class Lab203
+public class Lab204
 {
     public static void main(String[] args)
     {
@@ -24,23 +24,19 @@ public class Lab203
         fee.add(6000);
         System.out.println(fee);
 
-
-        onlinetutorials.addAll(fee);
-        System.out.println(onlinetutorials);
-
-
         System.out.println();
 
-        //Using iterator interface
 
-        Iterator iterator=onlinetutorials.iterator();
-        while (iterator.hasNext())
+        //Using ListIterator interface
+        //Note: It is mandate to use size() function, if using list-iterator to print the elements in reverse direction
+
+
+        ListIterator lt=onlinetutorials.listIterator(onlinetutorials.size());
+        while (lt.hasPrevious())
         {
-            System.out.println(iterator.next());
+            System.out.println(lt.previous());
         }
-
-
-
 
     }
 }
+
