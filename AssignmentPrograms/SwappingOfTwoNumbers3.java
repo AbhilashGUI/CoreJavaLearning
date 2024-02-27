@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program7 {
+public class SwappingOfTwoNumbers3 {
     public static void main(String[] args) {
         //Swapping of numbers using try catch block. To test the exceptions in the code
         try {
