@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program9
+public class Array
 {
     public static void main(String[] args)
     {
