@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program10 {
+public class Array2 {
     public static void main(String[] args) {
         //Taking the user inputs(String) as an array
 
