@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program13 {
+public class PrimeNumberCheck {
     public static void main(String[] args) {
 
 
