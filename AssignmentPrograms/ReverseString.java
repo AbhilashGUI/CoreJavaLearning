@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 
-public class Program14
+public class ReverseString
 {
     public static void main(String[] args)
     {
