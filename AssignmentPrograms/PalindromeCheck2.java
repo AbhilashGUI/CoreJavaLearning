@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program17
+public class PalindromeCheck2
 {
     public static void main(String[] args)
     {
