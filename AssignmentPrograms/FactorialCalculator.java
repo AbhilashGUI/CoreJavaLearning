@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program18
+public class FactorialCalculator
 {
     public static void main(String[] args)
     {
