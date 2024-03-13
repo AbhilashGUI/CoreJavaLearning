@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program19
+public class Temp2Far
 {
     //Temperature Converter: Create a program that converts temperatures from Fahrenheit to Celsius
 
