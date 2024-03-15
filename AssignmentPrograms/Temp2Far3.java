@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program21
+public class Temp2Far3
 {
     public static void main(String[] args)
     {
