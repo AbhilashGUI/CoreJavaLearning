@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program22
+public class Scorecalculation
 {
     public static void main(String[] args)
     {
