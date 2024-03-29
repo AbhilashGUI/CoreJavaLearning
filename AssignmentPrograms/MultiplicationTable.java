@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program23
+class MultiplicationTable
 {
     public static void main(String[] main)
     {
