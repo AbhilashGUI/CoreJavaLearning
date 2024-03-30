@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class program24
+public class SumOfDigits
 {
     public static void main(String[] args)
     {
