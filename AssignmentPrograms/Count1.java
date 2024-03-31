@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 
-public class Program25 {
+public class Count1 {
     public static void main(String[] args) {
         //Develop a program that counts the number of characters, vowels and consonants in a given string using loops and conditions.
 
