@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 
-public class Program26
+public class Count2
 {
     public static void main(String[] args)
     {
