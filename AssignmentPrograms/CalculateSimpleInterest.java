@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program27
+public class CalculateSimpleInterest
 {
     public static void main(String[] args)
 
