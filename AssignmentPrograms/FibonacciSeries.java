@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program28
+public class FibonacciSeries
 
 {
     public static void main(String[] args)
