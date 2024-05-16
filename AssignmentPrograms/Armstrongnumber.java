@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 import java.util.Scanner;
-public class Program29
+public class Armstrongnumber
 {
 
     public static void main(String[] args)
