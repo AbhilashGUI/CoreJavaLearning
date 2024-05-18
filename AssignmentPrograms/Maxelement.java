@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 
-public class Program32 {
+public class Maxelement {
     public static void main(String[] args)
 
     {

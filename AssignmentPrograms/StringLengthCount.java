@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 
-public class Program34
+public class StringLengthCount
 {
     public static void main(String[] args)
     {

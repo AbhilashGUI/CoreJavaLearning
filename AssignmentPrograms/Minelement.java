@@ -1,6 +1,6 @@
 package AssignmentPrograms;
 
-public class Program33
+public class Minelement
 {
     public static void main(String[] args)
     {
