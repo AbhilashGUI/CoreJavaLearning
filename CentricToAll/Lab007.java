@@ -4,11 +4,12 @@ public class Lab007
 {
     public static void main(String[] args)
     {
-        //float is of 4bytes=32bits=2147483648
-        float Tdebtnextfy=199584073360.17f;
-        Tdebtnextfy=15004596.20f;
-        System.out.print("Debt is shown less than the float value");
-        
+        //float is of 4bytes=32bits
+        //Approximate Tax debit for this year=2147483647
+        float Taxdebtnextfy=1995840733;
+        Taxdebtnextfy=2563584073f;
+        System.out.println("Debt is shown less than the float value");
+        System.out.print(Taxdebtnextfy);
 
     }
 }
