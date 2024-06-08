@@ -4,7 +4,7 @@ public class Lab017
 {
     public static void main(String[] args)
     {
-        //Shift operators: Right shift operator >> (Divide) and Left shift operator << (Multiplicate)
+        //Shift operators: Right shift operator >> (Divide) and Left shift operator << (Multiply)
 
         int i=15;
         int j=21;

@@ -15,9 +15,9 @@ public class Lab021
         System.out.println("Abhilash"+ c3 +"Sharma");
 
         //String examples
-        String Surname="Vemula";
-        String Firstname="Abhilash";
-        String Middlename="Sharma";
-        System.out.println(Firstname + Surname+Middlename);
+        String Surname="Vemula ";
+        String Firstname="Abhilash ";
+        String Middlename="Sharma ";
+        System.out.println(Firstname + Middlename + Surname);
     }
 }

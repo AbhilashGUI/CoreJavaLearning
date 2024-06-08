@@ -8,7 +8,7 @@ public class Lab018
         //Logical AND operators(&&)
         int i=10;
         int j=20;
-        System.out.println(i<j&&j>i);  //Both the conditions should  be true
+        System.out.println(i>j&&j<i);  //Both the conditions should  be true/false, to get the desired output
 
         //Logical OR operators
         int i1=30;

@@ -2,7 +2,7 @@ package CentricToAll2;
 
 public class Lab016 {
     public static void main(String[] args) {
-        //Unary operators : postfix ==>expr++, expr-- and prefix  ==>++expr,--expr
+        //Unary operators : postfix==>expr++, expr-- and prefix==>++expr,--expr
 
         int i = 10;//postfix
         int j = 10;//prefix

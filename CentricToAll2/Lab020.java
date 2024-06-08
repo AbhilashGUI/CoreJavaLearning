@@ -4,7 +4,7 @@ public class Lab020
 {
     public static void main(String[] args)
     {
-        int Enum = 9;
+        int Enum = 19;
         System.out.println(Enum);
     }
 
