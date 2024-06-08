@@ -6,10 +6,13 @@ public class Lab017
     {
         //Shift operators: Right shift operator >> (Divide) and Left shift operator << (Multiplicate)
 
-       /* int i=15;
+        int i=15;
         int j=21;
+        int k=343;
         System.out.println(i>>2);  //15/4=3.75
-        System.out.println(j>>3);  //21/8= 2.6 */
+        System.out.println(j>>3);  //21/8= 2.6
+        System.out.println(k>>4);  //343/16=20.16
+
 
         int i1=2;
         int j1=4;

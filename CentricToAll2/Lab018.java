@@ -8,7 +8,8 @@ public class Lab018
         //Logical AND operators(&&)
         int i=10;
         int j=20;
-        System.out.println(i<j&&j>i);  //Both the conditions to be true
+        System.out.println(i<j&&j>i);  //Both the conditions should  be true
+
         //Logical OR operators
         int i1=30;
         int j1=40;
@@ -18,7 +19,8 @@ public class Lab018
         //Bitwise AND operators
          int i2=45;
          int j2=50;
-         System.out.println(i2>j2&j2<i2);//Here both the conditions are false and o/p will be false
+         System.out.println(i2<j2&j2>i2);//Here both the conditions should be true/false , to get desired output
+
         //Bitwise OR operators
         int i3=60;
         int j3=80;

@@ -6,12 +6,12 @@ public class Lab019
     {
         //Assignment operators : = += -= *= /= %= &= ^= |= <<= >>= >>>=
 
-        int i=15;
+        float i=15;
         int j=17;
         int k=19;
         int l=21;
         int m=23;
-        i+=5;
+        i+=5.5f;
         j-=4;
         k*=3;
         l/=7;
