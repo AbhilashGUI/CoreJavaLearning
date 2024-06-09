@@ -27,7 +27,7 @@ public class Lab011
         float pie=3.14f;
         System.out.println("Value of pie " + pie);
         pie=15.70f;
-        //Note:While using printf statement here we are concatenating, just adding %f(FLOAT) in the end.
+        //Note: While using printf statement here we are concatenating, just adding %f(FLOAT) in the end.
         // So that the value get assigned to %f and prints  output.
         System.out.printf("Value of pie --->%f",pie);
 
