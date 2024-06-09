@@ -8,7 +8,7 @@ public class Lab014 {
         //0-9---->48-57
         //Special characters--->34--47
 
-        char a = 'A';
+      char a = 'A';
         a='9';
         System.out.println(a);
 
