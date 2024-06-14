@@ -6,17 +6,18 @@ public class Lab024
     {
         //Relational operator using char
 
-        /*System.out.println('A'==65);
+        System.out.println('A'==65);
         System.out.println('z'==122);
         System.out.println('0'!=50);
-        System.out.println('#'==35);*/
+        System.out.println('#'==35);
 
         //If assigning byte value as char
 
-        /*byte b=65;
+        //Note: Relational operator compare the references
+        byte b=65;
         System.out.println('A'==b);
-        b=122;
-        System.out.println('z'==b);*/
+        byte b1=122;
+        System.out.println('z'==b1);
 
         System.out.println('A'==65.0); //This is a property of java
         System.out.println('z'==122.0f);

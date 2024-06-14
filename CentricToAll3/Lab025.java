@@ -7,15 +7,15 @@ public class Lab025
         //Not(!) is also considered as a part of logical operators
         //lets see some examples using not operator
 
-       /* boolean c=true;
-        c=(!(true));
-        System.out.println(c);
-        System.out.println(!c);*/
+       boolean b1=true;
+        b1=(!(true));
+        System.out.println(b1);
+        System.out.println(!b1);
          int a=15;
          int b=18;
          int c=21;
-         //System.out.println(a>b);
-         //System.out.println(!(a>b));
+         System.out.println(a>b);
+         System.out.println(!(a>b));
 
         //Using logical operators
          boolean d= (a<b) && (b<c);
