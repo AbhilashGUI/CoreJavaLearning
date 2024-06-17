@@ -9,18 +9,18 @@ public class Lab039
     {
         //Taking two inputs from keyboard and displaying the min number
         Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the number A");
-        int number=sc.nextInt();
-        System.out.println("Enter the number B");
+        System.out.println("Enter the number 1");
+        int number1=sc.nextInt();
+        System.out.println("Enter the number 2");
         int number2 =sc.nextInt();
 
-        if(number<number2)
+        if(number1<number2)
         {
-            System.out.println("Minimum number is : "+ number);
+            System.out.println("Minimum number is : "+ number1);
         }
         else
         {
-            System.out.println("negligible number is : "+ number);
+            System.out.println("negligible number is : "+ number2);
         }
 
 

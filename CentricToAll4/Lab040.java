@@ -5,20 +5,20 @@ public class Lab040
     public static void main(String[] args)
     {
         //3rd example
-        int i=10;
-        int j=20;
-        int k=30;
-        if(i>j)
+        byte b=110;
+        int i=420;
+        long l=3000;
+        if(i>l)
         {
-            System.out.println("Number is <=10");
+            System.out.println("Value is <500");
         }
-        else if (j<i)
+        else if (b<i)
         {
-            System.out.println("Number is <=20");
+            System.out.println("Value is <150");
         }
         else
         {
-            System.out.println("Number is 30");
+            System.out.println("Value is =3k");
         }
 
 
