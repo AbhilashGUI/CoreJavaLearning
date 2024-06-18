@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class Lab045 {
     public static void main(String[] args)
     {
-        //It comes under decision making statements
+        //Break loop or switch statement is used to break the current flow of the code at the specified condition
         //It executes one statement from multiple conditions
-        //Each case statement can have a break statement, which is optional. If the break statement is not found, it executes the next case
+        //Each case statement can have a break statement, which is optional.
+        // If the break statement is not found, it executes the next case/cases as well
 
         //Which day is today
         Scanner sc=new Scanner(System.in);
@@ -16,18 +17,18 @@ public class Lab045 {
         switch(daynumber) {
             case 1:
                 System.out.println("Monday");
-                break;
 
+                break;
 
             case 2:
                 System.out.println("Tuesday");
-                break;
 
+                break;
 
             case 3:
                 System.out.println("Wednesday");
-                break;
 
+                break;
 
             case 4:
                 System.out.println("Thursday");

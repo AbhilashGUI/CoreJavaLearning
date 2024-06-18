@@ -14,11 +14,11 @@ public class Lab044
         //   Use an if-else statement to classify the triangle.
 
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the value of Side1");
+        System.out.println("Enter the length of Side1");
         int Side1=sc.nextInt();
-        System.out.println("Enter the value of Side2");
+        System.out.println("Enter the length of Side2");
         int Side2=sc.nextInt();
-        System.out.println("Enter the value of Side3");
+        System.out.println("Enter the length of Side3");
         int Side3=sc.nextInt();
 
         if((Side1==Side2) && (Side2==Side3) && (Side1==Side3))

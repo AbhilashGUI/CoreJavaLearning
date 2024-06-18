@@ -6,18 +6,18 @@ public class Lab050
     {
         //Price and Product based code
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the Product name, will help you with the price and the description");
+        System.out.println("Enter the Product name, will help you with the category type");
         String Product=sc.next();
         switch (Product)
         {
-            case "Unibic":
-                System.out.println("It is a biscuit, which cost from rs=10-300");
+            case "Biscuits":
+                System.out.println("It comes under snacks");
                 break;
-            case "Maaza":
-                System.out.println("It is a cool drick, which cost from rs=10-150");
+            case "Cooldrinks":
+                System.out.println("It comes under beverages");
                 break;
-            case "Cake":
-                System.out.println("It is a Pastry, which cost from rs=350-15000");
+            case "Cakes":
+                System.out.println("It comes under desserts");
                 break;
             default:
                 System.out.println("Out of stock");

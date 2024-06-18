@@ -8,7 +8,7 @@ public class Lab046
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Monthname, it will appear the respective monthnumber");
         String Monthname=sc.nextLine();
-
+        //Note: For String we are using sc.nextline stamtment
         switch (Monthname)
         {
             case "January":
@@ -30,7 +30,7 @@ public class Lab046
                 System.out.println("It is the 6th month of the year");
                 break;
             case "July":
-            System.out.println("It is the 7th month of the year");
+                System.out.println("It is the 7th month of the year");
              break;
             case "August":
                 System.out.println("It is the 8th month of the year");
@@ -39,7 +39,7 @@ public class Lab046
                 System.out.println("It is the 9th month of the year");
                 break;
             case "October":
-            System.out.println("It is the 10th month of the year");
+                 System.out.println("It is the 10th month of the year");
                 break;
             case "November":
                 System.out.println("It is the 11th month of the year");

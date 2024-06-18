@@ -6,15 +6,15 @@ public class Lab043
     {
         //4rth example
         int i=10;
-        if(i==i)
+        if(i==i)    //Checking the reference
         {
             System.out.println("It is an integer");
         }
-        if(i%2==0)
+        if(i%2==0)  //Checking the remainder
         {
             System.out.println("It is an even number");
         }
-        if(i/10==1)
+        if(i/10==1) //Checking the numerator, after the operation
         {
             System.out.println("It is a natural number");
         }

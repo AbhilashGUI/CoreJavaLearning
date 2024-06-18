@@ -9,19 +9,19 @@ public class Lab047 {
         String browser = sc.nextLine();
 
         switch (browser) {
-            case "chrome":
+            case "Chrome":
                 System.out.println("Execute the chrome code");
                 break;
-            case "firefox":
+            case "Firefox":
                 System.out.println("Execute the firefox code");
                 break;
-            case "edge":
+            case "Edge":
                 System.out.println("Execute the edge code");
                 break;
-            case "opera":
+            case "Opera":
                 System.out.println("Execute the opera code");
                 break;
-            case "safari":
+            case "Safari":
                 System.out.println("Execute the safari code");
             default:
                 System.out.println("Out of web");

@@ -11,7 +11,8 @@ public class Lab041 {
         //B: 80-89
         //C: 70-79
         //D: 60-69
-        //F: 0-59
+        //E: 35-59
+        //F: 0-34
 
 
         // 1. Input from user
@@ -31,23 +32,27 @@ public class Lab041 {
 
         if (Marks >= 90 && Marks <=100)
         {
-            System.out.println("Your grade is A");
+            System.out.println("Your Grade is A");
         }
           else if (Marks >= 80 && Marks <=89)
         {
-            System.out.println("Your grade is B");
+            System.out.println("Your Grade is B");
         }
         else if (Marks >= 70 && Marks <=79)
         {
-            System.out.println("Your grade is C");
+            System.out.println("Your Grade is C");
         }
         else if (Marks >= 60 && Marks <=69)
         {
-            System.out.println("Your grade is D");
+            System.out.println("Your Grade is D");
         }
-        else if (Marks >= 0 && Marks <=59)
+        else if (Marks >= 35 && Marks <=59)
         {
-            System.out.println("Your grade is F");
+            System.out.println("Your Grade is E");
+        }
+        else
+        {
+            System.out.println("Your Grade is F");
         }
 
 

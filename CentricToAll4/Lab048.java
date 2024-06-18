@@ -5,7 +5,7 @@ public class Lab048 {
         //Capital of the state
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Capital of the state : ");
+        System.out.print("Enter the Capital city, will reveal the respective state : ");
         String capital = sc.nextLine();
 
         switch (capital) {

@@ -11,22 +11,22 @@ public class Lab049
 
         switch (user_input) {
             case 'a':
-                System.out.println("Entered char is a vowel");
+                System.out.println("Entered char/letter is a vowel");
                 break;
             case 'e':
-                System.out.println("Entered char is a vowel");
+                System.out.println("Entered char/letter is a vowel");
                 break;
             case 'i':
-                System.out.println("Entered char is a vowel");
+                System.out.println("Entered char/letter is a vowel");
                 break;
             case 'o':
-                System.out.println("Entered char is a vowel");
+                System.out.println("Entered char/letter is a vowel");
                 break;
             case 'u':
-                System.out.println("Entered char is a vowel");
+                System.out.println("Entered char/letter is a vowel");
                 break;
             default:
-                System.out.println("Entered char is a consonant");
+                System.out.println("Entered char/letter is a consonant");
         }
 
 
