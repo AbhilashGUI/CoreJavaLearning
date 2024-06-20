@@ -16,7 +16,7 @@ public class Lab052
               System.out.println("Belongs to household goods");
               break;
           case 6,7,8:
-              System.out.println("Belongs to utility services");
+              System.out.println("Belongs to shopping/Fashion");
               break;
           case 9,10:
               System.out.println("Belongs to savings plans");

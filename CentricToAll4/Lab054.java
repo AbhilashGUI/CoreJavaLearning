@@ -4,7 +4,7 @@ public class Lab054
 {
     public static void main(String[] args)
     {
-    char code = 'C';
+    char code = 'D';
     int val = switch (code) {
         case 'A' :
             yield 65; //Return type

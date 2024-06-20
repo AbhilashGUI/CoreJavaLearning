@@ -4,6 +4,7 @@ public class Lab057
 {
     public static void main(String[] args)
             // 3/ x^2+y^2-|z| abs|z|-->It coverts -ve num to +ve num and +ve num to -ve num
+            //abs: Absolute value
             //Example:A=x^2+B=y^2-C=|z| abs|z|  -1=+1, -4=+4
 
     {

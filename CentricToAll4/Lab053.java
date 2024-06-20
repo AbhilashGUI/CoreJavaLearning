@@ -10,7 +10,8 @@ public class Lab053
 
         switch (branchcode)
         {
-            //Note:We are not using break statement,hence  it is an enhancement which works as break just by adding arrow symbol before the print statement. allowed from jdk 13
+            //Note:We are not using break statement,hence it is an enhancement which works as break
+            // just by adding arrow symbol before the print statement. It is allowed from jdk 13
             case 01 ->System.out.println("Belongs to ECE branch");
             case 02 ->System.out.println("Belongs to EEE branch");
             case 03 ->System.out.println("Belongs to CSE branch");
