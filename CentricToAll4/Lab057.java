@@ -17,16 +17,12 @@ public class Lab057
         double z =sc.nextDouble();
 
 
-
-
         double result;
 
         result=Math.cbrt(Math.pow(x,2)+Math.pow(y,3)-Math.abs(z));
         System.out.print(result);
 
-
           sc.close();
-
 
 
         /*Calculation part: x=14,y=13 and z=7

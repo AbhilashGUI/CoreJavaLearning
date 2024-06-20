@@ -14,7 +14,7 @@ public class Lab055
         System.out.println(Math.min(k,l));
         System.out.println(Math.sqrt(k)); //square root of 225
         System.out.println(Math.pow(6,2));// 4 to the power 2
-        System.out.println(Math.floorDiv(k,13));  //Division operator
+        System.out.println(Math.floorDiv(k,13));  //Division operation
 
 
 

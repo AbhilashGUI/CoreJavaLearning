@@ -19,7 +19,7 @@ public class Lab052
               System.out.println("Belongs to shopping/Fashion");
               break;
           case 9,10:
-              System.out.println("Belongs to savings plans");
+              System.out.println("Belongs utility payments");
               break;
           default:
               System.out.println("Running out of money");

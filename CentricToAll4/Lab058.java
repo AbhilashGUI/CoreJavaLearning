@@ -15,7 +15,7 @@ public class Lab058
      double result;
 
 
-        result=Math.sqrt(Math.pow(x,5)+Math.pow(y,5)-Math.abs(z));
+        result=Math.sqrt(Math.pow(x,3)+Math.pow(y,3)-Math.abs(z));
         System.out.print(result);
 
       // To know the cube root of number list refer-->https://byjus.com/maths/square-root/

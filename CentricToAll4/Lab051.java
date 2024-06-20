@@ -8,11 +8,11 @@ public class Lab051
         switch (b)
         {
             case 127:
-            System.out.println("78 falls under byte range");
+            System.out.println("127 falls under byte range");
             break;
-            case -128:
+            /**case 127:
                 System.out.println("-128 falls under byte range");
-                break;
+                break;**/ //Since it is a duplicate , JVM throws an error as duplicate case label
             default:
                 System.out.println("Exceeding the byte range");
 
