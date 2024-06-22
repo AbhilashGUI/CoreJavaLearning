@@ -8,9 +8,6 @@ public class Lab063
           //System.out.println("Abhilash");  //It prints infinite times and get to see the exit code as 130
 
 
-
-
-
         //Printing the boolean using the for loop. It prints only one condition either true or false only once.
         boolean b1=true;
         b1=false;

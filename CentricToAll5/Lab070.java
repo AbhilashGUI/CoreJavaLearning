@@ -10,5 +10,7 @@ public class Lab070 {
                 break; //Since we are printing the statement before the break. It prints the provided condition and then breaks
             }
         }
+        System.out.print("It prints the condition and then breaks");
     }
+
 }

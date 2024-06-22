@@ -12,4 +12,5 @@ public class Lab062
         System .exit(-1);
     }
 }
-//Note: Generally after execution of the code, get to see like "Process finished with exit code 0" . So by adding the exit code as -1. It prints as -1 at the end
+//Note: Generally after execution of the code, get to see like "Process finished with exit code 0" .
+// So by adding the exit code as -1. It prints as -1 at the end

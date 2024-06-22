@@ -7,7 +7,7 @@ public class Lab064
 
         //Printing the double using for loop
          double d= 1.7;
-        for (int i = 0; i < 7.7; i++)
+        for (int i = 1 ;i < 7.7; i++)
         {
          System.out.println(d);
         }

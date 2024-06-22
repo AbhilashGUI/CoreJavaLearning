@@ -7,7 +7,7 @@ public class Lab073
     {
         for (int i = 50; i > 0; i--)
         {
-            if(i%2==0)
+            if(i%2.5==0)
             {
                 System.out.println("Even number is " + i);
             }

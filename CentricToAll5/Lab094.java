@@ -7,8 +7,6 @@ public class Lab094
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number :");
         int number= sc.nextInt();
-
-
         int fact=1;
         int i=1;
         while (i<=number)

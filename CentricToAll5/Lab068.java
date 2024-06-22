@@ -13,7 +13,7 @@ public class Lab068 {
             System.out.println("value is "+ i);
         }
 
-
+     System.out.print("Breaked at the condition 3");
     }
 }
 

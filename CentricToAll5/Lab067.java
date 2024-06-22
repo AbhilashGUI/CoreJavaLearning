@@ -11,8 +11,9 @@ public class Lab067 {
             {
                 break;//Since we are printing the statement after the break. It breaks at the provided condition
             }
-                System.out.println("Abhilash");
+                System.out.println("Abhilash Vemula");
 
             }
+        System.out.print("It will print name 6 times");
         }
     }

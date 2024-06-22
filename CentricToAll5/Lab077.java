@@ -5,13 +5,15 @@ public class Lab077
     public static void main(String[] args)
     {
         //Since we are breaking the even condition, the output breaks at the first condition.
-        for (int i = 0; i <10 ; i++)
+        for (int i =0; i <10 ; i++)
         {
+            System.out.println(i);
             if(i%2==0)
             {
                 break;
             }
 
         }
+
     }
 }

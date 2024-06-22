@@ -22,14 +22,16 @@ public class Lab060 {
         for (int i = 0; i < 10; i++)
         //It counts from 0 to 9
         {
-         System.out.println("Abhilash");
+         System.out.println("Abhilash Vemula");
         }
          //Can start the forloop with making i=1 and i<=10
+
+        System.out.println();
 
         for (int i = 1; i <= 10; i++)
        //It counts from 1 to 10
         {
-            System.out.println("Vemula");
+            System.out.println("Vemula Abhilash");
         }
 
 
