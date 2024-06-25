@@ -2,14 +2,13 @@ package CentricToAll6;
 
 public class Lab097
 {
-    //Array: Is a collection of data, which is of similar type.
+    //Array: Is a collection of data(elements), which is of similar type.
 
-    //Marks in 6 subjects using integer
 
     public static void main(String[] args)
 
     {
-
+     //Fetching of marks through array
         int[] marks={47,78,88,59,81,93};
         //Declaring array in square braces and assigning values in flower braces.
         //In array, index starts from 0
@@ -21,7 +20,7 @@ public class Lab097
         System.out.println(marks[3]);
         System.out.println(marks[4]);
         System.out.println(marks[5]);
-        System.out.println(marks.length); //Length starts from 1
+        System.out.println(marks.length); //It represents length of an array
 
 
 

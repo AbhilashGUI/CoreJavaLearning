@@ -13,8 +13,10 @@ public class Lab100
         System.out.println(stationery[2]);
         System.out.println(stationery[3]);
         System.out.println(stationery[4]);
-        System.out.println(stationery.length);
-        System.out.println(stationery[5]);//Since we are declaring the index, which is not a part of array.Hence it is throwing an exception.
+        System.out.println("Stationery items:"+stationery.length);
+        System.out.println(stationery[5]);
+        //Since we are declaring the index, which is not a part of array.Hence it is throwing an Array index
+        // out of bound exception.
 
 
     }

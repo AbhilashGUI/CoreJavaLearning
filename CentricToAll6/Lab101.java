@@ -8,8 +8,9 @@ public class Lab101 {
         //the program and throws exception
 
         //int[] c = {14, 98, 77, 46.3, 24};
-        //Since the elements in the Third array is not a similar data type. Which is double int datatye, hence it does not compile
+        //Since the elements in the Third array is not a similar data type. Which is double, hence it does not compile
         //the program and throws exception
 
+        System.out.print(a[2]);
     }
 }
