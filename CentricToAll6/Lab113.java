@@ -10,14 +10,16 @@ public class Lab113
         age[2]=32;
         age[3]=42;
 
-        /*for (int i = 0; i < age.length; i++)
+        for (int i = 0; i <= age.length-1; i++)
         {
           System.out.println(age[i]);
-        }*/
+        }
         System.out.println(age.length);
+
+
         //Using whileloop
         int i=0;
-        while (i< age.length)
+        while (i<=age.length-1)
         {
             System.out.println(age[i]);
 

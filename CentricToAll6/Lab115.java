@@ -6,7 +6,7 @@ public class Lab115
     {
         int[][] arr1=new int[3][4];
         //First array[3] represents 3 rows
-        //second array[4] represents 4 columns
+        //second array[3] represents 4 columns
 
 
         //Declaring the values for the 1stArray/row
@@ -29,9 +29,9 @@ public class Lab115
         arr1[2][3] = 38;
 
 
-        for (int i = 0; i < arr1.length; i++)   //i denotes columns
+        for (int i = 0; i <= arr1.length-1; i++)   //i denotes columns
         {
-            for (int j = 0; j < arr1[i].length; j++)   //j denotes rows
+            for (int j = 0; j <= arr1[i].length-1; j++)   //j denotes rows
 
             {
                 System.out.print(arr1[i][j]+ "\t");

@@ -22,14 +22,14 @@ public class Lab114 {
         arr[2][0] = 70;
         arr[2][1] = 80;
         arr[2][2] = 90;
+
    //Nested forloop to validate rows and columns
-        for (int i = 0; i < arr.length; i++) {       //i denotes columns
-            for (int j = 0; j < arr[i].length; j++) {  //j denotes rows
+        for (int i = 0; i <= arr.length-1; i++) {       //i denotes columns
+            for (int j = 0; j <= arr[i].length-1; j++) {  //j denotes rows
 
                 System.out.print(arr[i][j] + "\t");
             }
-
-            System.out.println();
+             System.out.println();
 
         }
     }

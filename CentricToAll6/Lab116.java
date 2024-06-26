@@ -36,8 +36,8 @@ public class Lab116 {
         arr2[4][1] = 59;
         arr2[4][2] = 60;
 
-        for (int i = 0; i < arr2.length; i++) {         // i denotes columns
-            for (int j = 0; j < arr2[i].length; j++) {  // j denotes rows
+        for (int i = 0; i <=arr2.length-1; i++) {         // i denotes columns
+            for (int j = 0; j <= arr2[i].length-1; j++) {  // j denotes rows
 
                 System.out.print(arr2[i][j]+ "\t");
 

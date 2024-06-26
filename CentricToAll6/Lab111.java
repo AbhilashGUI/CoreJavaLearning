@@ -20,14 +20,14 @@ public class Lab111
             System.out.println("Enter the marks of Social");
             marks[5]=sc.nextInt();
 
-            for (int i = 0; i < marks.length; i++)
+            for (int i = 0; i <= marks.length-1; i++)
             {
               if(marks[i]<35)
               {
                   System.out.println("You are Failed and secured marks = "+  marks[i]);
 
               }
-              System.out.println(marks[i]);
+
             }
             
         }

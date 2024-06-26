@@ -16,9 +16,11 @@ public class Lab110
         float[] f={21.1f,32.5f,64.7f};
 
         String[] names={"Vemula","Abhilash","Sharma"};
-        System.out.println(i.length); //Length of an integer array
+        System.out.println(i.length); //Length of an integer array;
+        System.out.println(l.length); //Length of a long array
+        System.out.println(c.length);//Length of a char array
         System.out.println(names.length); //Length of a String array
-        for (int j = 0; j < names.length; j++)
+        for (int j = 0; j <= names.length-1; j++)
         {
           System.out.println(names[j]);
         }
