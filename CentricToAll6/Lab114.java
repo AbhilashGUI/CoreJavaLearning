@@ -27,7 +27,7 @@ public class Lab114 {
         for (int i = 0; i <= arr.length-1; i++) {       //i denotes columns
             for (int j = 0; j <= arr[i].length-1; j++) {  //j denotes rows
 
-                System.out.print(arr[i][j] + "\t");
+                System.out.print(arr[i][j] + "\t");    //It creates space
             }
              System.out.println();
 

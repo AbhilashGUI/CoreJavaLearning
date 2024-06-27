@@ -8,7 +8,7 @@ public class Lab119
         for (int i = 0; i <= arr.length-1 ; i++)
         {
             for (int j = 0; j <= arr.length-1; j++) {
-                System.out.print(arr[i][j] + "\t");
+                System.out.print(arr[i][j] + "\t");  //It creates space
             }
             System.out.println();
         }

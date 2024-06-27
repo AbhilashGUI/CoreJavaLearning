@@ -20,7 +20,7 @@ public class Lab104
         //However the array3 is referring to array1
 
     //Tricky question
-        arr3[0]=23;  //Since, we have assigned arr3=arr1.
+        arr3[0]=33;  //Since, we have assigned arr3=arr1.
         // If the value of any element changes in array3 it reflects array1 as well
         System.out.println(arr1[0]);
         System.out.println(arr3[0]);

@@ -7,7 +7,7 @@ public class Lab100
 
     public static void main(String[] args)
     {
-        String[]  stationery={"Pencil","Eraser","Sharper","Pen","Whitener"};
+        String[]  stationery={"Pencil","Eraser","Sharper","Pen","Sketch"};
         System.out.println(stationery[0]);
         System.out.println(stationery[1]);
         System.out.println(stationery[2]);

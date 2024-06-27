@@ -2,7 +2,7 @@ package CentricToAll6;
 
 public class Lab106 {
     public static void main(String[] args) {
-        int[] arr1 = {1, 2, 3, 4, 5};
+        int[] arr1 = {1, 2, 3, 4, 5,6};
         System.out.println(arr1.length);  //It prints length of an array
         System.out.println(arr1); //It prints the memory location/reference location
 

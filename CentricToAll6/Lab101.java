@@ -11,6 +11,6 @@ public class Lab101 {
         //Since the elements in the Third array is not a similar data type. Which is double, hence it does not compile
         //the program and throws exception
 
-        System.out.print(a[2]);
+        System.out.print(a[4]);
     }
 }

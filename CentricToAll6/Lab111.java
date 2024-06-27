@@ -7,17 +7,17 @@ public class Lab111
         {
             Scanner sc=new Scanner(System.in);
             int [] marks=new int[6];
-            System.out.println("Enter the marks of Hindi");
+            System.out.println("Enter the marks of Hindi:");
             marks[0]=sc.nextInt();
-            System.out.println("Enter the marks of Telugu");
+            System.out.println("Enter the marks of Telugu:");
              marks[1]=sc.nextInt();
-            System.out.println("Enter the marks of English");
+            System.out.println("Enter the marks of English:");
              marks[2]=sc.nextInt();
-            System.out.println("Enter the marks of Maths");
+            System.out.println("Enter the marks of Maths:");
             marks[3]=sc.nextInt();
-            System.out.println("Enter the marks of Science");
+            System.out.println("Enter the marks of Science:");
             marks[4]=sc.nextInt();
-            System.out.println("Enter the marks of Social");
+            System.out.println("Enter the marks of Social:");
             marks[5]=sc.nextInt();
 
             for (int i = 0; i <= marks.length-1; i++)

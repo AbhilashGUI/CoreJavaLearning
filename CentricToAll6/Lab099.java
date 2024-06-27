@@ -21,7 +21,7 @@ public class Lab099 {
 
 
 
-            System.out.println("I belong to the constituency:"+constituency12);
+            System.out.println("I belong to the constituency:" +constituency12);
             System.out.print(Hyderabadconstituencies.length);
         }
     }

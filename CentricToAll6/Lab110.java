@@ -7,7 +7,7 @@ public class Lab110
         //Using Array with all Primitive data types and non-primitive data types like string
 
         boolean[] b={true,false};
-        char[] c={'c','d','e'};
+        char[] c={'c','d','e','f'};
         byte[] e={14,26,72,127};
         short[] s={128,256,512,1024};
         int[] i={2048,4096,8192,16384};

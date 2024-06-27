@@ -9,7 +9,7 @@ public class Lab097
 
     {
      //Fetching of marks through array
-        int[] marks={47,78,88,59,81,93};
+        int[] marks={47,78,88,59,81,94};
         //Declaring array in square braces and assigning values in flower braces.
         //In array, index starts from 0
         //In this case, index 0to5 represents subjects like Hindi,Telugu,English,Maths,Science and Social.
