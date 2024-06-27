@@ -11,7 +11,7 @@ public class Lab102
         System.out.println(i[2]);
         System.out.println(i[3]);
         System.out.println(i[4]);
-        i[0]=69; //Replaces 0 with 69 in memory index
+        i[0]=49; //Replaces 0 with 69 in memory index
         System.out.println(i[0]);
 
         i[1]=67;

@@ -11,7 +11,7 @@ public class Lab112
         ordervalue[1] = sc.nextInt();
         System.out.println("Enter the order value Television:"); //EC
         ordervalue[2] = sc.nextInt();
-        System.out.println("Enter the order value Laptop:"); //FA
+        System.out.println("Enter the order value WaterPurifier:"); //FA
         ordervalue[3] = sc.nextInt();
         System.out.println("Enter the order value Air conditioner:"); //Fu
         ordervalue[4] = sc.nextInt();

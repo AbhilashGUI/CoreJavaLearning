@@ -6,14 +6,17 @@ public class Lab098
 
     {
         //No. of students
-        String[] Students={"Vinay","Vishal","Vimal","Vishanth","Vicky","Vignesh","Virat"};
+        String[] Students={"Vinay","Vishal","Vimal","Vishanth","Vicky","Vignesh"};
         System.out.println(Students[0]);
         System.out.println(Students[1]);
         System.out.println(Students[2]);
         System.out.println(Students[3]);
         System.out.println(Students[4]);
         System.out.println(Students[5]);
-        System.out.println(Students[6]);
+        System.out.println(Students[6]);  //It will throw an error
+        //Since we are declaring the index, which is not a part of array.Hence it is throwing an Array index
+        // out of bound exception.
+
         System.out.println("No. of students ="+Students.length);
 
 

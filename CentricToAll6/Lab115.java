@@ -34,7 +34,7 @@ public class Lab115
             for (int j = 0; j <= arr1[i].length-1; j++)   //j denotes rows
 
             {
-                System.out.print(arr1[i][j]+ "\t");  //Creates space
+                System.out.print(arr1[i][j]+ "\t");  //Creates space between numbers
             }
             System.out.println();
         }

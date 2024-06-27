@@ -16,7 +16,7 @@ public class Lab105
 
         //Tricky question
        Dairy1[0]="Milk";
-       System.out.println(Dairy3[0]);
+       System.out.println(Dairy3[1]);
        //Since, Dairy1=Dairy3. If any changes made in arr1, it reflect in arr3 as well.
     }
 }

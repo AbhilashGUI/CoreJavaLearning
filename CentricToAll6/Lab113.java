@@ -4,12 +4,12 @@ public class Lab113
 {
     public static void main(String[] args)
     {
-        int age[]=new int[5];
+        int age[]=new int[4];
         age[0]=12;
         age[1]=22;
         age[2]=32;
         age[3]=42;
-        age[4]=47;
+        age[4]=47;  //It throws an error
 
         for (int i = 0; i <= age.length-1; i++)
         {

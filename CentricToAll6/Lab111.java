@@ -17,7 +17,7 @@ public class Lab111
             marks[3]=sc.nextInt();
             System.out.println("Enter the marks of Science:");
             marks[4]=sc.nextInt();
-            System.out.println("Enter the marks of Social:");
+            System.out.println("Enter the marks of SocialStudies:");
             marks[5]=sc.nextInt();
 
             for (int i = 0; i <= marks.length-1; i++)

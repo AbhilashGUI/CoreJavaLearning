@@ -26,7 +26,7 @@ public class Lab103
         //As discussed the above elements in array are varied though we are using final keyword for an array/array index.
         // Which is correct as per the logic.
 
-        final int[] a1 = {10,20,30};
+        final int[] a1 = {10,20,30,40};
         a1[0]=100;
         System.out.println(a1[0]);
 

@@ -4,7 +4,7 @@ public class Lab107
 {
     public static void main(String[] args)
     {
-        int[] array1={45,54,67,72,89,99};
+        int[] array1={45,54,67,72,89};
         System.out.println("Length of array is " + array1.length);
         //System.out.println("Reference address "+ array1);
 
