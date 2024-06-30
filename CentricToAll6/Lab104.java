@@ -10,12 +10,17 @@ public class Lab104
     int[] arr2={1,2,3,4,5};
     System.out.println(arr1==arr2);
     //O/P is false, because the memory location of array1 and array 2 are different
+
+        System.out.println(arr1.equals(arr2));
+        //For arrays in integers, we don't compare the values, will compare the references which are not equal.
+        //However the array3 is referring to array1
+
         int[] arr3=arr1;
         System.out.println(arr3==arr1);
         //Since, array1 is assigned to array3 the value remains same.array3 is referring to array1
 
 
-       System.out.println(arr1.equals(arr2));
+       System.out.println(arr1.equals(arr3));
        //For arrays in integers, we don't compare the values, will compare the references which are not equal.
         //However the array3 is referring to array1
 
