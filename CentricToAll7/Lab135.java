@@ -4,7 +4,7 @@ public class Lab135
 {
     public static void main(String[] ref_name)   //Replacing the argument with ref_name
     {
-        System.out.println("Executable");
+        System.out.println("Executable declared arguments");
 
         int c=main(101);
         System.out.println(c);

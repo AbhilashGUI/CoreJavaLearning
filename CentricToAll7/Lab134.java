@@ -6,12 +6,11 @@ public class Lab134
 {
     public static void main(String[] args)
     {
-        Scanner stringtype=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.print("Enter your name :");
-        System.out.println(stringtype.next());
+        System.out.println(sc.next());
 
     }
-
 
     //Though we are defining multiple main methods with different arguments , JVM executes the one method.
     //This concept is called as Methodoverloading

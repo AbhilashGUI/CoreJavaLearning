@@ -1,14 +1,16 @@
 package CentricToAll7;
 
-public class Lab130 {
-    public static void main(String[] args) {
+public class Lab130
+{
+    public static void main(String[] args)
+    {
         Punishment();  //call the function
 
 
     }
-//functions are defined outside the method, whose values are declared inside the method
+     //Functions are defined outside the method, whose values are declared inside the method
     //Function is a non-oops type and method is part of oops
-//Printing the Strings using functions
+    //Printing the Strings using functions
 
     static void  Punishment() {
         for (int i = 0; i < 100; i++) {

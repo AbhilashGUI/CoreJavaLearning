@@ -4,16 +4,17 @@ public class Lab126
 {
     public static void main(String[] args)
     {
-       int c=div(100,5);  //Declaring 2 arguments
-       System.out.println(c);
-        int c1=div(100,5,2);  //Declaring 2 arguments
-        System.out.println(c1);
+         int c=div(100,5);  //Declaring 2 arguments
+         System.out.println(c);
+         int c1=div(100,5,2);  //Declaring 3 arguments
+         System.out.println(c1);
 
     }
 
 
 
-    static int div(int input_1,int input_2)
+    static int div(int input_1,int input_2)  //Definition of function
+            //div represents name of the function
     {
         return input_1/input_2;   //It displays the value of Quotient
     }

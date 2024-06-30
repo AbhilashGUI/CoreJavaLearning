@@ -7,7 +7,7 @@ public static void main(String[] args)
     //Create a function : Which is defined outside the main method
     //Declare the arguments or parameters: Inside the main method
     //Name of the function
-    //Access type
+    //Access modifier
     //Return type
 
 
@@ -17,11 +17,13 @@ public static void main(String[] args)
 
 }
 
-//public static void sum(int a,int b) //Since, we are providing the return type, we are not suppose to define the void return type
+//public static void sum(int a,int b)
+        //Since, we are not providing the return type , code cannot be compiled
 {
    // return a+b;
 }
 public static  int sum(int a,int b)
+
 {
     return a+b;
 }
