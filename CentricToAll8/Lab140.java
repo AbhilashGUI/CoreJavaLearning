@@ -14,7 +14,7 @@ public class Lab140
         //Since it is mutable, password can be changed as many number times as required
         //Can go with StringBuffer or StringBuilder
         StringBuilder sb=new StringBuilder("recon@123");
-        sb.append("456");
+        sb.append("45");
         System.out.println(sb);
 
 

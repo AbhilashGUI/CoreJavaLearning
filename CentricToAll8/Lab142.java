@@ -10,7 +10,7 @@ public class Lab142
 
 
 
-        //Lets understand the difference between StringBuffer and StringBuilder
+        //Let's understand the difference between StringBuffer and StringBuilder
         //StringBuffer: Is a thread safety. It is only recommended as safer to use in multi-threaded environments
         //StringBuilder: Is not a thread safety. It is faster and more efficient in single threaded environments
 

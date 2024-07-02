@@ -8,7 +8,7 @@ public class Lab138
         String s2=new String("vemula");
         String s3=new String("Vemula");
 
-        //Now lets compare the string using operator and method
+        //Now lets compare the string using == operator and equals method
         //NOTE:IPV
 
 

@@ -22,11 +22,13 @@ public class Lab139
       //String buffer & String builder are mutable in nature(Able to change /Manipulate as per need)
 
         StringBuilder sb= new StringBuilder("Vemula");   //It creates new string in object area
-        sb.append(" Abhilash");  //Post appending new string. It deletes the old string in object area. The appended string will be appeared
+        sb.append(" Abhilash");  //Post appending new string. It deletes the old string in object area.
+        // The appended string will be appeared
         System.out.println(sb);
 
         StringBuffer sbf= new StringBuffer("Vicky");   //It creates new string in object area
-        sbf.append(" Dharam");  //Post appending new string. It deletes the old string in object area. The appended string will be appeared
+        sbf.append(" Dharam");  //Post appending new string. It deletes the old string in object area.
+        // The appended string will be appeared
         System.out.println(sbf);
 
 
