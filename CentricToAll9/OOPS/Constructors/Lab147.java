@@ -7,16 +7,18 @@ public class Lab147
 
         //RUNNER OF PERSON1//
 
-        //Person1 p1=new Person1();//Default constructor
-        //p1.printdetails();   //Since we have assigned values against default constructor.Same are reflected as an o/p, when executed this.
+        Person1 p1=new Person1();//Default constructor
+        p1.printdetails();
+        // Since we have assigned values against default constructor.Same are reflected as an o/p, when executed this.
 
 
         //Person1 p3=new Person1();
-        //p3.printdetails();    //Since we are using the same class for the reference type p3. It is picking the default constructor values
+        //p3.printdetails();
+        // Since we are using the same class for the reference type p3. It is picking the default constructor values
 
-        /*Person1 p1=new Person1();
-        p1.name="Vicky";   //Since we are reassigning the name, new name reflects in the o/p along with the other attributes
-        p1.printdetails();*/
+        //Person1 p1=new Person1();
+        //p1.name="Vicky";   //Since we are reassigning the name, new name reflects in the o/p along with the other attributes
+        //p1.printdetails();
 
 
         //Parameter constructor  : Assigning  the parameters in the main method. and referring to the objects declared using this keyword.
@@ -26,8 +28,8 @@ public class Lab147
         System.out.println(p3.emailaddress);
         Person1 p4=new Person1("Indian");
         System.out.println(p4.nationality);
-        Person1 p5=new Person1("Humanity");
-        System.out.println(p5.religion);
+        Person1 p5=new Person1("Hyderabad");
+        System.out.println(p5.locality);
 
 
         //String s;                    // Local Variable default value is never assigned by JVM

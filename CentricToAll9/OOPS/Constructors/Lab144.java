@@ -10,12 +10,13 @@ public class Lab144
 
      Person p = new Person();
      p.Name="Abhilash";   //Referring to the instance variables created in the source file with the same class name
-     p.Age=27;
+     p.Age=30;
      p.Gender="Male";
      System.out.println(p.Name);
      System.out.println(p.Age);
      System.out.println(p.Gender);
 
+     System.out.println("Other employee details:");
      Person p2=new Person();
      p2.Name="Vicky";
      p2.Occupation="Selfemployed";
@@ -24,8 +25,9 @@ public class Lab144
      System.out.println(p2.Occupation);
      System.out.println(p2.Package);
 
+    System.out.println("Incomplete info");
     new Person();//The moment you enter new a  object is created in OA
-    Person p3=null;  //
+    Person p3=null;  //This is null
     System.out.println(p3);
 
 

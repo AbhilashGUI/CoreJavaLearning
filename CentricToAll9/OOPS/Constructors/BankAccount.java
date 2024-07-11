@@ -16,7 +16,8 @@ public class BankAccount
 
     //Initializing the default constructor
 
-    /*BankAccount()   //Post creating and assigning the values against default constructor. Ideally it will be printing the assigned values.
+    /***BankAccount()   //Post creating and assigning the values against default constructor.
+    //Ideally it will be printing the assigned values.
     {
         bankname="sbi";
         balance=150000;
@@ -31,7 +32,7 @@ public class BankAccount
         System.out.println(bankcode);
 
 
-    }*/
+    }***/
 
 
 
@@ -44,25 +45,25 @@ public class BankAccount
         this.balance=bal;
     }
 
-    /*void  printdetails()
+    void  printdetails()
     {
      System.out.println("BankName : -->" + this.bankname);
      System.out.println("BankCode : -->" + this.bankcode);
      System.out.println("Balance  : -->" + this.balance);
 
-    }*/
+    }
 
 
     //In parameterised constructor reference value already changed using this keyword.
 
-    void printdetails()
+    /***void printinfo()
     {
         System.out.println("BankName : -->" +bankname);
         System.out.println("BankCode : -->" +bankcode);
         System.out.println("Balance  : -->" +balance);
 
 
-    }
+    }***/
 
 
 

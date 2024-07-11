@@ -14,21 +14,21 @@ public class Person1
 
      String nationality;
 
-     String religion;
-    boolean maritalStatus;
+     String locality;
+    boolean married;
 
 
 
     //Initializing default constructor
-     /*Person1()             //Constructor name Should be same as the class name
+     Person1()             //Constructor name Should be same as the class name
      {
          name="Abhilash";
          emailaddress="vemulaabhilash4321@gmail.com";
          mobilenumber= 123459875;
          nationality="India";
-         religion="humanity";
-         maritalStatus=false;
-     }*/
+         locality="hyderabad";
+         married=false;
+     }
 
 
      //Initializing the parameter constructor
@@ -37,7 +37,7 @@ public class Person1
        this.name=valuefromreferenceobject;
        this.emailaddress=valuefromreferenceobject;
        this.nationality=valuefromreferenceobject;
-       this.religion=valuefromreferenceobject;
+       this.locality=valuefromreferenceobject;
 
 
     }
@@ -59,8 +59,8 @@ public class Person1
         System.out.println(emailaddress);
         System.out.println(mobilenumber);
         System.out.println(nationality);
-        System.out.println(religion);
-        System.out.println(maritalStatus);
+        System.out.println(locality);
+        System.out.println(married);
 
 
     }

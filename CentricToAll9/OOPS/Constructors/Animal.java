@@ -22,7 +22,7 @@ public class Animal
 
    void barking()
     {
-        System.out.println("Dog is good at barking, which create scare to others");
+        System.out.println("Dog creates scare to others when barking");
 
     }
 

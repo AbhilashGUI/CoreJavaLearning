@@ -8,7 +8,7 @@ public class Person
     String Gender;
     int Age;
     String Occupation;
-    String Address;
+    String Employer_Address;
     long Mobile_number;
     float Package;
 
@@ -17,15 +17,15 @@ public class Person
 
     void work()
     {
-        System.out.println("Currently looking for job");
+        System.out.println("Working at Perigord Life Sciences");
     }
     void learn()
     {
-        System.out.println("learning Java for Automation testing");
+        System.out.println("Upskilling Java");
     }
     void think()
     {
-        System.out.println("Thinking to Learn Python as well");
+        System.out.println("Thinking to switch to automation");
     }
     void walking()
     {
@@ -33,7 +33,7 @@ public class Person
     }
     void sleeping()
     {
-        System.out.println("I sleep 8-10 hrs a day");
+        System.out.println("I sleep 8-9 hrs a day");
 
     }
     static String eat()
@@ -42,7 +42,7 @@ public class Person
     }
     static String watching()
     {
-        return("I spend 3 hours a day in using mobile");
+        return("I spend 1 hour a day in using mobile");
     }
 
 

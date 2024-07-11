@@ -12,7 +12,7 @@ public class Lab145
         //RUNNER OF ANIMALCLASS//
 
     Animal dog =new Animal();
-    dog.Dog="Bhairav";
+    dog.Dog="Tuffy";
     dog.Breed="German Shepard";  //Referring to the instance variables created in the source file with the same  class name
     dog.Origin="German";
     dog.colour="Black";

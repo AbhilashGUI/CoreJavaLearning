@@ -9,7 +9,7 @@ public static void main(String[] args)
 
     //RUNNER OF BANKACCOUTCLASS//
 
-   // BankAccount sbi=new BankAccount();
+    //BankAccount sbi=new BankAccount();
     //sbi.printdetails();
 
 
