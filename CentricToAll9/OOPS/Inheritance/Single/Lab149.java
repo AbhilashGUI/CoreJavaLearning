@@ -9,12 +9,12 @@ public class Lab149
     {
         //RUNNER OF ECOMMERCESITESCLASS//
 
-        EcommerceSites flipkart_ref=new EcommerceSites("Trendingclothes","InformationInterchangingDevice","Machines","Food",10);
-        flipkart_ref.printdetails();
+        EcommerceSites flipkart=new EcommerceSites("Trendingclothes","InformationInterchangingDevice","Machines","Food",10);
+        flipkart.printdetails();
 
 
-        EcommerceSites amazon_ref=new EcommerceSites("Trendingclothes","InformationInterchangingDevice","Machines","Food",10);
-        amazon_ref.printdetails();
+        EcommerceSites amazon=new EcommerceSites("Trendingclothes","InformationInterchangingDevice","Machines","Food",10);
+        amazon.printdetails();
 
 
 

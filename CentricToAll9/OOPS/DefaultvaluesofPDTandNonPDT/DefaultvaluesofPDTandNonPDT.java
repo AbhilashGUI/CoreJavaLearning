@@ -1,21 +1,20 @@
-package CentricToAll9.OOPS.DefaultvaluesofPDT;
+package CentricToAll9.OOPS.DefaultvaluesofPDTandNonPDT;
 
-public class DefaultvaluesofPDT
+public class DefaultvaluesofPDTandNonPDT
 
 {
 
         //Attributes
-        //Default values of primitive data types
+        //Default values of primitive and non-primitive data types
+        //Applicant details
         String name;
-        boolean maritalStatus;
-        char c;
-        byte balance;
-        short credit;
+        boolean ismarried;
+        char gender;
+        byte pincode;
+        short assetsearned;
         int age;
-        long moibleNumber;
-
+        long moiblenumber;
         double height;
-
         float weight;
 
 
@@ -24,9 +23,9 @@ public class DefaultvaluesofPDT
             System.out.println(name);
         }
 
-        static boolean maritalStatus()
+        static boolean ismarried()
         {
-            return maritalStatus();
+            return ismarried();
 
         }
         static char c()
@@ -41,9 +40,9 @@ public class DefaultvaluesofPDT
             return balance();
         }
 
-        static short credit()
+        static short familymembers()
         {
-            return credit();
+            return familymembers();
         }
 
         static int age()
@@ -70,12 +69,12 @@ public class DefaultvaluesofPDT
     public void printDetails()
     {
         System.out.println(name);            //null
-        System.out.println(maritalStatus);   //false
-        System.out.println(c);               //0
-        System.out.println(balance);         //0
-        System.out.println(credit);          //0
+        System.out.println(ismarried);   //false
+        System.out.println(gender);          //empty
+        System.out.println(pincode);         //0
+        System.out.println(assetsearned);   //0
         System.out.println(age);             //0
-        System.out.println(moibleNumber);    //0
+        System.out.println(moiblenumber);    //0
         System.out.println(height);          //0.0
         System.out.println(weight);          //0.0
     }

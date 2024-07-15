@@ -11,8 +11,7 @@ public class EcommerceSites
     String mobiles;
     String electronics;
     String grocery;
-
-     int  discount;
+    int  discount;
 
     //
 
