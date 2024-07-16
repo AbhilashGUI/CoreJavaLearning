@@ -6,6 +6,6 @@ public class Runner extends Founder
 {
     void built()
     {
-        System.out.println("Marginal growth");
+        System.out.println("Ran for 5 decades successfully");
     }
 }

@@ -10,13 +10,13 @@ public class Lab154
 
 
         Founder f= new Founder();
-        f.built();   //Built a business
+        f.built();   //Established business
 
         Runner r=new Runner();
-        r.built();    // Marginal growth
+        r.built();    // Ran business
 
         Gamechanger g=new Gamechanger();
-        g.built();    //Exponential growth
+        g.built();    //Tech implementation
 
 
 

@@ -5,7 +5,7 @@ public class Founder
 
     void built()
     {
-        System.out.println("A Business");
+        System.out.println("Started the business");
     }
 
 

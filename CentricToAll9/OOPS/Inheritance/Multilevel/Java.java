@@ -2,7 +2,7 @@ package CentricToAll9.OOPS.Inheritance.Multilevel;
 
 import CentricToAll9.OOPS.Inheritance.Multilevel.Programminglanguages;
 
-public class Java extends Programminglanguages
+public class Java extends PROGRAMMINGLANG
 {
     //Attributes
     String feature1;
@@ -26,7 +26,7 @@ public class Java extends Programminglanguages
         System.out.println("1st feature of java : " + feature1);
         System.out.println("2nd feature of java : " + feature2);
         System.out.println("3rd feature of java : " + feature3);
-        System.out.println("4rth  feature of java : " + feature4);
+        System.out.println("4rth feature of java : " + feature4);
     }
 
 

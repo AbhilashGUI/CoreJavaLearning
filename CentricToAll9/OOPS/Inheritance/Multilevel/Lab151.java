@@ -7,21 +7,21 @@ public class Lab151
         //RUNNER OF PROGRAMMINGLANGUAGESCLASS//
 
 
-     //Programminglanguages pl=new Programminglanguages();
+     PROGRAMMINGLANG pl=new PROGRAMMINGLANG();
         // In this case, only parent class is invoked
-     //Java j=new Java();
+     Java j=new Java();
      //Both parent and child classes are invoked.
 
 
-        //Programminglanguages pl2=new Java();  //Parent reference can be allowed to use  child object
+        //PROGRAMMINGLANG pl2=new Java();  //Parent reference can be allowed to use  child object
         //Java J=new Programminglanguages();     //Child reference cannot be allowed to use parent object
 
 
        //Single inheritance concept, where child objects referring to the parent class
 
-        /*Java j1=new Java();
+        /**Java j1=new Java();
         j1.java_author();
-        j1.java_oops_author();*/
+        j1.java_oops_author();***/
 
 
 

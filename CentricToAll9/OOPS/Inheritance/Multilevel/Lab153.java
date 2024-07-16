@@ -8,7 +8,7 @@ public class Lab153
         //RUNNER OF GRANDFATHERCLASS//
 
      /*GrandFather gf=new GrandFather();
-        gf.properties();           //Grandfather is holding 6 properties
+        gf.properties();           //Grandfather is holding 4 properties
 
 
         Father f=new Father();
@@ -16,7 +16,7 @@ public class Lab153
 
 
         Grandson gs=new Grandson();
-        gs.properties();   */       //Grandson is holding only 1 property
+        gs.properties();   */       //Grandson is holding only 2 property
 
 
         //Multi-level inheritance concept like 1st gen,2nd gen, 3rd gen
