@@ -2,11 +2,10 @@ package CentricToAll9.OOPS.Inheritance.Hierarchial;
 
 public class Governmentofindia
 {
-
-   /*Governmentofindia()    //Default constructor
+    Governmentofindia()    //Default constructor
     {
-        System.out.println("Has three branches --->   Executive ,Legislatureofparliament, Judiciary");
-    }*/
+        System.out.println("Functioning of central government:  Executive ,Legislatureofparliament, Judiciary");
+    }
 
 
 

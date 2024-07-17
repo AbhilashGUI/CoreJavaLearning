@@ -7,9 +7,9 @@ public class Legislatureofparliament extends Governmentofindia
 
 {
 
-    void consistof()
+    void operatedby()
     {
-        System.out.println("Loksabha(Leader:Prime minister),Rajyasabha(Leader:Vice president)");
+        System.out.println("Legislative body:Loksabha(Leader:Prime minister),Rajyasabha(Leader:Vice president)");
     }
 
 

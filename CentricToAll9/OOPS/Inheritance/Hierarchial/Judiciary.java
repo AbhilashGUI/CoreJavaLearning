@@ -5,10 +5,10 @@ import CentricToAll9.OOPS.Inheritance.Hierarchial.Governmentofindia;
 public class Judiciary extends Governmentofindia
 {
 
-void consistof()
+void operatedby()
 {
 
-System.out.println("Supreme court of india");
+System.out.println("Judiciary body:Supreme court of india");
 
 
 }

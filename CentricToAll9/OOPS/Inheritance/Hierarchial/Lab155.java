@@ -11,13 +11,13 @@ public class Lab155
         //Governmentofindia GOI=new Governmentofindia(); //Default constructor
 
         Executive ec=new Executive();
-        ec.consistof();
+        ec.operatedby();
 
         Legislatureofparliament lp=new Legislatureofparliament();
-        lp.consistof();
+        lp.operatedby();
 
         Judiciary jd= new Judiciary();
-        jd.consistof();
+        jd.operatedby();
 
 
 

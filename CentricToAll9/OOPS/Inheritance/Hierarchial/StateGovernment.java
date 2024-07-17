@@ -3,8 +3,8 @@ package CentricToAll9.OOPS.Inheritance.Hierarchial;
 public class StateGovernment
 {
 
-    /*StateGovernment()
+    StateGovernment()
     {
-        System.out.println("Has three branches : Executive,Legislature,Judiciary");
-    }*/
+        System.out.println("Functioning of state government : Executive,Legislature,Judiciary");
+    }
 }

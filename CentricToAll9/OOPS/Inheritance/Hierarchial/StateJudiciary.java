@@ -2,9 +2,9 @@ package CentricToAll9.OOPS.Inheritance.Hierarchial;
 
 public class StateJudiciary
 {
-    void consistof()
+    void instructionsof()
     {
 
-        System.out.println("HighCourt, DistrictCourts, OtherCourts");
+        System.out.println("Judiciary body:HighCourt, DistrictCourts, OtherCourts");
     }
 }
