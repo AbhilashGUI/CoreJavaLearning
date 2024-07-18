@@ -1,4 +1,4 @@
-package CentricToAll9.OOPS.Inheritance.Hierarchial;
+package CentricToAll10.OOPS.Inheritance.Hierarchial;
 
 public class StateLegislature
 {

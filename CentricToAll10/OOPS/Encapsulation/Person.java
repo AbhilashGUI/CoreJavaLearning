@@ -2,8 +2,8 @@ package CentricToAll10.OOPS.Encapsulation;
 
 public class Person {
 
-    //Attributes
-    int id;
+    //Attributes or datamembers
+    int acnumber;
     String name;
     double bal;
 

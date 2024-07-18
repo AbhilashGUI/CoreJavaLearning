@@ -1,6 +1,6 @@
-package CentricToAll9.OOPS.Inheritance.Multilevel;
+package CentricToAll10.OOPS.Inheritance.Multilevel;
 
-import CentricToAll9.OOPS.Inheritance.Multilevel.Programminglanguages;
+import CentricToAll10.OOPS.Inheritance.Multilevel.Programminglanguages;
 
 public class Java extends PROGRAMMINGLANG
 {

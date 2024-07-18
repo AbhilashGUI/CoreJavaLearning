@@ -23,8 +23,8 @@ public class Lab159
         //RUNNER OF PERSONCLASS//
 
         Person p1=new Person();
-        p1.id=27;
-        p1.id=79;           //Data is not hidden, hence it can be manipulated
+        p1.acnumber=2564547;
+        p1.acnumber=113179;           //Data is not hidden, hence it can be manipulated
         p1.bal=97000;
 
 

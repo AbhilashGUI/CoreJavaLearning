@@ -14,8 +14,15 @@ public class Lab157
 
     }
 
-    //Static variable and inner class is pending
+    static int a=99; //Static variable
 
+    static void printme()   //Static function
+    {
+
+    }
+    class innerclass{
+
+    }
 
 
 

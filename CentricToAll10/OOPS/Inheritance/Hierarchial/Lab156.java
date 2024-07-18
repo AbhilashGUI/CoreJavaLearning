@@ -1,9 +1,9 @@
-package CentricToAll9.OOPS.Inheritance.Hierarchial;
+package CentricToAll10.OOPS.Inheritance.Hierarchial;
 
-import CentricToAll9.OOPS.Inheritance.Hierarchial.StateExecutive;
-import CentricToAll9.OOPS.Inheritance.Hierarchial.StateGovernment;
-import CentricToAll9.OOPS.Inheritance.Hierarchial.StateJudiciary;
-import CentricToAll9.OOPS.Inheritance.Hierarchial.StateLegislature;
+import CentricToAll10.OOPS.Inheritance.Hierarchial.StateExecutive;
+import CentricToAll10.OOPS.Inheritance.Hierarchial.StateGovernment;
+import CentricToAll10.OOPS.Inheritance.Hierarchial.StateJudiciary;
+import CentricToAll10.OOPS.Inheritance.Hierarchial.StateLegislature;
 
 public class Lab156
 {

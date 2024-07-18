@@ -1,4 +1,4 @@
-package CentricToAll9.OOPS.Inheritance.Single;
+package CentricToAll10.OOPS.Inheritance.Single;
 
 import java.util.jar.Attributes;
 

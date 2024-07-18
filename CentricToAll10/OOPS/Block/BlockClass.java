@@ -7,7 +7,7 @@ public class BlockClass {
 
     System.out.println("IIB");
 }
-    BlockClass()
+    BlockClass() //Default constructor
     {
         System.out.println("DC");
     }

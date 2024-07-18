@@ -1,6 +1,6 @@
-package CentricToAll9.OOPS.Inheritance.Single;
+package CentricToAll10.OOPS.Inheritance.Single;
 
-import CentricToAll9.OOPS.Inheritance.Single.EcommerceSites;
+import CentricToAll10.OOPS.Inheritance.Single.EcommerceSites;
 
 public class Lab149
 {
