@@ -1,91 +1,60 @@
 package CentricToAll10.OOPS.Encapsulation;
 
 public class Encapsulation2
-{
 
+{
     public static void main(String[] args)
     {
-    //Error correcting  example of encapsulation
+        //Enabling the Getter and Setter condition
+       Vwologin2 vwologin2=new Vwologin2("Abhilash","Learning");
 
-    vwologin login = new vwologin("abhilash", "learning");   //Note: This is hidden data
-    //Username:abhilash and Password:learning
+       boolean check=vwologin2.isLoggedin("Abhilash","learning"); //It should thro
+       System.out.println(check);
 
-        //Note: Since we have defined the lowercase method which should be equivalent to this.username equals to username and this.password equals to password function
 
-    boolean check= login.isLoggedin("abhilash","learning");
-    System.out.println(check);      //It will be loggedIn successfully
-        login.setUsername("learneraccount");
-        String username= login.getUsername();
-        System.out.println(username);         //Able to retrieve the new username
-        String password=login.getPassword();
-        System.out.println(password);        //Able to retrieve password
+       vwologin2.setUsername("vicky");
+       //Note: Unable to set the password , user is allowed to set  and get the password
+        String username=vwologin2.getUsername();
 
-    //Though we are  aware about instance,  cannot  manipulate the username and password. "BECAUSE  USERNAME AND PASSWORD IS DEFINED AS PRIVATE" "
-    //login.username="vicky";    //It will throw an error
-    //login.password="drowsy";   //It will throw an error
+        System.out.println(username);
 
-}
 
 
     }
+}
 
-class vwologin{
+//Concept of encapsulation
+class Vwologin2 {
 
-    //Generate the Getter and Setter for username
+    public void setUsername(String username) {    //Allowing the user to set the username
+        this.username = username;
+    }
+
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
     private String username;
-
-
-    //Generate the Getter for password
-    public String getPassword() {
-        return password;
-    }
-
     private String password;
 
-    //Generate the parameterize constructor
-    public vwologin(String username, String password) {
+
+    public Vwologin2(String username, String password) {
         this.username = username;
         this.password = password;
+
+
     }
 
-
-    //Creating the function
-
-    boolean isLoggedin(String username, String password){
-        if(this.username.toLowerCase().equals(username) && this.password.toLowerCase().equals(password))
+    boolean isLoggedin(String username, String password) {
+        if (this.username.toLowerCase().equals(username) && this.password.toLowerCase().equals(password))
         {
-
             System.out.println("LoggedIn Successfully");
-            return  true;
+            return true;
         }
         else
         {
-            System.out.println("Incorrect credentials");
-            return  false;
+            System.out.println("Wrong Credentials");
+            return false;
         }
     }
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-

@@ -2,87 +2,67 @@ package CentricToAll10.OOPS.Encapsulation;
 
 public class Encapsulation3
 {
-
     public static void main(String[] args)
     {
-        //Enabling the Getter and setter condition for username
 
-        vwologin1 login= new vwologin1("abhilash","cool");   //Note: This is hidden data
+    //Enabling the Getter and Setter condition for username and password
 
-       boolean check= login.isLoggedin("abhilash","cool");
-       System.out.println(check);
-       //String username1=login.getUsername1();
-       //System.out.println(username1);
-        login.setUsername1("vicky");
-        String username1=login.getUsername1();
-        System.out.println(username1);
+    flipkart fp=new flipkart("Abh345@gmail.com","Waitamoment");
 
+    boolean check= fp.isLoggedin("Abh345@gmail.com","Waitamoment");
+    System.out.println(check);
 
+    //Here we are manipulating the username and password details , which is not a concept of data hiding/encapsulation
+    fp.setUsername("abhilash@gmail.com");
+    String username= fp.getUsername();
+    System.out.println(username);
 
-
-    }
+    fp.setPassword("letsnowait");
+    String password=fp.getPassword();
+    System.out.println(password);
 }
 
-
-class vwologin1{
-
-
-    public String getUsername1() {
-        return username1;
+}
+class flipkart{
+    public String getPassword() {
+        return password;
     }
 
-    public void setUsername1(String username1) {
-        this.username1 = username1;
+    public String getUsername() {
+        return username;
     }
 
-
-    private String username1;
-    private String password1;
-
-    public vwologin1(String username1, String password1) {
-        this.username1 = username1;
-        this.password1 = password1;
-
-
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    boolean isLoggedin(String username, String password){
-        if(this.username1.toLowerCase().equals(username) && this.password1.toLowerCase().equals(password))
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    private String username;
+    private String password;
+
+    public flipkart(String password, String username) {
+        this.password = password;
+        this.username = username;
+    }
+
+    boolean isLoggedin(String username,String password)
+    {
+       //Neither using the lowercase method and uppercase method
+        if (this.username.equals(username) && this.username.equals(password))
         {
-
-            System.out.println("LoggedIn Successfully");
-            return  true;
+            System.out.println("Logged in succesfully");
+            return true;
         }
         else
         {
-            System.out.println("Incorrect credentials");
+            System.out.println("Invalid credentials");
             return  false;
         }
+
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

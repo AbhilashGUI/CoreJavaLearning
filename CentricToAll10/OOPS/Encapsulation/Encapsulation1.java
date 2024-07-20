@@ -1,76 +1,56 @@
-package CentricToAll10.OOPS;
+package CentricToAll10.OOPS.Encapsulation;
 
-public class Encapsulation1
-{
-   public static void main(String[] args)
-    {
-        //Error producing example of encapsulation
+public class Encapsulation1 {
 
+ public static void main(String[] args)
+ {
 
-
-
-        vwologin login = new vwologin("abhilash", "learning");
-        //Username:abhilash and Password:learning
+     //Vwologin vwologin=new Vwologin("abhilash","learning");
+     Vwologin vwologin=new Vwologin("ABHILASH","LEARNING");
 
 
-        //Note: Since we have defined the lowercase method which should be equivalent to this.username equals to username and this.password equals to password function
-        //boolean check= login.isLoggedin("abhilash","learning");
-        //System.out.println(check);      //It will be loggedIn successfully
-
-        //Passing the incorrect credentials
-        boolean check1= login.isLoggedin("abhilash","lazy");
-        System.out.println(check1);
-
-        //Since, we are aware about instance, hence we can manipulate the username and password. "BECAUSE STILL THE USERNAME AND PASSWORD IS DEFINED AS PUBLIC"
-        boolean check2= login.isLoggedin("abhilash","lazy");
-        login.username="vicky";
-        login.password="drowsy";
-        System.out.println(check2);    //Passing the incorrect values, won't be loggedin
+     //Note: Since we have defined the lowercase method and giving the credentials in uppercase, it should print else statement
+     //boolean check= vwologin.isloggedin("abhilash","learning");
 
 
-    }
+     boolean check= vwologin.isloggedin("ABHILASH","LEARNING");
+     System.out.println(check);
 
+     //Passing the incorrect credentials based on the logic of method used
+     //boolean check1=vwologin.isloggedin("Abhilash","Learning");
+     //System.out.println(check1);
 
-    }
+     vwologin.username="shirish";   //Able to manipulate username
+     vwologin.password="shreyansh"; //Able to manipulate password
 
-class vwologin{
-        public String username;
-        public String password;
+     boolean check2= vwologin.isloggedin("ABHILASH","LEARNING");
+     System.out.println(check2);  //This should be false
+ }
+}
 
-    //Generate the parameterize constructor, just by selecting the
-      public vwologin(String username, String password) {
+class Vwologin{
+    public String username;
+    public String password;
+
+    public Vwologin(String username, String password) {
         this.username = username;
         this.password = password;
     }
 
-
     //Creating the function
 
-    boolean isLoggedin(String username, String password){
-          if(this.username.toLowerCase().equals(username) && this.password.toLowerCase().equals(password))
-          {
-
-              System.out.println("LoggedIn Successfully");
-              return  true;
-          }
-          else
-          {
-              System.out.println("Incorrect credentials");
-              return  false;
-          }
+    boolean isloggedin(String username,String password)
+    {
+        //if(this.username.toLowerCase().equals(username) && this.password.toLowerCase().equals(password))
+        if(this.username.toUpperCase().equals(username) && this.password.toUpperCase().equals(password))
+        {
+            System.out.println("Logged In Successfully");
+            return true;
+        }
+        else
+        {
+            System.out.println("Incorrect credentials");
+            return false;
+        }
     }
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
