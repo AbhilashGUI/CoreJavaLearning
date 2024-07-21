@@ -6,7 +6,7 @@ public class lawyer
     {
         Judgement jd=new Judgement("Evidence is clear");
         System.out.println("He should be punished");
-        jd.verdict();   //So, basically we are giving the authority to lawyer also to sentence the verdict
+        jd.verdict();   //So, basically we are giving the authority to lawyer also to sentence the verdict in this case.
 
 
     }

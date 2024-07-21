@@ -11,7 +11,7 @@ public class Judgement {
 
 
     protected void verdict()
-    //Note:If we declare as public, giving access to Accused class and Lawyer class
+    //Note:If we declare as public, granting access to Accused class and Lawyer class
     //Note: If we declare as protected, only lawyer class can access
     //Note: If we declare as private, only Accused class  can access
 

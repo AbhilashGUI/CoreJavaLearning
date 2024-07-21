@@ -7,8 +7,8 @@ public class Accused
     public static void main(String[] args)
     {
 
-        Judgement jd=new Judgement("Don't mess with me");
-        System.out.println("Don't get into trouble My lord");
+        Judgement jd=new Judgement("Evidence needed to punish");
+        System.out.println("Innocent util proven guilty");
         //jd.verdict();
 
 

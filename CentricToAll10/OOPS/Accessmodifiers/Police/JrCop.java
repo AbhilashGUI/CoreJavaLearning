@@ -6,7 +6,7 @@ public class JrCop
     {
 
         Cop jrcp=new Cop(2);
-        System.out.println("Legal right");
+        System.out.println("Authorized to follow instructions");
         jrcp.CanIshoot();
 
 
