@@ -9,20 +9,21 @@ public class Classroom
 
     }
 
-    /*void Students(byte b)
+   void Students(byte b)
     {
         System.out.println("No.of female students: "+ b);
     }
 
 
-    void Students(short s)
+   void Students(short s)
     {
         System.out.println("No. of male students : " + s);
-    }*/
+    }
 
 
 
     void Students(double d)
+
     {
         System.out.println("d denotes the pass percentage : " + d);
     }

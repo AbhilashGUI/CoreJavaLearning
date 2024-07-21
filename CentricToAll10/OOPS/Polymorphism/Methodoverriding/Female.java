@@ -6,7 +6,7 @@ public class Female extends Humans
     void existence()
     {
 
-        System.out.println("Ignoring the distractions");
+        System.out.println("Many challenges in society");
 
     }
 }

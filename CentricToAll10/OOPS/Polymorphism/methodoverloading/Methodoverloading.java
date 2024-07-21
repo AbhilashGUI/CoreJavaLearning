@@ -6,7 +6,8 @@ public class Methodoverloading {
 
         new Methodoverloading().Applicantdetails("Sai");
         new Methodoverloading().Applicantdetails('M');
-        new Methodoverloading().Applicantdetails(29);
+        new Methodoverloading().Applicantdetails(30);
+        new Methodoverloading().Applicantdetails(4532698745l);
 
 
 

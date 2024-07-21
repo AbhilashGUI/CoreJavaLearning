@@ -9,50 +9,50 @@ public class Person
 
        void Gift(char a)
        {
-           System.out.println("C is a character :" + a);
+           System.out.println("Character is :" + a);
        }
 
        void Gift(String name)
        {
-           name="Abhilash";
-           System.out.println("Name is a String :" + name);
+
+           System.out.println("String is :" + name);
        }
 
 
       byte Gift(byte b)
       {
-          System.out.println("b is a byte :" + b);
+          System.out.println("Byte is :" + b);
           return b;
       }
 
 
      int Gift(int i)
     {
-        System.out.println("i is an integer :" + i);
+        System.out.println("Integer is:" + i);
         return i;
     }
 
     short Gift(short s)
     {
-        System.out.println("s is a short :"+ s );
+        System.out.println("Short is :"+ s );
         return  s;
     }
 
   long Gift(long l)
   {
-      System.out.println("l is  a long :" + l);
+      System.out.println("Long is :" + l);
       return l;
   }
 
   double Gift(double d)
   {
-      System.out.println("d is a decimal number :"+ d);
+      System.out.println("Decimal number/double :"+ d);
       return d;
   }
 
  float Gift(float f)
  {
-     System.out.println("f is a decimal number :"+f);
+     System.out.println("Decimal number/float :"+f);
      return f;
  }
 
