@@ -17,16 +17,16 @@ public class IV4
 }
 
 class disciple{
-    int a;
+    int a;    //Instance variable
 
-    static int b;
+    static int b;  //Static variable
 
-    /*void follower()
+    /*void follower()   //function
     {
         System.out.println("Disciple=Discipline");
     }*/
 
-    static  void follower()
+    static  void follower()   //static function
     {
         System.out.println("Disciple=Discipline");
     }

@@ -7,7 +7,7 @@ public class IV1
 
    person p=new person();
    person p1=new person(45);   //Parameterized constructor, with single param
-   person p2=new person(32,true);  //Parametrized constructor with dual params
+   person p2=new person(67,true);  //Parametrized constructor with dual params
      System.out.println(p.a);
      System.out.println(p1.a);
      System.out.println(p2.a);

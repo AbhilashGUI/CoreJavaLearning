@@ -19,6 +19,6 @@ class Student{
     int a;
     void learn()
     {
-        System.out.println("Students are future leaders");
+        System.out.println("Students are future leaders of a country");
     }
 }

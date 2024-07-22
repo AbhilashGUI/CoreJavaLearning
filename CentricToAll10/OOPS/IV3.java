@@ -6,7 +6,8 @@ public class IV3
     {
     mentor m=null;
     mentor m2=new mentor();
-    //System.out.println(m.a);  //Since, we declared the object as null cannot access the value, which will give an exception
+    //System.out.println(m.a);
+        // Since, we declared the object as null cannot access the value, which throws an exception
     System.out.println(m2.a);
 
     }
