@@ -1,15 +1,19 @@
 package CentricToAll10.OOPS.Abstraction.Example1;
 
-public abstract class Animal {
-      Animal(){}
+public abstract class Animal
+{
 
-    void domesticanimal()        //Concrete class (Complete class)
+    Animal()
+    {
+
+    }
+    void domesticanimal()
     {
         System.out.println("I am a domestic animal");
     }
 
-    //abstract  void wildanimal();   //Incomplete
+    abstract void pet();
 
 
+    }
 
-}

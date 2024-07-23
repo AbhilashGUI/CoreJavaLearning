@@ -4,21 +4,10 @@ public class Lab162
 {
     public static void main(String[] args)
     {
+      Dog d = new Dog();
+      d.pet();
+      d.domesticanimal();
 
-        //Animal an= new Animal();
-        Dog d= new Dog()
-
-
-        {
-
-            @Override
-            void domesticanimal() {
-                super.domesticanimal();
-
-            }
-        };
-          //an.domesticanimal();
-          d.domesticanimal();
 
 
 

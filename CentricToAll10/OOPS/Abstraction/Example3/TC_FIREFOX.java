@@ -1,25 +1,23 @@
-/*package CentricToAll10.OOPS.Abstraction.Example3;
+package CentricToAll10.OOPS.Abstraction.Example3;
 
-public class TC_FIREFOX extends Browser {
-
-
+public class TC_FIREFOX extends  Browser {
     @Override
-    String openbrowser();
-
-    {
-        System.out.println("Starting FIREFOX");
-
+    String openbrowser() {
+        System.out.println("Starting Firefox");
+        return "";
     }
 
     @Override
-    String closebrowser();
-
-    {
-        System.out.println("closing FIREFOX");
-
+    String closebrowser() {
+        System.out.println("Closing Firefox");
+        return "";
     }
 
-}*/
+    @Override
+    void printlog() {
+        super.printlog();
+    }
+}
 
 
 

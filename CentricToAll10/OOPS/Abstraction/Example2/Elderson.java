@@ -5,26 +5,12 @@ public class Elderson extends Father{
 
     @Override
     void villa() {
-
-        System.out.println("Yeah, I am a majority share holder");
+        super.villa();
+        System.out.println("I am a majority share holder");
     }
 
     @Override
-    void loan500cr() {
-        System.out.println("Ok, I will pay that amount");
-
+    void loan10cr() {
+        System.out.println("I'll pay 7.5cr");
     }
-
-    @Override
-    void Grandfatherdebt350cr()
-    {
-        System.out.println("Ok, I will even pay that amount as well");
-    }
-
-    @Override
-    void treasure10000cr() {
-
-    }
-
-
 }
