@@ -1,6 +1,6 @@
 package CentricToAll10.OOPS.Abstraction.Interface;
 
-public class BestExampleRC
+public class Interfaceexample
 {
     public static void main(String[] args) {
 

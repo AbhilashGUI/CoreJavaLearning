@@ -6,6 +6,7 @@ public interface Founder
 
 
     default  void  print()
+
     {
         System.out.println("I am a default method");
     }

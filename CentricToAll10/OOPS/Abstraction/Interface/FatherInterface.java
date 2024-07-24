@@ -1,8 +1,10 @@
 package CentricToAll10.OOPS.Abstraction.Interface;
-interface FatherInterface {
+interface FatherInterface
+{
     void loan10K();
 
-    default void print(){
+    default void print()
+    {
         System.out.println("I am default method");
     }
 

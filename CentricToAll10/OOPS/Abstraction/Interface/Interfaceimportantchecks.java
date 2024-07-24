@@ -13,7 +13,6 @@ public class Interfaceimportantchecks
        i.hello();//It prints the child function by default. If it not declared, then it prints the default(parent) function.
 
 
-
     }
 
 }
