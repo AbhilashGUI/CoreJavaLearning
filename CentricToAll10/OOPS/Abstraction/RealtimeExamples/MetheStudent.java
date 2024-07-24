@@ -5,12 +5,14 @@ public class MetheStudent extends  Pramodourtutor {
 
 
 //Implementing
-        @Override
-        void dohomework()
-        {
-        IwillmakeyouAT();
-        {
-            System.out.println("Sure, will follow your instructions");
-        }
+
+    @Override
+    void dohomework() {
+        System.out.println("Sure Sir");
+    }
+
+    @Override
+    void IwillmakeyouAT() {
+        super.IwillmakeyouAT();
     }
 }
