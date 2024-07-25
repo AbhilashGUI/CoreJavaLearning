@@ -4,8 +4,8 @@ public class Lab163
 {
  public static void main(String[] args)
  {
-     //System.out.println(StaticDemo.college_name);
-     //StaticDemo.printName();
+     System.out.println(StaticDemo.college_name);
+     StaticDemo.printName();
 
 
      //Calling the variables of non-static method
