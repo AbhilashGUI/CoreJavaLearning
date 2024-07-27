@@ -1,62 +1,44 @@
 package CentricToAll10.OOPS;
 
-public class IV7
-{
-
-
-
-
-
+public class IV7 {
 }
 
-abstract  class Grandfather{
+abstract  class Grandfather {
 
     abstract void v1();  //Incomplete function will always have abstract keyword
+
     abstract void v2();
 
-    void GEP()
-    {
+    void GEP() {
         System.out.println("Earned single property");
     }
 
-abstract class Father extends Grandfather {
+    abstract class Father extends Grandfather {
 
-    abstract void v3();  //incomplete function
+        abstract void v3();  //incomplete function
 
-    abstract void v4();
+        abstract void v4();
 
 
+    }
+
+    static class GrandSon1 extends Grandfather {
+        @Override
+        void v1() {
+            System.out.println("Grandfather  is a property owner");
+        }
+
+        @Override
+        void v2() {
+            System.out.println("Grandson is a legal heir");
+        }
+
+
+    }
 }
- class Son extends Father{
-
-
-     @Override
-     void v1() {
-
-     }
-
-     @Override
-     void v2() {
-
-     }
-
-     @Override
-     void v3() {
-
-     }
-
-     @Override
-     void v4() {
-
-     }
- }
 
 
 
-
-
-
-}
 
 
 
