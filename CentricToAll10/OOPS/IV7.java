@@ -1,6 +1,14 @@
 package CentricToAll10.OOPS;
 
 public class IV7 {
+
+    public static void main(String[] args)
+    {
+        Grandfather.GrandSon1 gfgs=new Grandfather.GrandSon1();
+        gfgs.v1();
+        gfgs.v2();
+
+    }
 }
 
 abstract  class Grandfather {
