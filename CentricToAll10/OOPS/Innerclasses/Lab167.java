@@ -6,37 +6,37 @@ public class Lab167
     public static void main(String[] args)
     {
 
-  Mobile m=new Mobile("Apple");
-  Mobile.Processor processor=m.new Processor("Apple A14 Bionic");
-  m.turnon();
+  Mobile mobile=new Mobile("Apple");
+  Mobile.Processor processor=mobile.new Processor("Apple A14 Bionic");
+  mobile.turnon();
   processor.operations();
 
 
     }
 }
-class Mobile{
+class Mobile{    //Outer class
 
     String mobilemanufacturingcompany;
-    public Mobile(String mobilemanufacturingcompany) {
+    public Mobile(String mobilemanufacturingcompany) {     //Parma cons.
         this.mobilemanufacturingcompany = mobilemanufacturingcompany;
     }
 
-     void turnon()
+     void turnon()    //function/method
      {
          System.out.println("Access granted");
      }
 
 
-class   Processor{
+class   Processor{   //Innerclasss
 
     String Processor;
-    public Processor(String processor) {
+    public Processor(String processor) {   //Param cons.
         Processor = processor;
     }
 
-        void operations()
+        void operations()  //Functions/method
         {
-            System.out.println("For the performance of smartphone");
+            System.out.println("For performing various operations in smartphone");
         }
 }
 

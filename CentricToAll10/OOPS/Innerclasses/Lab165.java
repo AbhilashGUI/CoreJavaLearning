@@ -7,8 +7,16 @@ public class Lab165 {
 
         int a = 10;
 
+        void oc()
+        {
+            System.out.println(a);
+            //System.out.println(b);
+        }
 
-         class innerclass {     //Innerclass can access outerclass and innerclass. Hence, it is considered as a security mechanism
+
+         class innerclass {
+             //Innerclass can access outerclass and innerclass.
+             // Hence, it is considered as a security mechanism
 
             int b = 10;
 
