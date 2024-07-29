@@ -13,11 +13,9 @@ public class Lab172
         Integer a2= Integer.valueOf(a);
         //Wrapper class we use in collection framework
 
-
-
        // Converting of  wrapper classes to primitive
         Character ch='a';  //This concept is known as unboxing
-        char c='a';
+        char c= ch;
 
 
         //The core advantage of using the wrapper classes are , we have multiple built in functions.
@@ -28,13 +26,6 @@ public class Lab172
         System.out.println(Integer.min(341,524));
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
-
-
-
-
-
-
-
 
 
     }

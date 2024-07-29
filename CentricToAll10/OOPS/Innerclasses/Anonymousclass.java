@@ -1,48 +1,42 @@
 package CentricToAll10.OOPS.Innerclasses;
 
 public class Anonymousclass {
+
     public Anonymousclass() {
         super();
     }
 
     public static void main(String[] args) {
-
-        //Note: we cannot create an object for abstract class and interface class. However, we can create a anonymous class for the abstract and interface class
-
         Strength s = new Strength() {
             @Override
-            public void strength() {
+            public void setname() {
+             System.out.println("Anonymous class");
 
             }
         };
+        s.setname();
+        Secondstandard secondstandard= new Secondstandard() {
+            @Override
+            public int hashCode() {
+                return super.hashCode();
+                //Note: We are creating an objects for abstract class  with the help of anonymous class
+            }
 
-        s.strength();
+        };
+
+
     }
-
-
-
-
-     Secondstandard ss=new Secondstandard() {
-         @Override
-         public int hashCode() {
-             return super.hashCode();      //This is the way to create a anonymous class for abstract class
-         }
-     };
-
-
-
-
-    abstract class Secondstandard {     //Abstractclass
-
-        int a = 2;
-    }
-
-    interface Strength {                //Interfaceclass
-
-        int a = 12;
-
-        void strength();  //Incomplete function
-    }
-
 }
 
+abstract class Secondstandard
+{
+    int a =2;
+        }
+ interface  Strength
+ {
+     int b=12;
+     void setname();
+
+
+
+ }

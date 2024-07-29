@@ -12,11 +12,11 @@ public class Lab170
 
 
 
-       // Note: We don't have any built in functions to PDT. However, WRAPPER classes, we hava a built in functions
+       // Note: We don't have any built in functions to PDT. However,For WRAPPER classes, we hava a built in functions
 
         Integer a1=10;
 
-        //Every every primitive data types are the wrapper class.
+        //All Primitive data types are the wrapper class.
          //Which are as follows
         /*Character
         Byte

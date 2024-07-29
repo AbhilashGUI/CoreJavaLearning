@@ -1,20 +1,20 @@
 package CentricToAll10.OOPS.Innerclasses;
 
-public class Anonymousclass2
-{
-    public static void main(String[] args)
-    {
+public class Anonymousclass2 {
+    public static void main(String[] args) {
 
-        Thread t=new Thread(){   //Can also create a anonymous class, just by @Override and function.
-            @Override
+        //Anonymous class is widely used with threading concept
+
+        Thread t= new Thread()
+        {
+           @Override
             public void run()
-            {
-                System.out.println("I am a new THREAD!");
-            }
+           {
+               System.out.println("I am a new thread");
+           }
+
         };
-
-        t.run();  //Note. We are calling the function using the reference. "NOT THE OBJECT"
-
+        t.run();
 
     }
 }
