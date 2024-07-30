@@ -8,7 +8,7 @@ public class Lab182
 {
     public static void main(String args[]) throws FileNotFoundException {
 
-        String path="D/Documents/Image01.jpg";
+        String path="D/Documents/Image01.jpg";  //Image document
         File file=new File(path);
         FileReader fileReader=new FileReader(file);
 

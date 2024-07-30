@@ -7,7 +7,6 @@ public class Lab184 {
     }
 
 
-
         private static void extracted2()
         {
             extracted1();

@@ -16,17 +16,13 @@ public class Lab173
            String name = null;
            name.trim();
            System.out.println("Unable to trim the String null");
-           //Note: It throws, the null-pointer exception at line 14.
+           //Note: It throws, the null-pointer exception at line 14, in case of not handling exception mechanism
 
        } catch (Exception e)
 
        {
            System.out.println("Now, it can be handled.");
        }
-
-
-
-
 
 
 

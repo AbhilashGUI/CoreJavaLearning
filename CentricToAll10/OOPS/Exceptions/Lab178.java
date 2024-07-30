@@ -18,7 +18,7 @@ public class Lab178
       //Since we are disabling the exit() function, it prints the finally block
       finally {
           {
-              System.out.println("Mandate, incase of exit is disabled");
+              System.out.println("Mandate, Incase of exit is disabled");
           }
       }
 

@@ -16,12 +16,6 @@ public class Lab174
      System.out.println(a);
 
 
-
-
-
-
-
-
     }
 }
 

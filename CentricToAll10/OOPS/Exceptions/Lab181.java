@@ -8,7 +8,7 @@ public class Lab181
     {
         try {
 
-            String path = "C/Abhilash/Assignment1.txt";
+            String path = "C/Abhilash/Assignment1.txt";  //Text document
             File file = new File(path);
             FileReader fileReader = new FileReader(file);
         }catch (Exception e)

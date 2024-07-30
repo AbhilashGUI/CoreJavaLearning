@@ -16,7 +16,8 @@ public class Lab175
 
             //Unchecked exceptions: Are known as run time exception.
             String str=null; //It is Unpredictable
-            str.trim();  //In this case, though there is an error which is cannot detect by JVM. Hence, it throws an error as "Nullpointerexception"
+            str.trim();  //In this case, though there is an error which  cannot detect by JVM.
+            // Hence, it throws an error as "Nullpointerexception"
         }
 
 

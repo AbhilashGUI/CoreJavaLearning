@@ -2,15 +2,15 @@ package CentricToAll10.OOPS.Exceptions;
 
 public class Lab177 {
     public static void main(String[] args) {
-        int a=10;
-        try {
+        int a=0;
+       /*** try {
             a = Integer.parseInt(args[0]);
         } catch (NumberFormatException exception) {
             exception.printStackTrace();
-        }
+        }***/
 
         try {
-            int b = 10 / a;
+            int b = 10/ a;
         } catch (ArithmeticException exception) {
             exception.printStackTrace();
         }
