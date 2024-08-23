@@ -19,7 +19,7 @@ public class Lab188 {
             throw new ArithmeticException();
         }
 
-        System.out.println("Abhilash file is not found");
+
     }
 }
 
