@@ -26,4 +26,6 @@ public class Lab189 {
 
         }
 }
-//Note:Instead of using throws keyword in the 2nd piece of code, here we are using try&catch block. Relate with the example pipe and a patch
+//In the first piece of code, we have used try&catch block , where as in the
+//Second piece of code, we have used throws keyword at the method level
+//Relates with the example pipe and a patch
