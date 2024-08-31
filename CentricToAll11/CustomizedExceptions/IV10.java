@@ -17,6 +17,7 @@ class Number{
 
     public int join()
     {
+        //int a=10/0;                                       //If we uncheck, we get to see arithmetic exception
         throw new NullPointerException();
     }
 }

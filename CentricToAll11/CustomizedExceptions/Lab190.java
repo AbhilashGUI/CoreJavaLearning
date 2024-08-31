@@ -3,7 +3,7 @@ package CentricToAll11.CustomizedExceptions;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class Lab189b {
+public class Lab190 {
     public static void main(String[] args) {
         String path = "C:/a.txt";
         try {

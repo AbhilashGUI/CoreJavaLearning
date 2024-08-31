@@ -1,9 +1,6 @@
 package CentricToAll11.CustomizedExceptions.CEE;
 
-import CentricToAll11.CustomizedExceptions.CEE.Bank;
-import CentricToAll11.CustomizedExceptions.CEE.CustomException;
-
-public class Lab190 {
+public class Lab191 {
 
     public static void main(String[] args) throws CustomException {
 
