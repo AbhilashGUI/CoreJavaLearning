@@ -6,11 +6,11 @@ public class Lab002
     {
          //boolean value can be either True/False
 
-        boolean IsJavaIntresting=true;
-        boolean IsJavaBoring=false;
+        boolean Isjavainteresting=true;
+        boolean Isjavacomplicated=false;
 
-        System.out.println("Yeah, Java is quite intresting");
-        System.out.print("Nope, Java is not boring");
+        System.out.println("true, Java is quite interesting");
+        System.out.print("false,Java is not that complicated");
 
 
 
