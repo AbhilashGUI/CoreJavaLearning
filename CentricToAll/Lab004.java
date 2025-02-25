@@ -12,7 +12,7 @@ public class Lab004
         amount=125;
         System.out.println("Declared Amount value is less than the Byte value " +  amount );
 
-        System.out.println("Sum of byte value and others");
+        System.out.println("Sum of byte value and given value");
         System.out.println(amount+13) ; //No error
     }
 }

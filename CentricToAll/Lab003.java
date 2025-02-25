@@ -2,7 +2,7 @@ package CentricToAll;
 
 public class Lab003 {
     public static void main(String[] args) {
-        //character is of 2bytes=16bits
+        //character is of 2bytes=16bits =2768
         Character c=97;
         Character c1=48;
         System.out.println("Character values are declared below are, as per the ASCII table");

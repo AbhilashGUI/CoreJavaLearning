@@ -9,7 +9,7 @@ public class Lab006
         long ICCID=9223372036854775807l;
         //ICCID=9423372036864521978l;
         System.out.println("ICCID is <= to long value ");
-        System.out.println(ICCID);
+        System.out.print(ICCID);
 
     }
 }
