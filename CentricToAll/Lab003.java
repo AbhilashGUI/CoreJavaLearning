@@ -7,7 +7,6 @@ public class Lab003 {
         System.out.println("Character value is declared as per the ASCII table");
         System.out.println('A');
         System.out.println('1');
-        System.out.println(a);
         System.out.print('@');
     }
 }
