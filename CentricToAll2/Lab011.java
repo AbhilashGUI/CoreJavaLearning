@@ -23,7 +23,6 @@ public class Lab011
         //Printing datatype variables using printf statement
 
 
-
         float pie=3.14f;
         System.out.println("Value of pie " + pie);
         pie=15.70f;
