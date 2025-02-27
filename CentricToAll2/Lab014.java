@@ -8,10 +8,8 @@ public class Lab014 {
         //0-9---->48-57
         //Special characters--->34--47
 
-      char a = 'A';
-        a='9';
-        System.out.println(a);
-
+        char a = 65;
+        System.out.println(a);  //It prints the character value against the declared code
 
 
         //Note that a single character like letter cannot be declared as string
@@ -24,7 +22,7 @@ public class Lab014 {
         char b = '\n';    //To provide a space b/w first and second characters
         System.out.println(b);
 
-        char c = 'b';
+        char c = 54;
         System.out.println(c);
 
        //Note: Emoticon is the keyword to search for unicodes

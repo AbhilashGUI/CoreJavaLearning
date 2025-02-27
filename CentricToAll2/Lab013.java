@@ -5,9 +5,9 @@ public class Lab013
     public static void main(String[] args)
     {
 
-        //Final keyword value can't be changed.
+        //The value against final keyword can't be changed.
         final String name="@bhila$h";
-        //name="Abhilash"; Occurence of an error
+        //name="Abhilash";  Occurence of an error cannot assign value tl final variable
         System.out.println(name);
 
         final float pie=3.14f;
