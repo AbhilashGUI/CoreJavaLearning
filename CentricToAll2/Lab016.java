@@ -9,7 +9,8 @@ public class Lab016 {
         System.out.println(i++);
         System.out.println(++j);
 
-        /**int i1=12;//postfix
+
+        int i1=12;//postfix
         int j1=8;//prefix
         System.out.println(i1--);
         System.out.println(--j1);
@@ -17,14 +18,14 @@ public class Lab016 {
         int i2=45;
         int j2=54;
         System.out.println(i2++ + ++j2);  //45+55 =100
-        System.out.println(--j2 - j2--);  //53-53=0
+        System.out.println(--j2 - j2--);  //54-54=0
         System.out.println(++j2 + --i2);  //55+44=99
 
 
         int i3=65;
         int j3=74;
         System.out.println(j3++ - --i3);
-        System.out.print(i3++ + --j3);**/
+        System.out.print(i3++ + --j3);
 
 
 

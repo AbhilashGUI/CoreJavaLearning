@@ -13,6 +13,7 @@ public class Lab021
         System.out.println("Abhilash"+ c1 +"Sharma");
         System.out.println("Abhilash1"+ c2 + "Sharma");
         System.out.println("Abhilash"+ c3 +"Sharma");
+        System.out.println("Abhilash"+ '\n'+ "Sharma");
 
         //String examples
         String Surname="Vemula ";

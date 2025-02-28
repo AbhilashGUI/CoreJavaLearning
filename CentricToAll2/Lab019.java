@@ -11,15 +11,11 @@ public class Lab019
         int k=19;
         int l=21;
         double m=23;
-        i+=5.5f;
-        j-=4;
-        k*=3;
-        l/=7;
-        m%=9.9;
-        System.out.println(i);
-        System.out.println(j);
-        System.out.println(k);
-        System.out.println(l);
-        System.out.println(m);
+
+        System.out.println(i+=5);
+        System.out.println(j-=7);
+        System.out.println(k*=4);
+        System.out.println(l/=3);
+        System.out.println(m%=14);  //It takes remainder as output
     }
 }
