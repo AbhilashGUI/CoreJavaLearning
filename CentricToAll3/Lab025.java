@@ -23,6 +23,14 @@ public class Lab025
          System.out.println(d);
          System.out.println(e);
 
+         //Using bitwise operators
+
+        boolean f=(10>5)| (5>10);
+        boolean g=(14>7) &(7<14);
+        System.out.println(f);
+        System.out.println(g);
+
+
 
 
     }

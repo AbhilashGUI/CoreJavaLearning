@@ -6,11 +6,13 @@ public class Lab023
     {
 
         //Relational operators : < > <= >= 	== != instanceof
+        //Are often used to get the boolean results
 
-        int age_Abhilash = 29;
-        int age_Amith = 30;
-        boolean result = age_Abhilash < age_Amith;
-        System.out.println(result);
+
+        int age_Abhilash = 30;
+        int age_Amith = 32;
+        boolean output = age_Abhilash < age_Amith;
+        System.out.println(output);
 
         int one_kg=1000;
         int two_kg=2000;

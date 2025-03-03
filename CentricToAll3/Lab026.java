@@ -17,6 +17,9 @@ public class Lab026
         byte b1= (byte) a1; // This is explicit casting
         System.out.println(b1);
 
+        int i=450;
+        byte b2=  (byte) i;
+        System.out.println(b2);
 
 
         short s=30000;
@@ -24,6 +27,6 @@ public class Lab026
         System.out.println(t);
 
 
-        //Note: Refer the notes to convert decimal to binary and more.
+        //Note: Refer the notes to convert decimal to binary
             }
 }

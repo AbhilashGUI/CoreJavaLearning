@@ -19,6 +19,7 @@ public class Lab024
         byte b1=122;
         System.out.println('z'==b1);
 
+
         System.out.println('A'==65.0); //This is a property of java
         System.out.println('z'==122.0f);
 
@@ -27,6 +28,11 @@ public class Lab024
         boolean Gender_Female=false;
         System.out.println(Gender_Male!=Gender_Female);
 
+        int Major_group= 21;
+        int Minor_group= 18;
+
+        Boolean result= Major_group <= Minor_group;
+        System.out.println(result);
 
 
     }
