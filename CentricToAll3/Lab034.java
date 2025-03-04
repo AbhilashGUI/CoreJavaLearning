@@ -7,9 +7,9 @@ public class Lab034
         //Unary operators are called as increment operators
 
         //pre and post
-        int i=10;
-        i+=5;//Adding 5 to 10=15
-        i=i+5;//Adding 5+15=20
+        int i=120;
+        i+=5;//Append
+        i=i+5;//Append
         System.out.println(i);
 
 
@@ -18,8 +18,8 @@ public class Lab034
         //++a means pre increment=First increment and then prints
 
         int a=10;
-        System.out.println(a++); //It should print 10 and then increments by 1=11
-        System.out.println(++a); //It should print 12
+        System.out.println(a++);
+        System.out.println(++a);
 
 
         //sum of pre and post
