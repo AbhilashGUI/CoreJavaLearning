@@ -4,9 +4,9 @@ public class Lab037
 {
     public static void main(String[] args)
     {
-        //if-else statement using the scanner class. Taking the user input from the keyboard
+        //if-else statement using the scanner class. Taking the user inputs from the keyboard
       Scanner sc=new Scanner(System.in);
-      System.out.println("Enter the number, I will let you know if it is even or odd ?");
+      System.out.println("Enter the number, to know the even or odd : ");
       int number= sc.nextInt();
 
    if(number%2==0)

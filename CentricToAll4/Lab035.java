@@ -8,7 +8,7 @@ public class Lab035 {
 
         /*Decision statements
         if : Condition is true
-        if else: if condition is false and else condition should be true
+        if else: if condition should be false and else condition should be true
         else if :Multiple else if statements and execute a block of the code where the condition is true
         Nested if: if condition inside the another if condition*/
 
@@ -19,13 +19,22 @@ public class Lab035 {
             System.out.println("Value of the boolean is true");
         }
 
-
-
-        byte b1=114;
-        int i=210;
-        if(b1<i)
+      //2nd example
+        boolean b1= true;
+        if(b1=false)
         {
-            System.out.println("Code will executed if the condition is true");
+            System.out.println("Value of the boolean is true");
+        } else
+        {
+            System.out.println("Value of the boolean is false");
+        }
+
+
+        byte b2=114;
+        int i=210;
+        if(b2<i)
+        {
+            System.out.println("Satisfying the If condition");
         }
     }
 }

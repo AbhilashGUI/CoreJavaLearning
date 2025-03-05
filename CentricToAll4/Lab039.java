@@ -10,9 +10,9 @@ public class Lab039
         //Taking two inputs from keyboard and displaying the min number
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the number 1");
-        int number1=sc.nextInt();
+        float number1=sc.nextFloat();
         System.out.println("Enter the number 2");
-        int number2 =sc.nextInt();
+        float number2 =sc.nextFloat();
 
         if(number1<number2)
         {
@@ -20,7 +20,7 @@ public class Lab039
         }
         else
         {
-            System.out.println("negligible number is : "+ number2);
+            System.out.println("negligible number");
         }
 
 

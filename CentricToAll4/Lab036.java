@@ -5,14 +5,14 @@ public class Lab036
     public static void main(String[] args)
     {
         //2nd example
-        boolean b1 = !false; //It is equal to not true
+        boolean b1 = !false;
         if (b1==true) {
             System.out.println("boolean value is true");
         } else {
             System.out.println("boolean value  is not true ");
         }
 
-        byte b2=120;
+        byte b2=-128;
         int i1=206;
         if(b2>i1)
         {
