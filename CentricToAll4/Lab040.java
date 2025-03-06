@@ -14,7 +14,7 @@ public class Lab040
         }
         else if (b<i)
         {
-            System.out.println("Value is <150");
+            System.out.println("Value is less than the declared variable");
         }
         else
         {

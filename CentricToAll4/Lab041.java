@@ -4,9 +4,9 @@ public class Lab041 {
     public static void main(String[] args) {
         // ✅ Grade Calculator:
         // Write a program that calculates and displays the letter grade for a given
-        // numerical score (e.g., A, B, C, D, or F) based on the following
+        // numerical score (e.g., A, B, C, D,E, F) based on the following
         // grading scale:
-        //
+
         //A: 90-100
         //B: 80-89
         //C: 70-79
@@ -32,27 +32,27 @@ public class Lab041 {
 
         if (Marks >= 90 && Marks <=100)
         {
-            System.out.println("Your Grade is A");
+            System.out.println("Your Grade is A "+ Marks);
         }
           else if (Marks >= 80 && Marks <=89)
         {
-            System.out.println("Your Grade is B");
+            System.out.println("Your Grade is B "+ Marks);
         }
         else if (Marks >= 70 && Marks <=79)
         {
-            System.out.println("Your Grade is C");
+            System.out.println("Your Grade is C "+ Marks);
         }
         else if (Marks >= 60 && Marks <=69)
         {
-            System.out.println("Your Grade is D");
+            System.out.println("Your Grade is D "+ Marks);
         }
         else if (Marks >= 35 && Marks <=59)
         {
-            System.out.println("Your Grade is E");
+            System.out.println("Your Grade is E "+ Marks);
         }
         else
         {
-            System.out.println("Your Grade is F");
+            System.out.println("Your Grade is F "+ Marks);
         }
 
 
