@@ -12,20 +12,19 @@ public class Lab042 {
 
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the percentage obtained in the semester : ");
-        float percentage = sc.nextFloat();
-        if (percentage >= 70 && percentage <= 100) {
-            System.out.println("First class with distinction");
-        } else if (percentage >= 60 && percentage <= 69.5) {
+        System.out.print("Enter the marks obtained in the first semester: ");
+        int marks = sc.nextInt();
+
+        if (marks >= 70 && marks <= 100) {
+            System.out.println("Distinction");
+        } else if (marks >= 60 && marks <= 69) {
             System.out.println("First class");
-        } else if (percentage >= 50 && percentage <= 59.5) {
+        } else if (marks >= 50 && marks <= 59) {
             System.out.println("Second class");
-        } else if (percentage >= 40 && percentage <= 49.5) {
+        } else if (marks >= 40 && marks <= 49) {
             System.out.println("Third class");
-        } else if (percentage >= 0 && percentage <= 34.4) {
-            System.out.println("Fail");
         } else {
-            System.out.println("Invalid number/Doesn't exists");
+            System.out.println("Fail");
         }
     }
 }

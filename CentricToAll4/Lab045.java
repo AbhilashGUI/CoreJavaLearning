@@ -1,6 +1,6 @@
 package CentricToAll4;
 import java.util.Scanner;
-public class Lab045 {
+public class    Lab045 {
     public static void main(String[] args)
     {
         //Break loop or switch statement is used to break the current flow of the code at the specified condition
