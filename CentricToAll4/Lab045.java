@@ -10,43 +10,43 @@ public class    Lab045 {
 
         //Which day is today
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the daynumber, it will appear the respective day");
-        //daynumber : 1(Monday)/2(Tuesday)/3(Wednesday)/4(Thursday)/5(Friday)/6(Saturday)/7(Sunday)
+        System.out.println("Enter the daynumber, it will appear the calender day");
+
         int daynumber=sc.nextInt();
 
         switch(daynumber) {
             case 1:
-                System.out.println("Monday");
+                System.out.println("Sunday");
 
                 break;
 
             case 2:
-                System.out.println("Tuesday");
+                System.out.println("Monday");
 
                 break;
 
             case 3:
-                System.out.println("Wednesday");
+                System.out.println("Tuesday");
 
                 break;
 
             case 4:
-                System.out.println("Thursday");
+                System.out.println("Wednesday");
                 break;
 
 
             case 5:
-                System.out.println("Friday");
+                System.out.println("Thursday");
                 break;
 
 
             case 6:
-                System.out.println("Saturday");
+                System.out.println("Friday");
                 break;
 
 
             case 7:
-                System.out.println("Sunday");
+                System.out.println("Saturday");
                 break;
 
             default:
