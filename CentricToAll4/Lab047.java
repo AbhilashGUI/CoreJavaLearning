@@ -5,31 +5,32 @@ public class Lab047 {
         //Which browser code to be executed
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the name of the browser : ");
-        String browser = sc.nextLine();
+        System.out.print("Enter the browser, it will execute the respective developed code : ");
+        String browser= sc.nextLine();
 
-        switch (browser) {
+        switch (browser)
+        {
             case "Chrome":
-                System.out.println("Execute the chrome code");
-                break;
-            case "Firefox":
-                System.out.println("Execute the firefox code");
-                break;
+                System.out.println("Yeah,  it is compatible");
+            break;
             case "Edge":
-                System.out.println("Execute the edge code");
+                System.out.println("Yeah, it is compatible");
+            break;
+            case "Firefox":
+                System.out.println("Yeah, it is compatible");
                 break;
             case "Opera":
-                System.out.println("Execute the opera code");
+                System.out.println("Yeah, it is compatible");
                 break;
             case "Safari":
-                System.out.println("Execute the safari code");
+                System.out.println("Yeah, it is compatible");
+                break;
             default:
                 System.out.println("Out of web");
-        }
 
+        }
     }
 }
-
 
 
 

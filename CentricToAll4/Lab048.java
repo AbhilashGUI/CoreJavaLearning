@@ -15,7 +15,7 @@ public class Lab048 {
             case "Amaravathi":
                 System.out.println("Is the capital of AndhraPradesh");
                 break;
-            case "Banglore":
+            case "Bengaluru":
                 System.out.println("Is the capital of Karnataka");
                 break;
             case "Thiruvananthapuram":
@@ -25,7 +25,7 @@ public class Lab048 {
                 System.out.println("Is the capital of TamilNadu");
                 break;                                      // First five belongs to southern part of india
             case "Lucknow":
-                System.out.println("Is the capital of UttarPPradesh");
+                System.out.println("Is the capital of UttarPradesh");
                 break;
             case "Dehradun":
                 System.out.println("Is the capital of Uttarakhand");
