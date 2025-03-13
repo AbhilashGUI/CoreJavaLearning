@@ -7,25 +7,27 @@ public class Lab052
       Scanner sc=new Scanner(System.in);
       System.out.print("Enter the itemcode: ");
       int itemcode=sc.nextInt();
-      switch (itemcode)
-      {
-          case 1,2,3:   //Adding multiple values in the case is allowed from JDK 13 version
-              System.out.println("Belongs to Groceries");
+      switch (itemcode) {
+          case 1, 2, 3:
+              System.out.println("Groceries");
               break;
-          case 4,5:
-              System.out.println("Belongs to household goods");
+          case 4, 5:
+              System.out.println("Household goods");
               break;
-          case 6,7,8:
-              System.out.println("Belongs to shopping/Fashion");
+          case 6, 7:
+              System.out.println("Apparel");
               break;
-          case 9,10:
-              System.out.println("Belongs utility payments");
+          case 8, 9:
+              System.out.println("Fashion");
+              break;
+          case 10:
+              System.out.println("Healthcare");
               break;
           default:
-              System.out.println("Running out of money");
-
+              System.out.println("out of context");
+      }
 
       }
 
 }
-}
+

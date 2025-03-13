@@ -7,7 +7,7 @@ public class Lab049
 
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the char, will help you with output:");
-        char user_input=sc.next().toCharArray()[0]; //Is used ot convert string to CharArray
+        char user_input=sc.next().toCharArray()[0]; //Is used to convert string to CharArray
 
         switch (user_input) {
             case 'a':
