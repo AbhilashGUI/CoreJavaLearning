@@ -14,6 +14,6 @@ public class Lab067 {
                 System.out.println("Abhilash Vemula");
 
             }
-        System.out.print("It will print name 6 times");
+        System.out.print("It will print name -1 times");
         }
     }

@@ -13,7 +13,6 @@ public class Lab065 {
     }
 }
 
-    //Note: The result will return in int type
 
 
 

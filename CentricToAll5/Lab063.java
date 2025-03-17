@@ -14,6 +14,8 @@ public class Lab063
         for (int i = 0; i < 10; i++) {
 
         }
+        //Printing the boolean using the for loop. It prints only one condition either true or false only once.
+        //Since we are printing the statement outside the loop
         {
             System.out.println(b1);
         }

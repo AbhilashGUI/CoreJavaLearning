@@ -7,7 +7,7 @@ public class Lab061
         //Printing the integer using forloop
 
         int a=10;
-        for (int i = 10; i < 100; i++)
+        for (int i = 10; i < 15; i++)
         {
 
             System.out.println(a);

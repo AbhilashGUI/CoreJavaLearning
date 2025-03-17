@@ -24,7 +24,7 @@ public class Lab060 {
         {
          System.out.println("Abhilash Vemula");
         }
-         //Can start the forloop with making i=1 and i<=10
+         //Can start the forloop with by declaring 0 or 1 and i<=10
 
         System.out.println();
 
@@ -34,7 +34,18 @@ public class Lab060 {
             System.out.println("Vemula Abhilash");
         }
 
-
+      for(int i=1;i<=1;i++)
+      {
+          System.out.println("Vemula");
+      }
+      for(int i=1;i<=1;i++)
+      {
+          System.out.println("Abhilash");
+      }
+      for(int i=1;i<=1;i++)
+      {
+          System.out.println("Sharma");
+      }
     }
     }
 
