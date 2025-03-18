@@ -7,8 +7,8 @@ public class Lab083
         //
         for (int i = 10; i > 1; i--)
         {
-            System.out.println(i); //If we are printing the statement before continue statement.
-            // It does not skip the condition
+            System.out.println(i);
+            //If we are printing the statement before continue statement.It does not skip the condition
 
             if(i==4)
             {

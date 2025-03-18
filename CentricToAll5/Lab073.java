@@ -5,13 +5,12 @@ public class Lab073
     public static void main(String[] args)
             //Printing the even numbers using for loop in descending/reverse order
     {
-        for (int i = 50; i > 0; i--)
+        for (int i=50; i>1; i--)
         {
-            if(i%2.5==0)
+            if(i % 5==0)
             {
-                System.out.println("Even number is " + i);
+                System.out.println("Even number is --> "+i);
             }
-
         }
     }
 }

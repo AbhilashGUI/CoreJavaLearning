@@ -13,5 +13,6 @@ public class Lab084
             }
             System.out.println(i);
         }
+        System.out.println("Above are the list of odd numbers");
     }
 }

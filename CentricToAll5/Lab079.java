@@ -7,7 +7,7 @@ public class Lab079 {
                 continue;  //It skips the provided condition and prints rest/ other numbers
             }
 
-            System.out.println("Abhilash");
+            System.out.println("Abhilash");  //We are printing the string
 
         }
     }
