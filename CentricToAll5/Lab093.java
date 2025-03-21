@@ -5,7 +5,8 @@ public class Lab093
     public static void main(String[] args)
     {
         //factorial using while loop
-        int i=1, number = 7;
+        int i=1;
+        int number = 6;
         int fact = 1;
         while (i <= number)
         {
