@@ -4,19 +4,19 @@ public class Lab105
 {
     public static void main(String[] args)
     {
-        String[] Dairy1={"Milk","Curd","Butter","Cheese","Ghee"};
-        String[] Dairy2={"Cream","Yogurt","Frozen","Custurd","Buttermilk"};
-        String[] Dairy3=Dairy1;
-        System.out.println(Dairy1.equals(Dairy2));
-        System.out.println(Dairy3.equals(Dairy1));
+        String[] Dairyproducts1={"Milk","Curd","Butter","Cheese","Ghee"};
+        String[] Dairyproducts2={"Cream","Yogurt","Frozen","Custurd","Buttermilk"};
+        String[] Dairyproducts3=Dairyproducts1;
+        System.out.println(Dairyproducts1.equals(Dairyproducts2));
+        System.out.println(Dairyproducts3.equals(Dairyproducts1));
 
         //In case of string, we will compare the values.
         // Based on the similar values JVM validates and displays the output
 
 
         //Tricky question
-       Dairy1[0]="Milk";
-       System.out.println(Dairy3[1]);
-       //Since, Dairy1=Dairy3. If any changes made in arr1, it reflect in arr3 as well.
+       Dairyproducts3[0]="Milk";
+       System.out.println(Dairyproducts1[0]);
+       //Since, product1=product3. If any changes made in arr1, it reflect in arr3 as well.
     }
 }

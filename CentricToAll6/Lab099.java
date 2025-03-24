@@ -21,8 +21,31 @@ public class Lab099 {
 
 
 
-            System.out.println("I am a constituent of:" +constituency12);
-            System.out.print(Hyderabadconstituencies.length);
+            System.out.println("I was a constituent of:" +constituency12);
+            System.out.println(Hyderabadconstituencies.length);
+
+        int[] RangareddyMuncipalities = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15,16};
+
+        String Muncipalities1="Adibatla";
+        String Muncipalities2="Amangal";
+        String Muncipalities3="Bandangpet";
+        String Muncipalities4="Bandlaguda jagir";
+        String Muncipalities5="Chevella";
+        String Muncipalities6="Ibrahimpatnam";
+        String Muncipalities7="Jalpally";
+        String Muncipalities8="Manikonda";
+        String Muncipalities9="Meerpet";
+        String Muncipalities10="Moinabad";
+        String Muncipalities11="Narsingi";
+        String Muncipalities12="Pedda Amberpet";
+        String Muncipalities13="Shadnagar";
+        String Muncipalities14="Shamshabad";
+        String Muncipalities15="Shankarpally";
+        String Muncipalities16="Tukkuguda";
+        String Muncipalities17="Thurkayamjal";
+
+        System.out.println("I belong to " + Muncipalities3 + " Muncipality") ;
+        System.out.println(RangareddyMuncipalities.length);
         }
     }
 

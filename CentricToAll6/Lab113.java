@@ -9,7 +9,7 @@ public class Lab113
         age[1]=22;
         age[2]=32;
         age[3]=42;
-        age[4]=47;  //It throws an error
+
 
         for (int i = 0; i <= age.length-1; i++)
         {

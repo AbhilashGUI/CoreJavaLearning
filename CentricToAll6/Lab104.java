@@ -3,6 +3,7 @@ package CentricToAll6;
 public class Lab104
 {
     //Understanding the difference between == operator and equals() method.
+
     public static void main(String[] args)
     {
 
@@ -13,7 +14,7 @@ public class Lab104
 
         System.out.println(arr1.equals(arr2));
         //For arrays in integers, we don't compare the values, will compare the references which are not equal.
-        //However the array3 is referring to array1
+
 
         int[] arr3=arr1;
         System.out.println(arr3==arr1);
@@ -29,7 +30,9 @@ public class Lab104
         // If the value of any element changes in array3 it reflects array1 as well
         System.out.println(arr1[0]);
         System.out.println(arr3[0]);
-
+        arr1[3]=147;
+        System.out.println(arr3[3]);
+        System.out.println(arr1[3]);
 
 
 

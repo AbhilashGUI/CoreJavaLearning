@@ -19,12 +19,12 @@ public class Lab110
         System.out.println(i.length); //Length of an integer array;
         System.out.println(l.length); //Length of a long array
         System.out.println(c.length);//Length of a char array
+        System.out.println(d.length);//Length of a double  array
         System.out.println(names.length); //Length of a String array
         for (int j = 0; j <= names.length-1; j++)
         {
           System.out.println(names[j]);
         }
-
 
 
 

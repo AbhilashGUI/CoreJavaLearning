@@ -30,5 +30,10 @@ public class Lab103
         a1[0]=100;
         System.out.println(a1[0]);
 
+        //It works fine for String as well
+        final String[] Qualities={"Passion","Ambitious"};
+        Qualities[0]="Distraction";
+        System.out.println(Qualities[0]);
+
     }
 }

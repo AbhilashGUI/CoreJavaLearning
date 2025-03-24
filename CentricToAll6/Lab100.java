@@ -13,8 +13,8 @@ public class Lab100
         System.out.println(stationery[2]);
         System.out.println(stationery[3]);
         System.out.println(stationery[4]);
-        System.out.println("Stationery items:"+stationery.length);
         System.out.println(stationery[5]);
+        System.out.println("Stationery items:"+stationery.length);
 
 
     }
