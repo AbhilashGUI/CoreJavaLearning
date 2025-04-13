@@ -7,10 +7,11 @@ public class Leapyear {
     //Use an if-else statement to construct the code.
 
 
-    //Understanding: The year which is divisible by 4. If it is divisible by 100 then it is mandate to divisible by 400. It is a leap year.
+    //Understanding: The year  is should be divisible by 4 and if the year is divisible by 100, it should also be divisible by 400
+
     public static void main(String[] args)
     {
-        int year=2020;
+        int year=800;
         if((year%4==0 && year%100 !=0) || year%400==0)
         {
          System.out.println("It is a leap year");
