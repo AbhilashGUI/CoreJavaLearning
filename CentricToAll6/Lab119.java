@@ -10,7 +10,7 @@ public class Lab119
             for (int j = 0; j <= arr.length-1; j++) {
                 System.out.print(arr[i][j] + "\t");  //It creates space between numbers
             }
-            System.out.println();
+            System.out.print("\n");
         }
     }
 }

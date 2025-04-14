@@ -8,29 +8,34 @@ public class Lab114 {
         //second array[3] represents 3 columns
 
         //Declaring the values for the 1stArray/row
-        arr[0][0] = 10;
-        arr[0][1] = 20;
-        arr[0][2] = 30;
 
+        arr[0][0] = 25;
+        arr[0][1] = 50;
+        arr[0][2] = 75;
 
         //Declaring the values for the 2ndArray/2nd row
-        arr[1][0] = 40;
-        arr[1][1] = 50;
-        arr[1][2] = 60;
+
+        arr[1][0] = 100;
+        arr[1][1] = 125;
+        arr[1][2] = 150;
 
         //Declaring the values for the 3rdArray/3rd row
-        arr[2][0] = 70;
-        arr[2][1] = 80;
-        arr[2][2] = 90;
 
-   //Nested forloop to validate rows and columns
-        for (int i = 0; i <= arr.length-1; i++) {       //i denotes columns
-            for (int j = 0; j <= arr[i].length-1; j++) {  //j denotes rows
+        arr[2][0] = 175;
+        arr[2][1] = 200;
+        arr[2][2] = 225;
 
-                System.out.print(arr[i][j] + "\t");    //It creates space between numbers
+        //Nested for loop to validate rows and columns
+
+        for (int i = 0; i <= arr.length-1; i++)
+        {
+            for(int j=0;j<=arr[i].length-1;j++)
+            {
+                System.out.print(arr[i][j]+ "\t");
             }
-             System.out.println();
+            System.out.println();
+            }
 
         }
     }
-}
+

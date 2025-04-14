@@ -5,8 +5,8 @@ public class Lab115
     public static void main(String[] args)
     {
         int[][] arr1=new int[3][4];
-        //First array[3] represents 3 rows
-        //second array[3] represents 4 columns
+        //First array[3] represents 3 rows, well the count is from index
+        //second array[4] represents 4 columns, well the count is from index
 
 
         //Declaring the values for the 1stArray/row
@@ -24,19 +24,19 @@ public class Lab115
 
         //Declaring the values for the 3rdArray/3rd row
         arr1[2][0] = 32;
-        arr1[2][1] = 34;
+        arr1[2][1] = 34;;
         arr1[2][2] = 36;
         arr1[2][3] = 38;
 
 
-        for (int i = 0; i <= arr1.length-1; i++)   //i denotes columns
+        for(int i=0;i<= arr1.length-1;i++)  //i denotes rows
         {
-            for (int j = 0; j <= arr1[i].length-1; j++)   //j denotes rows
-
+            for(int j=0;j<=arr1[i].length-1;j++)  //j denotes columns
             {
-                System.out.print(arr1[i][j]+ "\t");  //Creates space between numbers
+                System.out.print(arr1[i][j] + "\t");
             }
             System.out.println();
         }
+
     }
 }
