@@ -19,7 +19,7 @@ public class Lab127
     }
     static int mod(int input_1,int input_2,int input_3)
     {
-        return input_3%input_2;  //It displays the value of remainder
+        return input_3%input_1;  //It displays the value of remainder
     }
 
 
