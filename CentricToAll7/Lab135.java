@@ -8,7 +8,7 @@ public class Lab135
 
         int c=main(101);
         System.out.println(c);
-        String c1=main("Abhilash ");
+        String c1=main1("Abhilash","Vemula");
         System.out.println(c1);
     }
 
@@ -17,9 +17,9 @@ public class Lab135
     {
         return a+99;
     }
-    static String main(String a)
+    static String main1(String a, String b)
     {
-        return a+"Sharma";
+        return a+ " Sharma " +b;
     }
 
 

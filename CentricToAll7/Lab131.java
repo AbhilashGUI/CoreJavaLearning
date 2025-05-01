@@ -11,17 +11,17 @@ public static void main(String[] args)
     //Return type
 
 
-     int c=sum(45,55);
+     int c=sum(145,255);
      System.out.println(c);
 
 
 }
 
-//public static void sum(int a,int b)
-        //Since, we are not providing the return type , code cannot be compiled
+/***public static void sum(int a,int b)
+        //Since, we are not providing the return type which is int, code cannot be compiled
 {
-   // return a+b;
-}
+   return a+b;
+}***/
 public static  int sum(int a,int b)
 
 {
