@@ -7,7 +7,7 @@ public class Lab137
         String str1="Vemula";
         System.out.println(str1.concat("Abhilash"));
         System.out.println(str1+ "Abhilash");
-        System.out.println(str1.contains("e"));
+        System.out.println(str1.contains("n"));
         //Used to check if a certain sequence of characters is present within a string
 
 
