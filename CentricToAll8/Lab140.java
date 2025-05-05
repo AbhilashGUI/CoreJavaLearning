@@ -11,8 +11,8 @@ public class Lab140
         String Password="onfire@369";
 
 
-        //Since it is mutable, password can be changed as many number times as required
-        //Can go with StringBuffer or StringBuilder
+        // StringBuffer or StringBuilder are mutable, password can be changed as many  times as required
+
         StringBuilder sb=new StringBuilder("recon@123");
         sb.append("45");
         System.out.println(sb);

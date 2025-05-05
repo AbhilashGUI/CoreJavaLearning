@@ -4,7 +4,7 @@ public class Lab139
 {
     public static void main(String[] args)
     {
-        //Let's understand the difference b/w string and stringbuilder&stringbuffer
+        //Let's understand the difference b/w string and stringbuilder & stringbuffer
 
 
         //Strings are immutable in nature(Unchangeable)
