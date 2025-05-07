@@ -15,7 +15,7 @@ public class PalindromeCheck2
         int length=original.length();
         for (int i = original.length()-1; i>=0 ; i--)
         {
-            reverse=reverse+original.charAt(i); ////To return the character at a specific index in a string.
+            reverse=reverse+original.charAt(i); ////To return the character at a specified index in a string.
         }
         if(original.equals(reverse))
         {
