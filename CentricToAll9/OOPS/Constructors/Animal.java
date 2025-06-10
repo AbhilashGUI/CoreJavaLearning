@@ -6,14 +6,10 @@ public class Animal
 
     String Dog;
     String Breed;   //All these are instance variables
-
     String Origin;
-
     int height;
     int weight;
-
-    double lifespan;
-
+    int lifespan;
     String colour;
 
 

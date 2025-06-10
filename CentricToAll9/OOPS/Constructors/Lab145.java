@@ -15,15 +15,17 @@ public class Lab145
     dog.Dog="Tuffy";
     dog.Breed="German Shepard";  //Referring to the instance variables created in the source file with the same  class name
     dog.Origin="German";
-    dog.colour="Black";
+    dog.colour="Brown";
     dog.height=65; //In cm's
     dog.weight=40; //In kg's
+    dog.lifespan=15;
     System.out.println(dog.Dog);
     System.out.println(dog.Breed);
     System.out.println(dog.Origin);
     System.out.println(dog.colour);
     System.out.println(dog.height);
     System.out.println(dog.weight);
+    System.out.println(dog.lifespan);
 
 
 

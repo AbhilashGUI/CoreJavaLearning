@@ -26,7 +26,7 @@ public class Lab144
      System.out.println(p2.Package);
 
     System.out.println("Incomplete info");
-    new Person();//The moment you enter new a  object is created in OA
+    new Person();//The moment you enter new , an object is created in OA/heap area
     Person p3=null;  //This is null
     System.out.println(p3);
 
