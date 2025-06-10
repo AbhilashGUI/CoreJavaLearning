@@ -7,10 +7,10 @@ public class Animal
     String Dog;
     String Breed;   //All these are instance variables
     String Origin;
-    int height;
-    int weight;
-    int lifespan;
-    String colour;
+    int Height;
+    int Weight;
+    int Lifespan;
+    String Colour;
 
 
 

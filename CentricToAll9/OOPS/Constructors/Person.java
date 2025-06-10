@@ -8,8 +8,8 @@ public class Person
     String Gender;
     int Age;
     String Occupation;
-    String Employer_Address;
-    long Mobile_number;
+    String EmployerAddress;
+    long Mobilenumber;
     float Package;
 
 

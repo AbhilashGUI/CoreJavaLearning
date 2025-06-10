@@ -21,9 +21,11 @@ public class Lab144
      p2.Name="Vicky";
      p2.Occupation="Selfemployed";
      p2.Package=4.2f;
+     p2.Mobilenumber=7095363018l;
      System.out.println(p2.Name);
      System.out.println(p2.Occupation);
      System.out.println(p2.Package);
+     System.out.println(p2.Mobilenumber);
 
     System.out.println("Incomplete info");
     new Person();//The moment you enter new , an object is created in OA/heap area
