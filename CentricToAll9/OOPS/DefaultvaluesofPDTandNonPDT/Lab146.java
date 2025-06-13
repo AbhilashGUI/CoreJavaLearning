@@ -6,8 +6,8 @@ public class Lab146
     {
 
         //RUNNER OF DEFAULTVALUESOFPDT//
-        DefaultvaluesofPDTandNonPDT Defaultassigned=new DefaultvaluesofPDTandNonPDT();
-        Defaultassigned.printDetails();
+        DefaultvaluesofPDTandNonPDT Default=new DefaultvaluesofPDTandNonPDT();
+        Default.printDetails();
 
 
 

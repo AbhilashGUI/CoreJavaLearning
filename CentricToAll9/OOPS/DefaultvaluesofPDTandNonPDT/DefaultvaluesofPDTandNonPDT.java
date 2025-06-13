@@ -8,15 +8,17 @@ public class DefaultvaluesofPDTandNonPDT
         //Default values of primitive and non-primitive data types
         //Applicant details
         String name;
-        boolean ismarried;
         char gender;
+        boolean ismarried;
         byte pincode;
-        short assetsearned;
+        short familymembers;
         int age;
         long moiblenumber;
         double height;
         float weight;
 
+
+        //Behaviour
 
         void name()
         {
@@ -28,12 +30,11 @@ public class DefaultvaluesofPDTandNonPDT
             return ismarried();
 
         }
-        static char c()
+        static char gender()
         {
-            return c();
+            return gender();
 
         }
-
 
         static byte balance()
         {
@@ -72,7 +73,7 @@ public class DefaultvaluesofPDTandNonPDT
         System.out.println(ismarried);   //false
         System.out.println(gender);          //empty
         System.out.println(pincode);         //0
-        System.out.println(assetsearned);   //0
+        System.out.println(familymembers);   //0
         System.out.println(age);             //0
         System.out.println(moiblenumber);    //0
         System.out.println(height);          //0.0
