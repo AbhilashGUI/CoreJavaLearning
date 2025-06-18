@@ -6,16 +6,16 @@ public class Person1
 {
     //Attributes
     //Default values of primitive data types
-    String name;
+     String name;
 
-    String emailaddress;
+     String emailaddress;
 
-    long  mobilenumber;
+     long  mobilenumber;
 
      String nationality;
 
      String locality;
-    boolean married;
+     boolean married;
 
 
 
@@ -40,9 +40,8 @@ public class Person1
        this.locality=valuefromreferenceobject;
 
 
+
     }
-
-
 
 
     //Behaviour
