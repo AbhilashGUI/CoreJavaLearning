@@ -10,8 +10,8 @@ public class BankAccount
 
     String bankname;   //null
     int balance;      //0
-
     String bankcode;
+    String location;
 
 
     //Initializing the default constructor
@@ -38,11 +38,12 @@ public class BankAccount
 
     //Initializing the parameter constructor
 
-    BankAccount(String bn,String bc,int bal)
+    BankAccount(String bn,String bc,int bal,String hyd)
     {
         this.bankname=bn;
         this.bankcode=bc;
         this.balance=bal;
+        this.location=hyd;
     }
 
     void  printdetails()
@@ -50,6 +51,7 @@ public class BankAccount
      System.out.println("BankName : -->" + this.bankname);
      System.out.println("BankCode : -->" + this.bankcode);
      System.out.println("Balance  : -->" + this.balance);
+     System.out.println("Location : -->" + this.location);
 
     }
 
