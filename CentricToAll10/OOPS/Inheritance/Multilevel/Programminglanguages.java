@@ -23,8 +23,8 @@ public class Programminglanguages {
 
 
     void printinfo() {
-        System.out.println(language);
-        System.out.println(Foundedyear);
+        //System.out.println(language);
+        //System.out.println(Foundedyear);
         System.out.println(" Programming info : " + "Language-->" + this.language + " Founded in the year---> " + this.Foundedyear);
     }
 
