@@ -6,7 +6,7 @@ public class GrandFather
     void properties()
     {
 
-        System.out.println("Earned : " + 4);
+        System.out.println("Earned : "+3);
 
     }
 

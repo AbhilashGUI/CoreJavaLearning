@@ -9,14 +9,9 @@ public class Lab149
     {
         //RUNNER OF ECOMMERCESITESCLASS//
 
-        EcommerceSites flipkart=new EcommerceSites("Trendingclothes","InformationInterchangingDevice","Machines","Food",10);
+
+        EcommerceSites flipkart= new EcommerceSites("T-shirts","Telivision","Namkeen","babycare",10);
         flipkart.printdetails();
-
-
-        EcommerceSites amazon=new EcommerceSites("Trendingclothes","InformationInterchangingDevice","Machines","Food",10);
-        amazon.printdetails();
-
-
 
 
 

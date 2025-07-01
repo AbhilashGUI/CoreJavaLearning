@@ -32,5 +32,9 @@ public class Lab154
         g1.built();   //Gamechanger is thankful to the founder and runner for establishment of the business
 
 
+
+        //Gamechanger gc= new Founder();
+        //Gamechanger gc1= new Runner();
+
     }
 }

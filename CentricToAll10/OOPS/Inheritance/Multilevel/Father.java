@@ -7,8 +7,7 @@ public class Father extends GrandFather
 
 
     {
-    System.out.println("Earned : " + 3);
+    System.out.println("Earned : " + 2);
    }
-
 
 }

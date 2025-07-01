@@ -2,41 +2,42 @@ package CentricToAll10.OOPS.Inheritance.Single;
 
 import java.util.jar.Attributes;
 
-public class EcommerceSites
-{
+public class EcommerceSites {
 
     //Attributes
 
-    String fashion;
-    String mobiles;
-    String electronics;
-    String grocery;
-    int  discount;
+       String apparel;
+       String electronics;
+       String groceries;
+       String Health;
+       int discount;
+
+
+
+       EcommerceSites(String ap,String ec, String gr,String He, int dis) {
+           this.apparel = ap;
+           this.electronics = ec;
+           this.groceries = gr;
+           this.Health = He;
+           this.discount = dis;
+
+       }
+
+
+       void printdetails()
+       {
+           System.out.println("apparel - "+ this.apparel);
+           System.out.println("electronics - "+ this.electronics);
+           System.out.println("groceries - " + this.groceries);
+           System.out.println("Health products - "+this.Health);
+           System.out.println("Flat discout - " +this.discount);
+
+
 
     //
 
-    EcommerceSites(String TC, String IID,String MC,String FD,int RD)
-            //RD stands for reduction in %age
-    {
 
-        this.fashion=TC;
-        this.mobiles=IID;
-        this.electronics=MC;
-        this.grocery=FD;
-        this.discount=RD;
-
-
-
-    }
-
-
-    void printdetails()
-    {
-        System.out.println("Fashion : " + fashion);
-        System.out.println("Mobiles : " + mobiles);
-        System.out.println("Electronics : " + electronics);
-        System.out.println("Grocery : " + grocery);
-        System.out.println("Discount :" + discount);
+}
 
 
 
@@ -44,7 +45,9 @@ public class EcommerceSites
 
 
 
-    }
+
+
+
 
 
 

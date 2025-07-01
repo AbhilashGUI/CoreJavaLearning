@@ -3,7 +3,7 @@ package CentricToAll10.OOPS.Inheritance.Multilevel;
 public class PROGRAMMINGLANG
 {
 
-    /***void java_author()
+    void java_author()
     {
         System.out.println("Games gosling");
     }
@@ -11,7 +11,7 @@ public class PROGRAMMINGLANG
     {
         System.out.println("Alan kay");
     }
-}***/
+
 
  void python_author()
  {

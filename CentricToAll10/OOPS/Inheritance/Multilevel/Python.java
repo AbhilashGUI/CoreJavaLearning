@@ -5,28 +5,28 @@ import CentricToAll10.OOPS.Inheritance.Multilevel.Programminglanguages;
 public class Python extends PROGRAMMINGLANG
 {
 
-    //Attributes
-    String feature1;
-    String feature2;
-    String feature3;
-    String feature4;
+   String feature1;
+   String feature2;
 
-    Python()
+
+    Python(String feature1,String feature2)
     {
-        System.out.println("Invoking the Default constructor");
+        this.feature1=feature1;
+        this.feature2=feature2;
+    }
+
+   void printdetails()
+   {
+       System.out.println("Syntax - "+this.feature1 );
+       System.out.println("Performance - " +this.feature2);
+   }
+
+
     }
 
 
-    void printdetails()
-    {
-        System.out.println(feature1);
-
-
-    }
 
 
 
 
 
-
-}

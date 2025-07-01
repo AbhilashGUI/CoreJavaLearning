@@ -4,31 +4,25 @@ import CentricToAll10.OOPS.Inheritance.Multilevel.Programminglanguages;
 
 public class Java extends PROGRAMMINGLANG
 {
-    //Attributes
-    String feature1;
-    String feature2;
-    String feature3;
-    String feature4;
+  String feature1;
+  String feature2;
 
-    Java()
-    {
-        System.out.println("Invoking the Default constructor");
+    Java(String feature1,String feature2) {
+
+        this.feature1=feature1;
+        this.feature2=feature2;
     }
-
-
-
-
-
 
     void printdetails()
-
     {
-        System.out.println("1st feature of java : " + feature1);
-        System.out.println("2nd feature of java : " + feature2);
-        System.out.println("3rd feature of java : " + feature3);
-        System.out.println("4rth feature of java : " + feature4);
+        System.out.println("Syntax - " + this.feature1);
+        System.out.println("Performance - " + this.feature2);
     }
 
+   }
 
 
-}
+
+
+
+
