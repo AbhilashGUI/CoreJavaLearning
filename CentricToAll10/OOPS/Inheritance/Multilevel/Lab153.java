@@ -39,8 +39,6 @@ public class Lab153
         //gs2.properties();
 
 
-
-
          //Note: However Grandson is the legal heir of  GrandFather and Father properties
 
         //Note: Father is legal heir of GrandFather property

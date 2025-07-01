@@ -33,7 +33,7 @@ public class Lab154
 
 
 
-        //Gamechanger gc= new Founder();
+        //Gamechanger gc= new Founder();   //Same logic
         //Gamechanger gc1= new Runner();
 
     }

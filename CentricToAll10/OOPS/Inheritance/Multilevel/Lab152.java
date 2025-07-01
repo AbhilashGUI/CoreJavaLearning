@@ -22,7 +22,8 @@ public class Lab152
         //Single inheritance concept, where child objects referring to the parent class
 
       Python p=new Python("Simple","Slower");
-      p.printdetails();
+      p.printdetails(); //Printing parameters
+
       p.python_author();
       p.python_oops_author();
 

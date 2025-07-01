@@ -10,7 +10,7 @@ public class Lab149
         //RUNNER OF ECOMMERCESITESCLASS//
 
 
-        EcommerceSites flipkart= new EcommerceSites("T-shirts","Telivision","Namkeen","babycare",10);
+        EcommerceSites flipkart= new EcommerceSites("T-shirts","Telivision","Namkeen","babycare",1,10);
         flipkart.printdetails();
 
 

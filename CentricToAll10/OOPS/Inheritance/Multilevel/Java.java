@@ -15,8 +15,8 @@ public class Java extends PROGRAMMINGLANG
 
     void printdetails()
     {
-        System.out.println("Syntax - " + this.feature1);
-        System.out.println("Performance - " + this.feature2);
+        System.out.println("Syntax -> " + this.feature1);
+        System.out.println("Performance -> " + this.feature2);
     }
 
    }

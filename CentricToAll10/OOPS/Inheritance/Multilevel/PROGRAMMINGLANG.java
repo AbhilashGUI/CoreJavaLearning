@@ -13,12 +13,12 @@ public class PROGRAMMINGLANG
     }
 
 
- void python_author()
- {
- System.out.println("Guido van Rossum");
- }
- void python_oops_author()
- {
- System.out.println("Alan kay");
- }
+   void python_author()
+  {
+  System.out.println("Guido van Rossum");
+  }
+  void python_oops_author()
+  {
+  System.out.println("Alan kay");
+  }
  }

@@ -21,7 +21,7 @@ public class Lab151
        //Single inheritance concept, where child objects referring to the parent class
 
         Java j1=new Java("Verbose", "Faster");
-        j1.printdetails();
+        j1.printdetails();  //Printing paramters
 
         j1.java_author();
         j1.java_oops_author();

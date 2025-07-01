@@ -6,6 +6,6 @@ public class Runner extends Founder
 {
     void built()
     {
-        System.out.println("Ran for 5 decades successfully and extended various branches ");
+        System.out.println("Continued for 5 decades successfully and extended various branches ");
     }
 }
