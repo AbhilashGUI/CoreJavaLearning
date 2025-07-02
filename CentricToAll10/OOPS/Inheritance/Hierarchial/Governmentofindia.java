@@ -4,7 +4,7 @@ public class Governmentofindia
 {
     Governmentofindia()    //Default constructor
     {
-        System.out.println("Functioning of central government:  Executive ,Legislatureofparliament, Judiciary");
+        System.out.println("Functioning of central government:  Executive, Legislatureofparliament, Judiciary");
     }
 
 

@@ -2,7 +2,7 @@ package CentricToAll10.OOPS.Inheritance.Hierarchial;
 
 public class StateJudiciary
 {
-    void instructionsof()
+    void functionsontheinstructionsof()
     {
 
         System.out.println("Judiciary body:HighCourt, DistrictCourts, OtherCourts");

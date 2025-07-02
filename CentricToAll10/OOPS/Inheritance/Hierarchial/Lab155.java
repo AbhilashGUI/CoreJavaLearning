@@ -8,16 +8,16 @@ public class Lab155
 
         //RUNNER OF GOVERNMENTOFINDIA//
 
-        //Governmentofindia GOI=new Governmentofindia(); //Default constructor
+        Governmentofindia GOI=new Governmentofindia(); //Default constructor
 
         Executive ec=new Executive();
-        ec.operatedby();
+        ec.functioning();
 
         Legislatureofparliament lp=new Legislatureofparliament();
-        lp.operatedby();
+        lp.functioining();
 
         Judiciary jd= new Judiciary();
-        jd.operatedby();
+        jd.functioning();
 
 
 

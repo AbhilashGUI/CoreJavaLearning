@@ -5,6 +5,6 @@ public class StateGovernment
 
     StateGovernment()
     {
-        System.out.println("Functioning of state government : Executive,Legislature,Judiciary");
+        System.out.println("Functioning of state government : Executive, Legislature, Judiciary");
     }
 }

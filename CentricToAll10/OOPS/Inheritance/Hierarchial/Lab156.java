@@ -14,17 +14,17 @@ public class Lab156
         //RUNNER OF STATEGOVERNMENTCLASS//
 
         //Hierarchal concept
-        //StateGovernment sg= new StateGovernment();
+        StateGovernment sg= new StateGovernment();
 
 
         StateExecutive se=new StateExecutive();
-        se.instructionsof();
+        se.functionsontheinstructionsof();
 
         StateLegislature sl=new StateLegislature();
-        sl.instructionsof();
+        sl.functionsontheinstructionsof();
 
         StateJudiciary sj=new StateJudiciary();
-        sj.instructionsof();
+        sj.functionsontheinstructionsof();
 
 
 

@@ -1,4 +1,4 @@
-package CentricToAll10.OOPS.Inheritance.Multilevel;
+package CentricToAll10.OOPS.Inheritance.Hierarchial;
 
 public class PROGRAMMINGLANG
 {

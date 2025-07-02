@@ -1,6 +1,4 @@
-package CentricToAll10.OOPS.Inheritance.Multilevel;
-
-import CentricToAll10.OOPS.Inheritance.Multilevel.Python;
+package CentricToAll10.OOPS.Inheritance.Hierarchial;
 
 public class Lab152
 {

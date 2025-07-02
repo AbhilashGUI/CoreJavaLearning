@@ -4,9 +4,9 @@ public class StateLegislature
 {
 
 
-    void instructionsof()
+    void functionsontheinstructionsof()
     {
-        System.out.println("Legislative body:Legislative council(Leader: CM),  Legislative assembly(Leader: CM)");
+        System.out.println("Legislative body:Legislative council(CM),  Legislative assembly(CM)");
 
 
     }

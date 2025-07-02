@@ -6,7 +6,7 @@ public class Executive extends Governmentofindia
 {
 
 
-    void operatedby()
+    void functioning()
 
     {
         System.out.println("Executive body:President,VicePresident,Cabinetministers");
