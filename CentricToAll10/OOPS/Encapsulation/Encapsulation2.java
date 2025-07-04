@@ -18,6 +18,9 @@ public class Encapsulation2
 
         System.out.println(username);
 
+        boolean check2= vwologin2.isLoggedin("vicky","learning");
+        System.out.println(check2);
+
 
 
     }

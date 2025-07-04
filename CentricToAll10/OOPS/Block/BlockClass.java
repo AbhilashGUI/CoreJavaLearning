@@ -2,6 +2,11 @@ package CentricToAll10.OOPS.Block;
 
 public class BlockClass {
 
+    //Though if you define the static initialization block in the beginning/end SIB will be invoked first
+    static
+    {
+        System.out.println("SIB");
+    }
      //IIB : Instance initialization block
 {
 
@@ -12,10 +17,10 @@ public class BlockClass {
         System.out.println("DC");
     }
     //SIB: Static initialization block
-    static {
+    /***static {
 
         System.out.println("SIB");
-    }
+    }***/
 
 
 }
