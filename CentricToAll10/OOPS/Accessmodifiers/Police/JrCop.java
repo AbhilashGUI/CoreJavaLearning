@@ -7,7 +7,10 @@ public class JrCop
 
         Cop jrcp=new Cop(2);
         System.out.println("Authorized to follow instructions");
-        jrcp.CanIshoot();
+        //jrcp.CanIshoot();
+        jrcp.CanIshoot1();
+        jrcp.CanIshoot2();
+
 
 
 
