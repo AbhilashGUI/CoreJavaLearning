@@ -8,7 +8,7 @@ public class Methodoverloading {
         new Methodoverloading().Applicantdetails('M');
         new Methodoverloading().Applicantdetails(30);
         new Methodoverloading().Applicantdetails(4532698745l);
-
+        new Methodoverloading().Applicantdetails(36.7);
 
 
     }
@@ -39,7 +39,10 @@ public class Methodoverloading {
 
     }
 
-
+   void Applicantdetails(double earning)
+   {
+       System.out.println("Applicant earning:" +earning);
+   }
 
 
 

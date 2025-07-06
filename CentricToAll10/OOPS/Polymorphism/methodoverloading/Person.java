@@ -40,7 +40,7 @@ public class Person
 
   long Gift(long l)
   {
-      System.out.println("Long is :" + l);
+      System.out.println("Long value is :" + l);
       return l;
   }
 

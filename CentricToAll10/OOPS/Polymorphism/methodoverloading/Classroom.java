@@ -5,19 +5,19 @@ public class Classroom
 
     void Students(int i)
     {
-        System.out.println("i denotes  no. of students : " +i);
+        System.out.println("i denotes  no. of students(Male&Female) : " +i);
 
     }
 
    void Students(byte b)
     {
-        System.out.println("No.of female students: "+ b);
+        System.out.println(b);
     }
 
 
    void Students(short s)
     {
-        System.out.println("No. of male students : " + s);
+        System.out.println(s);
     }
 
 
