@@ -9,7 +9,7 @@ public static void main(String[] args)
     Student s3=null;
     s1.learn();
     s2.learn();
-    //s3.learn();  //It must throw an exception, since no object is declared for student s3 in this case.
+    s3.learn();  //It throws a null pointer exception
 
 
 }

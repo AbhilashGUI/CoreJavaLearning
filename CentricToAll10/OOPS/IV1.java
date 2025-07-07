@@ -5,14 +5,13 @@ public class IV1
  public static void main(String[] args)
  {
 
-   person p=new person();
-   person p1=new person(45);   //Parameterized constructor, with single param
-   person p2=new person(67,true);  //Parametrized constructor with dual params
-     System.out.println(p.a);
-     System.out.println(p1.a);
-     System.out.println(p2.a);
-     System.out.println(p2.b);
-
+      person p= new person();
+      person p1=new person(10);
+      person p2=new person(15,true);
+      System.out.println(p.a);
+      System.out.println(p1.a);
+      System.out.println(p2.a);
+      System.out.println(p2.b);
 
 
  }
