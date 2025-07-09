@@ -4,24 +4,28 @@ public class Lab163
 {
  public static void main(String[] args)
  {
-     System.out.println(StaticDemo.college_name);
-     StaticDemo.printName();
+     System.out.println(StaticDemo.Institute_name);
+     StaticDemo.printname();
 
 
      //Calling the variables of non-static method
 
      StaticDemo s1= new StaticDemo();
-     //s1.version=2;      //It prints the declared version with a  college name
-     s1.printVersion();   //It prints default version with college name
+     s1.printyear();//It prints default  enrolledyear with college name
+     s1.enrolledyear=2025;  //Re-enrolled
+     s1.printyear();
+     //It prints new enrolled year with college name
+
 
 
      StaticDemo s2=new StaticDemo();
-     //s2.version=4;         //It prints the declared version with a  college name
-     s2.printVersion();      //It prints default version with college name
+     s2.printyear();
+     s2.printcompletionyear();
+
+     //It prints default enrolledyear,with college name and completionyear
 
 
-       StaticDemo.college_name="TTA";
-       StaticDemo.printName();
+
 
 
 
