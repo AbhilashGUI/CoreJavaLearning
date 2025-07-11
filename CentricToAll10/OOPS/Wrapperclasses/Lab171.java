@@ -14,5 +14,9 @@ public class Lab171
 
        String number2= String.valueOf(i);         //Using  inbuilt function is possible
        System.out.println(number2);
+
+       byte b=125;
+       String num=String.valueOf(b);
+       System.out.print(b);
     }
 }
