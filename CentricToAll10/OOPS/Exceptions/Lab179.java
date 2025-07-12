@@ -10,7 +10,7 @@ public class Lab179 {
             int b = 10 / a;
         }catch (Exception e)
         {
-            System.out.println("Exit the code");
+            System.out.println("Exit the code, since i'm aware about the kind of exception");
             System.exit(0);     //exit function : Does not allows to execute finally statement
         }
         finally {

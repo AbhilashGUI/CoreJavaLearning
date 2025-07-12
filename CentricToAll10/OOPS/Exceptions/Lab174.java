@@ -10,10 +10,12 @@ public class Lab174
      //Note: When we are passing string element(Name) and converting then to Int in CLA, it throws >>NumberFormatException
      //Note: When we are passing 0 in CLA ,it throws >>Arithmetic exception
         int x=Integer.parseInt(str);
-        int a=10/x;
+        int a=20/x;
+        int b=a/x;
 
      System.out.println(x);
      System.out.println(a);
+     System.out.println(b);
 
 
     }

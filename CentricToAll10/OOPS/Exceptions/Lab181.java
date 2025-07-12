@@ -14,6 +14,7 @@ public class Lab181
         }catch (Exception e)
         {
             System.out.println(e.getMessage());
+            e.printStackTrace();  //It gives a file not found exception error
         }
 
 

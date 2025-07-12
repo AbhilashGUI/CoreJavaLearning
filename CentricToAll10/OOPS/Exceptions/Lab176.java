@@ -11,12 +11,19 @@ public class Lab176
 
       } catch (ArrayIndexOutOfBoundsException| NumberFormatException | ArithmeticException e)
       {
-        System.out.println(e.getMessage());
+          System.out.println(e.getMessage());
+          //e.printStackTrace();
       }
 
       //Note: Not passing  Int in CLA, resulting as "Index 0 out of bounds for length 0"
       //Note: Passing  String in CLA, resulting as   For input string: "Abhilash"
-      //Note: Passing 0 in CLA, resulting as "/ by zero"
+      //Note: Passing 0 in CLA, resulting as "/ by zero
+      try{
+
+          String str=args[5];                     //re-try of same by adding try block
+          int b= Integer.parseInt(str);
+          int c=b/10;
+      }
 
         catch (Exception e)
         {                 //Adding multiple catch block, In case of different from above exceptions
