@@ -27,13 +27,13 @@ public class Bank
       private Integer Amount;
 
 
-      public Integer add(Bank bankName) throws CustomException
+      public Integer add(Bank otherbank) throws CustomException
       {
-          if (!bankName.Currency.equals("INR"))
+          if (!(otherbank.Currency.equals("INR")))
           {
               throw new CustomException("USD to INR is not supported");
           }
-          Integer sum=this.Amount+ bankName.Amount;
+          Integer sum=this.Amount+ otherbank.Amount;
           return sum;
       }
     }
