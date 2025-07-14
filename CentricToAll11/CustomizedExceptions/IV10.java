@@ -1,25 +1,19 @@
 package CentricToAll11.CustomizedExceptions;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class IV10 {
-
-    public static void main(String[] args)
-    {
-
-   //Note:Example of throw keyword
-        Number N=new Number();
-        N.join();
+    public static void main(String[] args) throws FileNotFoundException {
 
 
-    }
-
+        String path= "C://Abhilash.txt";
+        try {
+            FileInputStream f= new FileInputStream(path);
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+   //1st method using try-catch
+        FileInputStream f1= new FileInputStream(path);
+    }//2nd method using throws
 }
-class Number{
-
-    public int join()
-    {
-        //int a=10/0;                                       //If we uncheck, we get to see arithmetic exception
-        throw new NullPointerException();
-    }
-}
-
-

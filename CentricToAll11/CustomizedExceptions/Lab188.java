@@ -5,14 +5,14 @@ import java.io.FileReader;
 
 public class Lab188 {
     public static void main(String[] args) throws Exception {
-        main("Abhilash");
+        employee("Abhilash");
 
     }
 
-    static void main(String a) throws Exception {
+    static void employee(String a) throws Exception {
         FileReader f = new FileReader(new File("C://Abhilash.txt"));
 
-        if (a.equalsIgnoreCase("a"))
+        if (a.equalsIgnoreCase("Vicky"))
         //Note:In-this case, it is executing inbuilt function of the  primary object , whose parameters are declared within the function.
 
         {

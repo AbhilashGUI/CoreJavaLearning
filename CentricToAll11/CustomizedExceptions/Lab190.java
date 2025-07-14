@@ -13,7 +13,7 @@ public class Lab190 {
         }
     }
 }
-        //In this case, we have had a choice of using try&catch block or throws keyword at the method level
+        //In this case, we have a choice of using try&catch block or throws keyword at the method level
 
 
 

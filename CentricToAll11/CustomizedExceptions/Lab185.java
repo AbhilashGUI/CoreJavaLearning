@@ -12,7 +12,7 @@ public class Lab185 {
 
         //Here we are extracting method using private keyword
 
-        extracted(0);   //Passing parameter
+        extracted(1);   //Passing parameter
         throw new Exception("Combination of throw and throws keyword");
         //Adding a throw keyword, which is vulnerable to this code.
 
