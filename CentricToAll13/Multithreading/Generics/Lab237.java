@@ -7,13 +7,16 @@ public class Lab237
   public static void main(String[] args)
   {
 
-      double Maxnum= MaximumofNumbers(42.12,12.37,39.23);
+      double Maxnum= MaximumNumber(42.12,12.37,39.23);
       System.out.println(Maxnum);
 
 
   }
 
-  public static double MaximumofNumbers(double a, double b, double c)
+    //Non-Generic, here we are specifying the datatype
+
+
+    public static double MaximumNumber(double a, double b, double c)
   {
       double max=a;
       if (b>max)
