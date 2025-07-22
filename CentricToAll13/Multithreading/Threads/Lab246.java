@@ -28,7 +28,7 @@ class Employee extends Thread{
 
     @Override
     public void run() {
-        for (int i = 0; i < 7; i++)
+        for (int i = 0; i <7; i++)
         try
         {
          System.out.println(Thread.currentThread().getName());

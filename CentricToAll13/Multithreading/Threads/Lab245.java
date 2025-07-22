@@ -8,11 +8,11 @@ public class Lab245
     {
 
 
-        Worker w1=new Worker();
-        w1.start();   //To start the thread
+                    Worker w1=new Worker();
+                    w1.start();   //To start the thread
 
-        Worker w2=new Worker();
-        w2.start();
+                    Worker w2=new Worker();
+                    w2.start();
     }
 
 
