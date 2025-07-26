@@ -2,7 +2,7 @@ package CentricToAll13.Multithreading.Generics;
 
 public class Lab242 {
 
-    //Defining the generic class and passing different data types in argument
+    //Defining the generic class  using diamond operator and passing different data types in argument
 
     public static void main(String[] args)
     {

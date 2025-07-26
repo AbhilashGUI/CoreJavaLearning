@@ -1,4 +1,4 @@
-package CentricToAll13.Multithreading.Generics;
+package CentricToAll13.Multithreading.NonGenerics;
 
 public class Lab237
 {

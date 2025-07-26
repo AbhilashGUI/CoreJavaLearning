@@ -4,9 +4,9 @@ public class Lab238 {
 
     //Defining the main method and arguments outside the class
 
-   public static <Generic>void Studentdetails(Generic a)
+   public static <Generic>void Studentdetails(Generic student1)
    {
-       System.out.println(a);
+       System.out.println(student1);
    }
 
    public static void main(String[] args)

@@ -11,7 +11,7 @@ public class Lab239
     public static void main(String[] args)
     {
         temp(23);
-        //temp(12.36);   //Since, it is a not generic there is a restriction
+        //temp(12.36);   //Since, it is a non-generic there is a restriction
 
 
     }

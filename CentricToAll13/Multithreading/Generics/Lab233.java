@@ -7,7 +7,7 @@ public class Lab233 {
           Multidatatype('M');
           Multidatatype(29.8);
           Multidatatype(false);
-          Multidatatype(30);
+
 
 
     }

@@ -7,7 +7,7 @@ public class Lab244
         Thread t=Thread.currentThread();
         for (int i = 0; i < 10; i++)
         {
-         System.out.println(t.getName() +  i  + "-" +t.getThreadGroup()+ "-"+t.getPriority());
+         System.out.println(t.getName()  +  i  + "-" +t.getThreadGroup()+ "-"+t.getPriority());
         }
 
         //getName(): The getName() method of java Class class is used to get the name of the entity

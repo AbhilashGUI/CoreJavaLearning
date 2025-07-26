@@ -22,8 +22,8 @@ public class Lab235
     //public static void Singledatatype(String Applicantname){
     //System.out.println(Applicantname);
 
-    public static void Singledatatype(int ApplicantIdnumber){
-        System.out.println(ApplicantIdnumber);
+    public static void Singledatatype(int ApplicantId){
+        System.out.println(ApplicantId);
 
     }
 }

@@ -9,8 +9,10 @@ public class Lab243 {
      System.out.println(t);
      for(int i=0;i<15;i++)
      {
+         System.out.println(i+""+t.getThreadGroup());
          System.out.println(i+ " "+t.getName());
          System.out.println(i+" "+t.getPriority());
+
          Thread.sleep(3000);
      }
 

@@ -12,7 +12,10 @@ public class Lab234
         List<Integer> SingleDatatype=new ArrayList();
         //SingleDatatype.add("Thief");
         SingleDatatype.add(420);
+        SingleDatatype.add(235);
         System.out.println(SingleDatatype);
+
+
 
 
 

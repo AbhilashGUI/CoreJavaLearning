@@ -9,7 +9,7 @@ public class Lab232
     {
 
   //Generics allow the reusability of code, where one single method can be used for different
-        //data-types of variables or objects."
+        //data-type variables or objects using the diamond operator
 
 
         //Example of generic code
