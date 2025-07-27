@@ -4,10 +4,10 @@ public class Lab249
 {
     public static void main(String[] args)
     {
-        //Two method in one class sync with m1 and m2.
+        //Two methods in one class sync with m1 and m2.
         //Not Synchronization
-        //Thread C,D
-        //Thread C calling m1,s1 and Thread D  calling m2,s2
+        //Thread a,b
+        //Thread a calling m1,s1 and Thread b  calling m2,s2
         //No inconsistent result
         //Thread will run Concurrently
 
@@ -56,7 +56,7 @@ class Sync1 {
     void m1() {
         Thread t1 = Thread.currentThread();
         for (int i = 0; i < 5; i++) {
-            System.out.println(t1.getName() + " -m1 " + i);
+            System.out.println(t1.getName() + " -m1  " + i);
             try {
                 Thread.sleep(1000);
             } catch (Exception e) {
