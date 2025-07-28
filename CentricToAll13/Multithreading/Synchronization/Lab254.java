@@ -56,7 +56,7 @@ class L extends Thread {
 }
 
 class Sync5 {
-   static synchronized void m1() {       //Since, we are using the synchronized keyword for the one methods. Flow is seen as one by one
+   static synchronized void m1() {
         Thread t1 = Thread.currentThread();
         for (int i = 0; i < 5; i++) {
             System.out.println(t1.getName() + " -m1 " + i);
@@ -85,6 +85,6 @@ class Sync5 {
 
 
 
-
+//Since, we are using the static synchronized keyword for the both methods. Flow is seen as one by one
 
 

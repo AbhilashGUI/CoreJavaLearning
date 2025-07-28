@@ -53,7 +53,7 @@ class J extends Thread {
 }
 
 class Sync4 {
-    synchronized void m1() {       //Since, we are using the synchronized keyword for the one methods. Flow is seen as one by one
+    synchronized void m1() {
         Thread t1 = Thread.currentThread();
         for (int i = 0; i < 5; i++) {
             System.out.println(t1.getName() + " -m1 " + i);
@@ -79,4 +79,5 @@ class Sync4 {
 
 
 
-
+//Since, we are using the synchronized keyword for the one method and static keyword for other method.
+// Flow is not seen random order

@@ -1,14 +1,14 @@
 package CentricToAll13.Multithreading.Synchronization;
 
-public class Lab251 {
+public class    Lab251 {
     public static void main(String[] args) {
 
             //Two method in one class sync with m1 and m2.
-            //They are not Synchronized
+            //They are Synchronized
             //Thread E,F
             //Thread E calling m1,s1 and Thread F calling m1 with s2
             //Inconsistent result
-            //Thread will not run Concurrently
+            //Thread will  run Concurrently
 
             Sync2 s1 = new Sync2();
             //Sync s2=new Sync();

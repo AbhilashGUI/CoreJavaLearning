@@ -53,7 +53,7 @@ class H extends Thread {
 }
 
 class Sync3 {
-    synchronized void m1() {       //Since, we are using the synchronized keyword for the one methods. Flow is seen as one by one
+    synchronized void m1() {
         Thread t1 = Thread.currentThread();
         for (int i = 0; i < 5; i++) {
             System.out.println(t1.getName() + " -m1 " + i);
@@ -65,7 +65,7 @@ class Sync3 {
         }
     }
 
- void m2() {   //Still it is executing step by step
+ void m2() {   //Still it is executing step by step, as "synchronized"
         Thread t2 = Thread.currentThread();
         for (int i = 100; i < 105; i++) {
             System.out.println(t2.getName() + " -m2 " + i);

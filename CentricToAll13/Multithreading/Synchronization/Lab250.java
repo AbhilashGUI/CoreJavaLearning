@@ -7,7 +7,7 @@ public class Lab250 {
         //Not Synchronization
         //Thread C,D
         //Thread C calling m1,s1 and Thread D calling m1 with s2
-        //May  inconsistent result due to they are working on a same object
+        //May be inconsistent result due to they are working on a same object
         //Thread will run Concurrently
 
 
