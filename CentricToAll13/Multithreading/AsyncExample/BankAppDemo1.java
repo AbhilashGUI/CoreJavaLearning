@@ -6,7 +6,7 @@ public class BankAppDemo1
     public static void main(String[] args)
     {
         Bank b1=new Bank();
-        Runnable runnable=new AccountThread(b1);
+        Runnable runnable=new Account(b1);
         Thread t=new Thread(runnable,"Abhilash");
         t.start();
         Thread t2=new Thread(runnable,"vicky");
@@ -16,10 +16,10 @@ public class BankAppDemo1
     }
 }
 
-class AccountThread implements Runnable {
+class Account implements Runnable {
     Bank bank;
 
-    public AccountThread(Bank accservice) {
+    public Account(Bank accservice) {
         this.bank = accservice;
     }
 
