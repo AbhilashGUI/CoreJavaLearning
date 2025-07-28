@@ -12,9 +12,9 @@ public class    Lab251 {
 
             Sync2 s1 = new Sync2();
             //Sync s2=new Sync();
-            E e = new E(s1, "E");
+            E e = new E(s1, "Thread E");
             e.start();
-            F f = new F(s1, "F");
+            F f = new F(s1, "Thread F");
             f.start();
 
 

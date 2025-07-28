@@ -13,9 +13,9 @@ public class Lab250 {
 
         Sync s1 = new Sync();
         //Sync s2=new Sync();
-        C c = new C(s1, "C");
+        C c = new C(s1, "Thread C");
         c.start();
-        D d = new D(s1, "D");
+        D d = new D(s1, "Thread D");
         d.start();
 
     }

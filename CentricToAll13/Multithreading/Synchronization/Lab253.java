@@ -14,9 +14,9 @@ public class Lab253
 
     Sync4 s1 = new Sync4();
     //Sync s2=new Sync();
-    I i = new I(s1, "I");
+    I i = new I(s1, "Thread I");
      i.start();
-    J j = new J(s1, "J");
+    J j = new J(s1, "Thread J");
      j.start();
 
 

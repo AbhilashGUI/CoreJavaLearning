@@ -14,9 +14,9 @@ public static void main(String[] args)
 
 Sync2 s1 = new Sync2();
 //Sync s2=new Sync();
-G g = new G(s1, "G");
+G g = new G(s1, "Thread G");
 g.start();
-H h = new H(s1, "H");
+H h = new H(s1, "Thread H");
 h.start();
 
 

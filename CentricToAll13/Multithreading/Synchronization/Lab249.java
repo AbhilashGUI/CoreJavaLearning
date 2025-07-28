@@ -14,9 +14,9 @@ public class Lab249
 
       Sync s1=new Sync();
       Sync s2=new Sync();
-      A a=new A(s1,"A");
+      A a=new A(s1,"Thread A");
       a.start();
-      B b=new B(s2,"B");
+      B b=new B(s2," Thread B");
       b.start();
 
     }

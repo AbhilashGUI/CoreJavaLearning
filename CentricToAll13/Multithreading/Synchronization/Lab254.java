@@ -17,9 +17,9 @@ public class Lab254
 
         Sync5 s1 = new Sync5();
         //Sync s2=new Sync();
-        K k = new K(s1, "K");
+        K k = new K(s1, "Thread K");
         k.start();
-        L l = new L(s1, "L");
+        L l = new L(s1, "Thread L");
         l.start();
 
 
