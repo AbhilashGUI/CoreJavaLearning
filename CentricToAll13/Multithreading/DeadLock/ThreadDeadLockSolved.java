@@ -2,7 +2,7 @@ package CentricToAll13.Multithreading.DeadLock;
 
 public class ThreadDeadLockSolved
 {
-
+ //Complex one
         public static void main(String args[]) {
            ThreadDeadLockSolved tds=new ThreadDeadLockSolved();
 

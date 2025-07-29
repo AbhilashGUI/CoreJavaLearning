@@ -9,14 +9,14 @@ public class ThreadDeadlock {
         Thread t1 = new Thread() {
             public void run() {
                 synchronized (resource1) {
-                    System.out.println("Thread1: Locked resource r1");
+                    System.out.println("Thread1:Locked resource r1");
 
                     try {
                         Thread.sleep(1000);
                     } catch (Exception e) {
                     }
                     synchronized (resource2) {
-                        System.out.println("Thread2: Locked resource r2");
+                        System.out.println("Thread2:Locked resource r2");
                     }
                 }
             }
@@ -32,8 +32,8 @@ public class ThreadDeadlock {
                         Thread.sleep(1000);
                     }catch (Exception e) {
                     }
-                        synchronized (resource2){
-                            System.out.println("Thread2:Locked resource r1");
+                        synchronized (resource1){
+                            System.out.println("Thread1:Locked resource r1");
                         }
                     }
             }
