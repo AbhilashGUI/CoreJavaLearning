@@ -1,6 +1,6 @@
-package CentricToAll13.Multithreading.NotifyExample;
+package CentricToAll13.Multithreading.StackExample;
 
-public class Notify
+public class StackWaitNotify
 {
     public static void main(String[] args)
     {
@@ -25,11 +25,12 @@ public class Notify
                 try {
                     wait();
                 } catch (Exception e) {
-                    System.out.println(e);
+                    System.out.println(e);  
                 }
             }
             this.x = x;
             System.out.println(x + " is pushed..");
+
             flag = true;
             notify();
         }
