@@ -12,7 +12,7 @@ public class Lab185 {
 
         //Here we are extracting method using private keyword
 
-        extracted(1);   //Passing parameter
+        extracted(0);   //Passing parameter
         throw new Exception("Combination of throw and throws keyword");
         //Adding a throw keyword, which is vulnerable to this code.
 
@@ -20,7 +20,7 @@ public class Lab185 {
     }
 
     private static void extracted(int c) {
-        int b = 0;
+        int b;
         if (c == 0) {
             throw new ArithmeticException("Intentionally failing the case");
         } else {

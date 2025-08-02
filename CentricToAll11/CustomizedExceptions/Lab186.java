@@ -13,18 +13,23 @@ public class Lab186 {
         //Vulnerable = Prone to error
 
 
-        readfiledata("D://Abhilash.txt");
+        namecheck("Abhilash");
+
     }
     //Defining a function outside the main method
 
 
-    private static void readfiledata(String filedata) throws FileNotFoundException {
-        File f= new File(filedata);
-        FileReader fr= new FileReader(filedata);
-        if(filedata.length() == 16){
-            throw new FileNotFoundException();
+    static void namecheck(String file) throws FileNotFoundException {
+        if (file.length() == 0) {                    // Checks the length of the STRING, not the file!
+            throw new FileNotFoundException("Filename string is empty!");
         }
+        File f = new File(file);              // Creates a File object// Attempts to open the file
+        if (f.exists()) {
+            throw new FileNotFoundException("File does not exist at path:" +file);
         }
+        FileReader fr = new FileReader(file);
+        System.out.print("Through a customized exception");
+    }
 
 }
 

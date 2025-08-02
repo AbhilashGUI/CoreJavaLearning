@@ -7,7 +7,7 @@ import java.io.FileReader;
 public class Lab189 {
     public static void main(String[] args) throws FileNotFoundException {
 
-        //int a=10/0;
+        int a=10/0;
         // Note: This is an example of unchecked exception. Where JVM doesn't know about the error in advance.
 
 
@@ -28,6 +28,6 @@ public class Lab189 {
 
         }
 }
-//In the first piece of code, we have used try&catch block , where as in the
+//In the first piece of code, we have used try&catch block
 //Second piece of code, we have used throws keyword at the method level
 //Relates with the example pipe and a patch
