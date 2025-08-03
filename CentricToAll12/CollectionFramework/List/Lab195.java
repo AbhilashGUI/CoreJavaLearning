@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Lab195
+public class    Lab195
 {
     public static void main(String[] args)
     {

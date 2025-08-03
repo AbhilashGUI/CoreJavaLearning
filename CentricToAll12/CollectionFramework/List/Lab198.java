@@ -11,7 +11,7 @@ public class Lab198
         //Invoking  multi objects using the iterator interface
 
      List mylist=new LinkedList<>();     //Note:List is the PARENT class
-     mylist.add("Vemula");               //Since we did not specified the diamond operator, it allows the object
+     mylist.add('V');               //Since we did not specified the diamond operator, it allows the object
      mylist.add("Abhilash");
      mylist.add("Sharma");
      mylist.add(123);

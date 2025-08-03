@@ -6,7 +6,7 @@ public class Lab196
 {
     public static void main(String[] args)
     {
-        Vector v= new Vector<>();     //Note: Vector is a threadsafe(Executing one program at a time) . It is similar like arraylist
+        Vector v= new Vector();
         v.add("Abhilash");
         v.add("Sharma");
         v.add("Vemula");
@@ -14,3 +14,4 @@ public class Lab196
         System.out.println(v);
     }
 }
+//Note: Vector is a threadsafe(Executing one thread at a time) . It is similar like arraylist

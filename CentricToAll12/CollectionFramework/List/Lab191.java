@@ -6,7 +6,8 @@ public class Lab191 {
     public static void main(String[] args) {
 
         //Collection framework:Focuses on main business logic
-        //List: Contains the collection of elements and index based methods to insert,update delete and search. It can have duplicate elements too.
+        //List: Contains the collection of elements and index based methods to insert,update delete and search.
+        //It can have duplicate elements too.
 
         List Fruits = List.of("Apple", "Orange", "Banana", "Grapes", "Orange");  //Note:List allows duplicate elements
         List Groceries=List.of("Rice","Wheat","Grains","Soaps","Detergent");

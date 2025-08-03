@@ -8,7 +8,7 @@ public class Lab199
 {
     public static void main(String[] args)
     {
-        //Invoking specific object
+        //Invoking specific object in the diamond operator
         List<Integer> mynumlist=new LinkedList<>();
         mynumlist.add(10);
         mynumlist.add(20);

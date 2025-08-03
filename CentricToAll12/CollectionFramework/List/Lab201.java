@@ -2,6 +2,7 @@ package CentricToAll12.CollectionFramework.List;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Lab201
@@ -17,7 +18,7 @@ public class Lab201
     courseslist.add("SDET");
     System.out.println(courseslist);
 
-    List numlist=new ArrayList<>();
+    List numlist=new LinkedList<>();
     numlist.add(100);
     numlist.add(200);
     numlist.add(300);

@@ -16,20 +16,17 @@ public class Lab203
         onlinetutorials.add("LinkedIn Learning");
         System.out.println(onlinetutorials);
 
-        List fee=new LinkedList<>();
-        fee.add(10000);
-        fee.add(9000);
-        fee.add(8000);
-        fee.add(7000);
-        fee.add(6000);
-        System.out.println(fee);
+        List coursefee=new LinkedList<>();
+        coursefee.add(10000);
+        coursefee.add(9000);
+        coursefee.add(8000);
+        coursefee.add(7000);
+        coursefee.add(6000);
+        System.out.println(coursefee);
 
 
-        onlinetutorials.addAll(fee);
+        onlinetutorials.addAll(coursefee);
         System.out.println(onlinetutorials);
-
-
-        System.out.println();
 
         //Using iterator interface
 

@@ -6,7 +6,7 @@ public class Lab208
 {
     public static void main(String[] args)
     {
-        //Note: Stack follows the LIFO approach lastinfirstout.
+        //Note: Stack follows the LIFO approach lastinfirstout & FILO firstinlastout
 
         Stack stack=new Stack();
         stack.push("A");    //Push() function is used to add the items
@@ -21,6 +21,7 @@ public class Lab208
         System.out.println(stack);
         stack.push("E");
         System.out.println(stack);
+        System.out.println(stack.peek());
 
 
 

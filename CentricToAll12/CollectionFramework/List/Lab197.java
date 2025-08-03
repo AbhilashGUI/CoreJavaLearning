@@ -8,7 +8,7 @@ public class Lab197
 {
     public static void main(String[] args){
 
-        //Invoking both String and Integer object using iterator interface
+        //Invoking both String and Integer objects using iterator interface
 
         List<String> mylist=new LinkedList<>();
         mylist.add("Abhilash");

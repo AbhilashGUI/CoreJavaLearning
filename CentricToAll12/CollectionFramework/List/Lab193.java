@@ -10,7 +10,7 @@ public class Lab193 {
 
         List mylist = new ArrayList();
         mylist.add("Abhilash");    //add function adds the element  in the arraylist
-        mylist.add("Vemula");
+        mylist.add('V');
         mylist.add(true);
         mylist.add(123);
 
@@ -21,12 +21,13 @@ public class Lab193 {
         System.out.println(mylist);
 
 
+
         for (int i = 0; i < mylist.size(); i++) {
             System.out.println(mylist.get(i));
         }
 
 
-        //Note: Below concept is an enhanced for loop
+        //Note: Below concept is an enhanced for loop , it accepts all the datatypes
 
         for (Object O : mylist) {
             System.out.println(O);

@@ -3,11 +3,12 @@ package CentricToAll12.CollectionFramework.List;
 import java.util.Enumeration;
 import java.util.Vector;
 
-public class Lab205
+public class  Lab205
 {
     public static void main(String[] args)
     {
         Vector vector=new Vector<>();
+        vector.add('V');
         vector.add("Abhilash");
         vector.add(420);
         vector.add(false);

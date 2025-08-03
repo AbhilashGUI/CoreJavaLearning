@@ -1,9 +1,6 @@
 package CentricToAll12.CollectionFramework.List;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class Lab202
 {
@@ -19,7 +16,7 @@ public static void main(String[] args)
     System.out.println(Courseslist);
 
 
-    List numlist= new ArrayList<>();
+    List numlist= new LinkedList<>();
     numlist.add(100);
     numlist.add(200);
     numlist.add(300);

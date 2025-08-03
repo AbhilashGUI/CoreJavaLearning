@@ -8,7 +8,7 @@ public class Lab200
 {
     public static void main(String[] args)
     {
-
+  //Restricting the other datatypes
         List<String> mylist=new LinkedList<>();
         mylist.add("Abhilash");
         mylist.add("Sharma");
