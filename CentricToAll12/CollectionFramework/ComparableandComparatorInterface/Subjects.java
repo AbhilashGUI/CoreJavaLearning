@@ -10,7 +10,8 @@ class SortbySubjectsAsc implements Comparator<Subjects>
 
 
     @Override
-    public int compare(Subjects o1, Subjects o2) {
+    public int compare(Subjects o1, Subjects o2)
+    {
         return Integer.compare(o1.getMarks(),o2.getMarks());
     }
 }
@@ -78,19 +79,19 @@ public class Subjects implements Comparable<Subjects> {
                 '}';
     }
 
-    //return Integer.compare(this.id, student.id);
 
-    //@Override
-    //public int compareTo(Subjects subjects) {
-      //  return Integer.compare(this.marks, subjects.marks);
-
+    @Override
+    public int compareTo(Subjects subjects) {
+        return Integer.compare(this.marks, subjects.marks);
+    }
+}
 
     //Note: Here, we are using Char-sequence.compare() function to fetch the data using string. Well the string are also displayed in the natural ordering format.
-        @Override
+       /*** @Override
         public int compareTo (Subjects subjects){
             return CharSequence.compare(this.subjects,subjects.subjects);
 
         }
-    }
+    }***/
 
 

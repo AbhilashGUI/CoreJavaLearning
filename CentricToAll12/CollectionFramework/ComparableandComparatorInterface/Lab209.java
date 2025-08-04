@@ -10,7 +10,7 @@ public class Lab209
     {
 
         Students student=new Students(1,"Abhilash");
-        Students student2=new Students(12,"Amit");
+        Students student2=new Students(12,"Anit");
         Students student3=new Students(8,"Amrith");
 
 
@@ -22,6 +22,11 @@ public class Lab209
         students.add(student3);
         System.out.println(students);
 
+        //Comparable fetchings
+        Collections.sort(students);
+        System.out.println(students);
+
+        //Compartor fetchings
         Collections.sort(students,new SortbyStudentsAsc());
         System.out.println(students);
         Collections.sort(students,new SortbyStudentsDsc());

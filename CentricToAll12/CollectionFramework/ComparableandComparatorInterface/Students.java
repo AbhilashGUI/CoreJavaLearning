@@ -65,7 +65,7 @@ public class Students implements Comparable<Students> {
 
 
     int id;
-
+    String name;
 
     //Post  implementing the tostring method, able to execute the code.
     @Override
@@ -76,7 +76,7 @@ public class Students implements Comparable<Students> {
                 '}';
     }
 
-    String name;
+
 
 
 
@@ -89,7 +89,8 @@ public class Students implements Comparable<Students> {
         //return Integer.compare(this.id, student.id);
 
     @Override
-    public int compareTo(Students student) {
+    public int compareTo(Students student)
+    {
         return CharSequence.compare(this.name,student.name);
     }
 
