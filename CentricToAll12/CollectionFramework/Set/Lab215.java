@@ -10,8 +10,8 @@ public class Lab215
        //Combination of both String and int
         Set Tier1Cities=new HashSet();
         Tier1Cities.add("Hyderabad");
-        Tier1Cities.add(1);
-        System.out.println( Tier1Cities +"It comes under  tier 1 cities");
+        Tier1Cities.add(6);
+        System.out.println( Tier1Cities + "-->"+" Known for its technology industry and historical sites, it is a growing economic center.");
 
 
 

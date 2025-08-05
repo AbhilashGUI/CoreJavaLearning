@@ -20,7 +20,7 @@ public class Lab213
         Tier1cities.add("Ahmedabad");
         //Tier1cities.add(8);  Since we are specified strings in the diamond operators it restricts the int
 
-        System.out.println(Tier1cities);
+
         System.out.println("The following cities falls under Tier1 ==>" + Tier1cities);
 
 

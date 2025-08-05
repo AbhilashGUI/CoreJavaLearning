@@ -14,12 +14,14 @@ public class Lab212
         pharmacy.add("Surgical items");
         pharmacy.add("Snack items");
         pharmacy.add("Playing cards");
+        pharmacy.add("Soft drinks");
         System.out.println(pharmacy);
 
         System.out.println(pharmacy.remove("Snack items"));
-        System.out.println(pharmacy.contains("Playing cards"));
+        System.out.println(pharmacy.contains("Soft drinks"));
         System.out.println(pharmacy.remove("Playing cards"));
         System.out.println(pharmacy.size());
+        System.out.println(pharmacy);
 
 
 

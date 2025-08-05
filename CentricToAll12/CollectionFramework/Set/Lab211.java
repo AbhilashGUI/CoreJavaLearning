@@ -18,12 +18,12 @@ public class Lab211
         System.out.println(fruits);  //Note: It doesn't allow the duplicate elements
 
 
-        //Verifying some function of it
-        System.out.println(fruits.remove("Orange"));   //It returns boolean result
+        //Verifying some functions
+        System.out.println(fruits.remove("Orange"));
         System.out.println(fruits);
         System.out.println(fruits.size());
-        System.out.println(fruits.isEmpty());
-        System.out.println(fruits.contains("Orange"));
+        System.out.println(fruits.isEmpty());//It returns boolean result
+        System.out.println(fruits.contains("Orange"));//It returns boolean result
 
 
 
