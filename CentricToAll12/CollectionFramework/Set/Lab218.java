@@ -8,7 +8,7 @@ public class Lab218
     public static void main(String[] args)
     {
         //List of Tier4 cities
-        Set Tier4Cities=new TreeSet();  //Treeset sort the elements in order. Since it is pre-order, verify the next
+        Set Tier4Cities=new TreeSet();  //Treeset sort the elements in Alphabetical order. Since it is pre-order, verify the next
         Tier4Cities.add("Banswara");
         Tier4Cities.add("Bhadreswar");
         Tier4Cities.add("Sujangarh");  //It doesn't allow duplicate elements
@@ -22,7 +22,7 @@ public class Lab218
         Tier4Cities.add("Sujangarh");
 
 
-        System.out.println(Tier4Cities);
+        System.out.println(" The following cities falls under tier4--> "+Tier4Cities);
 
     }
 }

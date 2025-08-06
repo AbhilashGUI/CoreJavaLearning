@@ -2,15 +2,16 @@ package CentricToAll12.CollectionFramework.Set;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Lab216
 {
     public static void main(String[] args)
     {
-        //List of Tier2 cities
+        //List of Tier2 cities sort in the defined order and no duplicates allowed
 
-        Set Tier2Cities=new HashSet();
+        Set Tier2Cities=new LinkedHashSet();
         Tier2Cities.add("Amritsar");
         Tier2Cities.add("Bhopal");
         Tier2Cities.add("Bhubaneswar");
@@ -31,12 +32,13 @@ public class Lab216
         Tier2Cities.add("Kanpur");
         Tier2Cities.add("Mysore");
         Tier2Cities.add("Srinagar");
+        Tier2Cities.add("Nagpur");
 
-
-        //Using iterator to print the statements
+        System.out.println("Tier 2 cities known for-->Developing rapidly, good infrastructure, moderate cost of living, often considered emerging urban");
 
         Iterator it=Tier2Cities.iterator();
-        while (it.hasNext()){
+        while (it.hasNext())
+        {
             System.out.println(it.next());
         }
 

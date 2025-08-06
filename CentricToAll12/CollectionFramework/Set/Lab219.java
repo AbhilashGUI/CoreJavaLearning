@@ -18,9 +18,11 @@ public class Lab219
         Tier4Cities.add("Bhadreswar");
         Tier4Cities.add("Kalyani");
         Tier4Cities.add("Kapurthala");
-        Tier4Cities.add("Sujangarh");            //It doesn't allow duplicate elements
+        Tier4Cities.add("Sujangarh");
         Tier4Cities.add("Chilakaluripet");
-
+        //It doesn't allow duplicate elements
+        Tier4Cities.add("Chilakaluripet");
+       //It sort in the alphabetical order
         Iterator it=Tier4Cities.iterator();
         while (it.hasNext())
         {

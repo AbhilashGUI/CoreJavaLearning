@@ -1,5 +1,6 @@
 package CentricToAll12.CollectionFramework.Set;
 
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -8,7 +9,7 @@ public class Lab217
     public static void main(String[] args)
     {
         //List of Tier3 cities
-        Set Tier3Cities=new LinkedHashSet();   //It follows a sequence order
+        Set Tier3Cities=new LinkedHashSet();   //It follows a sequence order as defined
         Tier3Cities.add("Etawah");
         Tier3Cities.add("Roorkee");
         Tier3Cities.add("Rajamundry");
@@ -29,9 +30,13 @@ public class Lab217
         Tier3Cities.add("Cuttack");
         Tier3Cities.add("Vijayawada");
         Tier3Cities.add("Nashik");
-        System.out.println(Tier3Cities);
 
 
+        Iterator it= Tier3Cities.iterator();
+        while(it.hasNext())
+        {
+            System.out.println(it.next());
+        }
 
     }
 }
