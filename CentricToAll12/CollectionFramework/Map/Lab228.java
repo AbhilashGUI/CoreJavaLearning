@@ -20,6 +20,8 @@ public class Lab228
         GoogleProducts3.put("GoogleNest",29);
         GoogleProducts3.put("Youtube,Youtubekids,YoutubeMusic,YoutubeTv",30);
 
+
+        //Enhanced for loop
         for (Map.Entry<String,Integer> item: GoogleProducts3.entrySet())
         {
             System.out.println(item.getKey()+ "-->" + item.getValue());

@@ -10,7 +10,7 @@ public class Lab223
     {
 
         //For strings it follows as per FIFO
-        Queue<String> Nameset=new PriorityQueue<>();
+        Queue<String> Nameset=new PriorityQueue<String>();
         Nameset.offer("Abhilash");
         Nameset.offer("Akash");
         Nameset.offer("Advait");

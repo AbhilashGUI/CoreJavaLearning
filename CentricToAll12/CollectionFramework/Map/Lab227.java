@@ -21,7 +21,7 @@ public class Lab227
         GoogleProducts2.put("GoogleTv",20);
 
 
-
+         //Enhanced for loop
         for (Map.Entry<String, Integer> item :GoogleProducts2.entrySet()) {
             System.out.println(item.getKey() + "-->" + item.getValue());
         }

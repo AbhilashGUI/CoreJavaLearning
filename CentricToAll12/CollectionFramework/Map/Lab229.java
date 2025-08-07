@@ -19,7 +19,7 @@ public class Lab229
         GoogleProducts4.put("GoogleSites,Slides",39);
         GoogleProducts4.put("GoogleFlights,Travel",40);
 
-
+        //Enhanced for loop
         for (Map.Entry<String,Integer> item: GoogleProducts4.entrySet())
         {
             System.out.println(item.getKey() + "-->" + item.getValue());

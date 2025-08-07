@@ -8,7 +8,7 @@ public class Lab222
 {
     public static void main(String[] args)
     {
-        //It allow only the integer values
+        //It allows only the integer values, since we defined the integer in the diamond operator
 
         Queue<Integer> numset=new PriorityQueue<>();
         numset.offer(74);

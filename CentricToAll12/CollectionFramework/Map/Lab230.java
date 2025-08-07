@@ -18,7 +18,7 @@ public class Lab230 {
         GoogleProducts5.put("Google Shopping", 48);
         GoogleProducts5.put("GoogleCloudPrint,Store", 49);
         GoogleProducts5.put("GoogleExpeditions & Express", 50);
-
+        //Enhanced for loop
         for (Map.Entry<String,Integer> item : GoogleProducts5.entrySet())
         {
             System.out.println(item.getKey() + "-->" + item.getValue());
