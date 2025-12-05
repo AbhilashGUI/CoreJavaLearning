@@ -7,7 +7,7 @@ public class Lab013
 
         //The value against final keyword can't be changed.
         final String name="@bhila$h";
-        //name="Abhilash";  Occurence of an error cannot assign value tl final variable
+        //name="Abhilash";  Occurence of an error cannot assign value for final declared keyword
         System.out.println(name);
 
         final float pie=3.14f;

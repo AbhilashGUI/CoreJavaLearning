@@ -11,19 +11,32 @@ public class Lab042 {
         //0-34                           Fail
 
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the marks obtained in the first semester: ");
-        int marks = sc.nextInt();
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the marks obtained in the first sem: ");
+        int marks=sc.nextInt();
 
-        if (marks >= 70 && marks <= 100) {
+        if(marks >= 70 && marks <=100)
+        {
             System.out.println("Distinction");
-        } else if (marks >= 60 && marks <= 69) {
+        }
+        else if (marks >=60 && marks <=69)
+        {
             System.out.println("First class");
-        } else if (marks >= 50 && marks <= 59) {
+        }
+        else if (marks >=50 && marks<=59 )
+        {
             System.out.println("Second class");
-        } else if (marks >= 40 && marks <= 49) {
+        }
+        else if (marks >=40 && marks <=49)
+        {
             System.out.println("Third class");
-        } else {
+
+        }
+        else if (marks >= 35 && marks<=39)
+        {
+            System.out.println("Passed");
+        }
+        else {
             System.out.println("Fail");
         }
     }

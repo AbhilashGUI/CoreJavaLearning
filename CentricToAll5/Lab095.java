@@ -8,7 +8,7 @@ public class Lab095
         It is also known as exit controlled loop. It is preferred when no. of the iterations are not fixed
         and it executes loop at least once.*/
 
-        int i=1;
+        int i=15;
         do{
             System.out.println(i);
             i++;

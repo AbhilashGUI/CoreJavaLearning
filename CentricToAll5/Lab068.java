@@ -12,8 +12,6 @@ public class Lab068 {
             }
             System.out.println("value is "+ i);
         }
-
-        System.out.print("Breaks at the condition 3");
     }
 }
 

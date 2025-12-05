@@ -22,7 +22,7 @@ public class Lab022
         String name1="Vicky";
         String name2="Micky";
         int k= Integer.parseInt("74");
-        System.out.println(name1+i+j+k); //In this case int egers are getting concatenate
+        System.out.println(name1+i+j+k); //In this case integers are getting concatenate
         System.out.println(i+j+k+name1); //In this case integers are added
         System.out.println(name1+i+name2+j);
         System.out.println(name1+name2+i+j);//In this case int are getting concatenate

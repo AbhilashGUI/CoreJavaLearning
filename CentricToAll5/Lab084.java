@@ -11,8 +11,8 @@ public class Lab084
             {
                 continue; //It skips the condition in every iteration where ever it satisfies
             }
-            System.out.println(i);
+            System.out.println("Odd number is :"+i);
         }
-        System.out.println("Above are the list of odd numbers");
+
     }
 }

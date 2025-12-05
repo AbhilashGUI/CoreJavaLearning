@@ -13,8 +13,8 @@ public class Lab060 {
 
         //forloop: We use for loop only when we know , how many times to execute a block of the code/Fixed iterations.
         /*A: Initialization -->Initializing the variable.This is the starting point.
-        *B:Condition --> When you want this to stop
-        *C:Increment/Decrement --> A single line of code
+         *B:Condition --> When you want this to stop
+         *C:Increment/Decrement --> A single line of code
          */
 
 
@@ -22,30 +22,21 @@ public class Lab060 {
         for (int i = 0; i < 10; i++)
         //It counts from 0 to 9
         {
-         System.out.println("Abhilash Vemula");
+            System.out.println("Abhilash Vemula");
         }
-         //Can start the forloop with by declaring 0 or 1 and i<=10
+        //Can start the forloop with by declaring 0 or 1 and i<=10
 
         System.out.println();
 
-        for (int i = 1; i <= 10; i++)
-       //It counts from 1 to 10
+        int a=15;
+        for(int i=0;i<=20;i++)
         {
-            System.out.println("Vemula Abhilash");
+            System.out.println(a);
         }
 
-      for(int i=1;i<=1;i++)
-      {
-          System.out.println("Vemula");
-      }
-      for(int i=1;i<=1;i++)
-      {
-          System.out.println("Abhilash");
-      }
-      for(int i=1;i<=1;i++)
-      {
-          System.out.println("Sharma");
-      }
     }
-    }
+}
+
+
+
 
