@@ -6,14 +6,10 @@ public class Lab002
     {
          //boolean value can be either True/False
 
-        boolean Isjavainteresting=true;
-        boolean Isjavacomplicated=false;
+       boolean isjavacasesensitive=true;
+       boolean isjavacaseinsensitive=false;
 
-        System.out.println("true, Java is quite interesting");
-        System.out.print("false,Java is not that complicated");
-
-
-
+        System.out.println("Yes, it is case-sensitive");
 
 
 

@@ -9,8 +9,8 @@ public class Lab005
         int assetvalue=2123000154;
         //assetvalue=2346987453;  Occurence of error due to the value exceeding
         System.out.println("Assetvalue is less than the int value " + assetvalue);
-        int rewardsearned=29544820;
-        System.out.println(assetvalue+ rewardsearned);  //Maximum value is shown
+        int additionalvalue=29544820;
+        System.out.println(assetvalue + additionalvalue);  //Maximum value is shown
 
     }
 }
