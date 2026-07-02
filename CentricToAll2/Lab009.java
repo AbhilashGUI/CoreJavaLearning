@@ -8,14 +8,18 @@ public class Lab009
 
         //Ensure to use single quotation marks, when assigning value for char variable
         char c=97;
-        System.out.println('A'+c);  //appending characters
-        //Ensure for Integers no quotations are used
+        System.out.println('v'+c);  //appending characters
+
         byte b=10;
         b=117+10;  //appending b value
         System.out.println(b);
+
         short s=15896;
         System.out.println(s+562);  //appending value
+
+
         int d=452856321;
+        d=544656544;
         System.out.println(d);
 
         //Ensure to use l at the end of the longdatatype variable value

@@ -6,20 +6,20 @@ public class Lab012
     {
 
         //Declaring variable using different datatypes
-        byte b=70;
-        short s=920;
-        int i=3000;
-        long l=458369450;
+        byte b=120;
+        short s=1020;
+        int i=30000;
+        long l=87549632117l;
         System.out.println(b);
         System.out.println(s);
         System.out.println(i);
         System.out.println(l);
 
         System.out.println("Replacing the above data type variable values as shown below");
-         b=120;
+         b=127;
          s=2100;
          i=862300;
-         l=759832400;
+         l=9759832400l;
          System.out.println(b);
          System.out.println(s);
          System.out.println(i);

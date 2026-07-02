@@ -6,7 +6,7 @@ public class Lab011
     {
         int i=10;
         int num=20;
-        System.out.printf("%d*1=%d*2=%d*3",i,num,30);
+        System.out.printf("%d*1:%d*2:%d*3",i,num,30);
         //values get assigned to %d at every instance in the above print statement.
         //printf stands for formatting
         System.out.println();
