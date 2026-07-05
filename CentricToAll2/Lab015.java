@@ -5,8 +5,8 @@ public class Lab015
     public static void main(String[] args)
     {
         //Arithmetic operators--->+,-,*,/,%
-        int a=160;
-        byte b=40;
+        int a=137;
+        byte b=42;
         System.out.println("Sum of 2 numbers =" + (a+b));
         System.out.println("Sub of 2 numbers =" + (a-b));
         System.out.println("Mul of 2 numbers =" + (a*b));

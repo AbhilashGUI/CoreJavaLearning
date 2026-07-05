@@ -6,28 +6,26 @@ public class Lab017
     {
         //Shift operators: Right shift operator >> (Divide) and Left shift operator << (Multiply)
 
-        int i=15;
-        int j=21;
-        int k=343;
-        int l=524;
-        int m=639;
-        System.out.println(i>>2);  //15/4
-        System.out.println(j>>3);  //21/8
-        System.out.println(k>>4);  //343/16
-        System.out.println(l>>5);  //524/32
-        System.out.println(m>>6);
+        int i=10;
+        int j=20;
+        int k=30;
+        int l=40;
+        int m=60;
+        System.out.println(i>>2);  //10/4
+        System.out.println(j>>3);  //20/8
+        System.out.println(k>>4);  //30/16
+        System.out.println(l>>5);  //40/32
 
-
-        int i1=2;
-        int j1=4;
-        int k1=5;
-        int l1=6;
-        int m1=7;
-        System.out.println(i1<<4);  //2*16
-        System.out.println(j1<<5); //4*32
-        System.out.println(k1<<6); //5*64
-        System.out.println(l1<<7); //6*128
-        System.out.println(m1<<8); //7*256
+        int i1=25;
+        int j1=45;
+        int k1=55;
+        int l1=65;
+        int m1=75;
+        System.out.println(i1<<6);
+        System.out.println(j1<<7);
+        System.out.println(k1<<8);
+        System.out.println(l1<<9);
+        System.out.println(m1<<10);
 
 
 

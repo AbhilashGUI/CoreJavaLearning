@@ -4,29 +4,26 @@ public class Lab016 {
     public static void main(String[] args) {
         //Unary operators : postfix==>expr++, expr-- and prefix==>++expr,--expr
 
-        int i = 10;//postfix
-        int j = 10;//prefix
-        System.out.println(i++);
-        System.out.println(++j);
+        int i=12;
+        int j=14;
+        System.out.println(i++);  //prints and later gets incremented
+        System.out.println(i);
+        System.out.println(++j);  //gets incremented and printed
 
 
-        int i1=12;//postfix
-        int j1=8;//prefix
-        System.out.println(i1--);
-        System.out.println(--j1);
-
-        int i2=45;
-        int j2=54;
-        System.out.println(i2++ + ++j2);  //45+55 =100
-        System.out.println(--j2 - j2--);  //54-54=0
-        System.out.println(++j2 + --i2);  //55+44=99
+        int k=15;
+        int l=17;
+        System.out.println(k--);
+        System.out.println(k);
+        System.out.println(--l);
 
 
-        int i3=65;
-        int j3=74;
-        System.out.println(j3++ - --i3);
-        System.out.print(i3++ + --j3);
-
+       int m=65;
+       int n=78;
+       System.out.println(m++ + m++);
+       System.out.println(n-- - n--);
+       System.out.println(++m - --n);
+       System.out.println(m-- + n--);
 
 
 

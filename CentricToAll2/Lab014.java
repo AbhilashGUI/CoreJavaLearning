@@ -13,16 +13,19 @@ public class Lab014 {
 
 
         //Note that a single character like letter cannot be declared as string
-        //char a1="B";
-        //System.out.println(a1);
+        //char a1="B"; error
+
 
         String a2="1";  //It comes under Non-primitive data type
-        System.out.println(a2);
+        System.out.print(a2);
 
-        char b = '\n';    //To provide a space b/w first and second characters
+        char b = '\n';    //It prints in the next line
         System.out.println(b);
 
-        char c = 54;
+
+        //String b2='2'; error
+
+        char c = 54;  //digit code
         System.out.println(c);
 
        //Note: Emoticon is the keyword to search for unicodes

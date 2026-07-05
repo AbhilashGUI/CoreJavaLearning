@@ -1,21 +1,24 @@
 package CentricToAll2;
 
-public class Lab013
-{
+public class Lab013 {
+
     public static void main(String[] args)
     {
-
         //The value against final keyword can't be changed.
-        final String name="@bhila$h";
-        //name="Abhilash";  Occurence of an error cannot assign value for final declared keyword
+
+        final String name="Abhilash";
+        //name="vicky";  error
+
         System.out.println(name);
 
-        final float pie=3.14f;
-        //pie=15.70f;
-        System.out.println(pie);
+        long mobilenumber=8963254789l;
+        final long mobilenumber1=6987456321l;
+        System.out.println(mobilenumber);
 
-       final long mobilenumber=7095363018l;
-       System.out.println(mobilenumber);
+        //mobilenumber1=4464645456l; error
+        System.out.println(mobilenumber1);
 
     }
+
+
 }

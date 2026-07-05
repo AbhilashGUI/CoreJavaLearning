@@ -6,25 +6,25 @@ public class Lab018
     {
         //Logical operators
         //Logical AND operators(&&)
-        int i=10;
-        int j=20;
-        System.out.println(i>j&&j<i);  //Both the conditions must be true/false
+        int i=17;
+        int j=23;
+        System.out.println(i<j&&j>i);  //Both the conditions must be true/false
 
         //Logical OR operators
-        int i1=30;
-        int j1=40;
-        System.out.println(i1>j1||i1<j1); //One of the condition must be true
+        int k=33;
+        int l=40;
+        System.out.println(k>l||k<l); //One of the condition must be true
 
 
         //Bitwise AND operators
-         int i2=45;
-         int j2=50;
-         System.out.println(i2<j2&j2>i2);//Here both the conditions must be true/false
+         int m=48;
+         int n=56;
+         System.out.println(m<n&n>m);//Here both the conditions must be true/false
 
         //Bitwise OR operators
-        int i3=60;
-        int j3=80;
-        System.out.println(i3>j3|j3>i3); //One conditions must be true
+        int o=66;
+        int p=84;
+        System.out.println(o<p|o>p); //One conditions must be true
 
 
 

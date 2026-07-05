@@ -9,16 +9,16 @@ public class Lab021
         char c1='\t';//Add tab or provide a space
         char c2='\b';//Deletes the last character of the 1st string
         char c3='\r';//Deletes the 1st String
-        System.out.println("Abhilash"+ c +"Sharma");
-        System.out.println("Abhilash"+ c1 +"Sharma");
-        System.out.println("Abhilash1"+ c2 + "Sharma");
-        System.out.println("Abhilash"+ c3 +"Sharma");
-        System.out.println("Abhilash"+ '\n'+ "Sharma");
+        System.out.println("Abhilash"+ c +"Vemula");
+        System.out.println("Abhilash"+ c1 +"Vemula");
+        System.out.println("Abhilash1"+ c2 + "Vemula");
+        System.out.println("Abhilash"+ c3 +"Vemula");
+        System.out.println("Abhilash"+ '\n'+ "Vemula");
 
         //String examples
         String Surname="Vemula ";
         String Firstname="Abhilash ";
         String Middlename="Sharma ";
-        System.out.println(Firstname + Middlename + Surname);
+        System.out.println(Surname+Firstname + Middlename + "--As per Aadhar");
     }
 }
