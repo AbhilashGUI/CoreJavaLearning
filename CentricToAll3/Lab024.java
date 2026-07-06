@@ -19,7 +19,7 @@ public class Lab024
 
         //Assigning  char value to byte
 
-        //Note: Relational operator compare the references
+        //Note: Relational operator comparing the references
         byte b=65;
         System.out.println('A'==b);
         System.out.println('C'==b);

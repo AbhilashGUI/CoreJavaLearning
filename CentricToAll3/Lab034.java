@@ -22,7 +22,7 @@ public class Lab034
         System.out.println(++a);
 
 
-        //sum of pre and post operation
+
         //Increment operation
         System.out.println(++a + a++ + ++a);
         //It prints 1+12 =13 ,13,1+14=15 sum of all=41

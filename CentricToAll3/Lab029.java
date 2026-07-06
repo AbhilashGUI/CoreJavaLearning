@@ -5,7 +5,7 @@ public class Lab029
     public static void main(String[] args)
     {
 
-        //Counting the length of the string
+        //pre-defined functions of String
         String name="Vemula Abhilash Sharma";
         System.out.println(name.length());  //It counts a length of a string including the spaces
         System.out.println(name.toUpperCase()); //It coverts the string to uppercase

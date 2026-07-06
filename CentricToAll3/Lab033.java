@@ -11,6 +11,7 @@ public class Lab033
         System.out.println(i);
         System.out.println(i2);
 
+        //Genric
         String covideffected=1<3 ? "Huge effect of first wave" : "Less effect of third wave";
         System.out.println(covideffected);
 

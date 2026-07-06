@@ -13,7 +13,7 @@ public class Lab022 {
          //String Concatenation :Reads from left to right
          //below are some of the examples
 
-         //Concatenate String and integer
+         //Concatenate Strings and integers
          String name="Abhilash";
          System.out.println(name+i);
          System.out.println(i+name);

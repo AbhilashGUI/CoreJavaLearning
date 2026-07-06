@@ -16,13 +16,13 @@ public class Lab023
 
       int one_kg=1000;
       int ten_kgs=10000;   //in grams
-      boolean weightcheck=one_kg<ten_kgs;
+      boolean weightcheck1=one_kg<ten_kgs;
       boolean weightcheck2=one_kg>ten_kgs;
       boolean weightcheck3=one_kg==ten_kgs;
       boolean weightcheck4=ten_kgs<one_kg;
       boolean weightcheck5=ten_kgs>one_kg;
 
-      System.out.println(weightcheck);
+      System.out.println(weightcheck1);
       System.out.println(weightcheck2);
       System.out.println(weightcheck3);
       System.out.println(weightcheck4);

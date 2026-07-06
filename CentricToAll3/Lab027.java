@@ -15,12 +15,6 @@ public class Lab027 {
         System.out.println(FuelPrice);
 
 
-
-
-
-
-
-
     }
 }
 

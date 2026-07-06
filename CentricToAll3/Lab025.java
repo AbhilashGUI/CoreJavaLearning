@@ -15,7 +15,7 @@ public class Lab025
          b2=(!(true));
          System.out.println(b2);
 
-         //Examples
+         //Examples using assignment operators
         int a=25;
         int b=37;
         int c=49;

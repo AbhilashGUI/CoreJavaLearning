@@ -8,7 +8,7 @@ public class Lab031
         String Middlename="Sharma";
         String Surname="Vemula";
 
-        //Using concat() method for connecting strings
+        //Using concat() method for connecting strings as a whole
 
         String FM=Firstname.concat(Middlename);
         String SF=Surname.concat(Firstname);

@@ -10,7 +10,7 @@ public class Lab026
         byte b=43;
         short s=b;
         System.out.println(s);
-         //short s= (short) b;  Explicit casing JVM is not responsible for it.
+         //short s= (short) b;  Explicit casting JVM is not responsible for it.
 
 
         //Narrowing : Is a process of converting higher datatype to lower datatype. It is critical and cannot predict the o/p
@@ -28,6 +28,6 @@ public class Lab026
         byte b2= (byte) i2;
         System.out.println(b2);
 
-        //Note: Refer the notes to convert decimal to binary
+        //Note: Refer notes to convert decimal to binary
             }
 }
