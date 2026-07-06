@@ -1,21 +1,20 @@
 package CentricToAll3;
 
 public class Lab027 {
-    public static void main(String[] args) {
+
+    public static void main(String[] args)
+    {
 
         //using floating point variables
-        float Milk_perliter = 40;
-        float state_gst = 1;
-        float central_gst = 1;
-        double invoice = Milk_perliter + state_gst + central_gst;
-        System.out.println(invoice);
+      //Fuel prices in telangana : https://www.mypetrolprice.com/34/Fuel-Prices-in-Telangana
+
+        float fuel_price=100;
+        float oil_marketing_companies=10.3f;
+        float dealer_commission=5.7f;
+        double FuelPrice=fuel_price+oil_marketing_companies+dealer_commission;
+        System.out.println(FuelPrice);
 
 
-        int cashwithdrawl=100000;
-        int cashhandlingcharges=500;
-        int gst_oncashhandlingcharges=90;
-        long debitedTransaction=cashwithdrawl+cashhandlingcharges+gst_oncashhandlingcharges;
-        System.out.println(debitedTransaction);
 
 
 

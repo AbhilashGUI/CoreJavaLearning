@@ -4,16 +4,22 @@ public class Lab031
 {
     public static void main(String[] args)
     {
-        String s1="Vemula";
-        String s2="Abhilash";
-        String s3="Sharma";
+        String Firstname="Abhilash";
+        String Middlename="Sharma";
+        String Surname="Vemula";
 
-        String s4=s1.concat(s2);//Using concat() method for connecting strings
-        String s5=s2.concat(s1);
-        String s6=s2.concat(s3);
-        System.out.println(s4);
-        System.out.println(s5);
-        System.out.println(s6);
+        //Using concat() method for connecting strings
+
+        String FM=Firstname.concat(Middlename);
+        String SF=Surname.concat(Firstname);
+        String MS=Middlename.concat(Surname);
+        String SMF=Firstname.concat(Middlename).concat(Surname);
+        System.out.println(FM);
+        System.out.println(SF);
+        System.out.println(MS);
+        System.out.println(SMF);
+
+
 
     }
 }

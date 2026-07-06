@@ -4,7 +4,7 @@ public class Lab034
 {
     public static void main(String[] arg)
     {
-        //Unary operators are called as increment operators
+        //Unary operators are called as increment and decrement operators
 
         //pre and post
         int i=120;
@@ -22,7 +22,7 @@ public class Lab034
         System.out.println(++a);
 
 
-        //sum of pre and post
+        //sum of pre and post operation
         //Increment operation
         System.out.println(++a + a++ + ++a);
         //It prints 1+12 =13 ,13,1+14=15 sum of all=41

@@ -6,33 +6,29 @@ public class Lab024
     {
         //Relational operator using char
 
-        System.out.println('A'==65);
-        System.out.println('z'==122);
-        System.out.println('0'!=50);
-        System.out.println('#'==35);
+         System.out.println('A'==65);
+         System.out.println('B'==66);
+         System.out.println('H'==72);
+         System.out.println('I'==73);
+         System.out.println('L'==76);
+         System.out.println('A'==65);
+         System.out.println('S'==83);
+         System.out.println('H'==72);
 
-        //If assigning byte value as char
+
+
+        //Assigning  char value to byte
 
         //Note: Relational operator compare the references
         byte b=65;
         System.out.println('A'==b);
-        byte b1=122;
-        System.out.println('z'==b1);
-
-
+        System.out.println('C'==b);
         System.out.println('A'==65.0); //This is a property of java
-        System.out.println('z'==122.0f);
 
-        System.out.println('A'==65.02);
-        boolean Gender_Male=true;   //
-        boolean Gender_Female=false;
-        System.out.println(Gender_Male!=Gender_Female);
 
-        int Major_group= 21;
-        int Minor_group= 18;
 
-        Boolean result= Major_group <= Minor_group;
-        System.out.println(result);
+
+
 
 
     }

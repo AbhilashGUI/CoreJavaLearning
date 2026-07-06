@@ -7,25 +7,26 @@ public class Lab026
     //Casting : Mold
     //Widening : Is a process of converting lower datatype to higher datatype. It's safe and default operation
 
-        byte b=23;
-        int c=b;//Implicit casting--JVM is responsible for it.
-        //int c= (int) b;//Explicit casting--JVM is not responsible for it.
-        System.out.println(c);
+        byte b=43;
+        short s=b;
+        System.out.println(s);
+         //short s= (short) b;  Explicit casing JVM is not responsible for it.
 
-    //Narrowing : Is a process of converting higher datatype to lower datatype. It is critical and cannot predict the o/p
-        int a1=500;
-        byte b1= (byte) a1; // This is explicit casting
+
+        //Narrowing : Is a process of converting higher datatype to lower datatype. It is critical and cannot predict the o/p
+
+        short s1=500;
+        byte b1= (byte) s1;
         System.out.println(b1);
 
-        int i=450;
-        byte b2=  (byte) i;
+
+        int i1=1000;
+        short s2= (short) i1;
+        System.out.println(s2);
+
+        int i2=1500;
+        byte b2= (byte) i2;
         System.out.println(b2);
-
-
-        short s=30000;
-        byte t= (byte) s; //This is explicit casting
-        System.out.println(t);
-
 
         //Note: Refer the notes to convert decimal to binary
             }

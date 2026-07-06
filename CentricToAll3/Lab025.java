@@ -7,31 +7,39 @@ public class Lab025
         //Not(!) is also considered as a part of logical operators
         //lets see some examples using not operator
 
-       boolean b1=true;
-        b1=(!(true));
-        System.out.println(b1);
-        System.out.println(!b1);
-         int a=15;
-         int b=18;
-         int c=21;
-         System.out.println(a>b);
-         System.out.println(!(a>b));
 
-        //Using logical operators
-         boolean d= (a<b) && (b<c);
-         boolean e= (a>b) || (c>b);
-         System.out.println(d);
-         System.out.println(e);
+         boolean b1=true;
+         System.out.println(b1);
+         boolean b2=false;
+         b2=(!(false));
+         b2=(!(true));
+         System.out.println(b2);
 
-         //Using bitwise operators
-
-        boolean f=(10>5)| (5>10);
-        boolean g=(14>7) &(7<14);
-        System.out.println(f);
-        System.out.println(g);
+         //Examples
+        int a=25;
+        int b=37;
+        int c=49;
+        System.out.println(a<c);
+        System.out.println(b<a);
 
 
+        //Using the logical operators
+        boolean x= (a<b) && (c>a);
+        boolean y= (a>b) || (b<c);
+        boolean z= a==b;
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
 
+
+        //Using bitwise operators
+
+        boolean x1= (a>b) & (b>a);
+        boolean y1= (a>b) | (a<c);
+        boolean z1= !(a==b);
+        System.out.println(x1);
+        System.out.println(y1);
+        System.out.println(z1);
 
     }
 }
