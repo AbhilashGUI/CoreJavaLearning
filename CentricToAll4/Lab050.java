@@ -11,14 +11,16 @@ public class Lab050 {
         switch (product)
         {
             case  "Biscuits":
-                System.out.println("It comes under Snakcs");
+                System.out.println("It comes under Snacks");
                 break;
             case "Cooldrinks":
                 System.out.println("It comes under beverages");
                 break;
             case "Cakes":
-                System.out.println("It comes under Pastery");
+                System.out.println("It comes under Dessert");
             break;
+            default:
+                System.out.println("Out of stock");
         }
 
     }

@@ -8,29 +8,23 @@ public class Lab039
 
     {
         //Taking two inputs from keyboard and displaying the min number
+
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the number 1");
-        float number1=sc.nextFloat();
-        System.out.println("Enter the number 2");
-        float number2 =sc.nextFloat();
+        byte number1=sc.nextByte();
+        System.out.println("Enter the number 2 ");
+        byte number2=sc.nextByte();
 
         if(number1<number2)
         {
-            System.out.println("Minimum number is : "+ number1);
+            System.out.println("It is a minimum number");
         }
         else
         {
-            System.out.println("negligible number");
+            System.out.println("Negligible number");
         }
 
 
-
     }
-
-
-
-
-
-
 
 }

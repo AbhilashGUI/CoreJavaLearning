@@ -7,37 +7,35 @@ public class Lab042 {
         //70-100                         First class with distinction
         //60-69                          First class
         //50-59                          Second class
-        //40-49                          Third class
+        //35-49                          Third class
         //0-34                           Fail
 
 
         Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the marks obtained in the first sem: ");
-        int marks=sc.nextInt();
+        System.out.println("Enter the percentage obtained: ");
+        int percentage =sc.nextInt();
 
-        if(marks >= 70 && marks <=100)
+        if(percentage>70 && percentage<100)
         {
-            System.out.println("Distinction");
+            System.out.println("First class with distinction");
         }
-        else if (marks >=60 && marks <=69)
+        else if (percentage>60 && percentage<69)
         {
             System.out.println("First class");
         }
-        else if (marks >=50 && marks<=59 )
+        else if (percentage>50 && percentage<59)
         {
             System.out.println("Second class");
         }
-        else if (marks >=40 && marks <=49)
+        else if (percentage>35 && percentage<49)
         {
-            System.out.println("Third class");
 
+          System.out.println("Third class");
         }
-        else if (marks >= 35 && marks<=39)
+        else
         {
-            System.out.println("Passed");
-        }
-        else {
             System.out.println("Fail");
         }
+
     }
 }

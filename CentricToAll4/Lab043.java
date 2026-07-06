@@ -5,8 +5,10 @@ public class Lab043
     public static void main(String[] args)
     {
         //4rth example
-        int i=20;
-        if(i==i)
+
+
+        int i=10;
+        if(i==10)
         {
             System.out.println("It is an integer");
         }
@@ -14,12 +16,10 @@ public class Lab043
         {
             System.out.println("It is an even number");
         }
-        if(i/10==1)  //Condition does not satisifies
+        if(i/5==1)
         {
             System.out.println("It is a natural number");
         }
-
-
 
     }
 }

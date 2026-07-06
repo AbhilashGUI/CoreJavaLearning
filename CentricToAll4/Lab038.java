@@ -7,23 +7,25 @@ public class Lab038 {
         //Taking two inputs from keyboard and displaying the max number
 
         Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the number 1:");
-        int number1= sc.nextInt();
-        System.out.print("Enter the number 2:");
+        System.out.println("Enter the number 1 ");
+        int number1=sc.nextInt();
+        System.out.println("Enter the number 2");
         int number2=sc.nextInt();
 
         if(number1>number2)
         {
-            System.out.println("The Maximum number is :"+ number1);
+            System.out.println("It is a maximum number");
+
         }
         else
         {
             System.out.println("Negligible number");
         }
 
-    }
 
+    }
 }
+
 
 
 

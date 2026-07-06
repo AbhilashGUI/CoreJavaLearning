@@ -18,7 +18,7 @@ public class Lab053
             case 04 ->System.out.println("Belongs to IT branch");
             case 05 ->System.out.println("Belongs to MECH branch");
             case 06 ->System.out.println("Belongs to CIV branch");
-            default -> System.out.println("It doesn't exist");
+            default ->System.out.println("It doesn't exist");
         }
     }
 }

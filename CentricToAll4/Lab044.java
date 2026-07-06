@@ -1,4 +1,5 @@
 package CentricToAll4;
+import java.io.PrintStream;
 import java.util.Scanner;
 public class Lab044 {
     public static void main(String[] args) {
@@ -13,23 +14,26 @@ public class Lab044 {
 
 
         Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the length of side1");
+        System.out.println("Measurement of side1");
         int side1=sc.nextInt();
-        System.out.println("Enter the length of side2");
+        System.out.println("Measurement of side2");
         int side2=sc.nextInt();
-        System.out.println("Enter the length of side3");
+        System.out.println("Measurement of side3");
         int side3=sc.nextInt();
 
-        if (side1==side2 && side2==side3 && side3==side1)
+
+        if(side1==side2 && side2==side3 && side3==side1)
         {
             System.out.println("It is an equilateral triangle");
-        } else if (side1==side2 || side1==side3 || side2==side3)
+        }
+        else if (side1==side2 || side2==side3 || side3==side1)
         {
-         System.out.println("It is an isosceles triangle");
+            System.out.println("It is an Isosceles triangle");
         }
         else
         {
-            System.out.println("It is a Scalene triangle");
+            System.out.println("It is a scalene triangle");
         }
     }
+
 }

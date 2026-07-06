@@ -26,36 +26,33 @@ public class Lab041 {
 
         //Taking the inputs from the keyboard/user
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Marks obtained : ");
-        int Marks = sc.nextInt();
+        System.out.print("Enter the marks secured :");
+        int marks= sc.nextInt();
 
-
-        if (Marks >= 90 && Marks <=100)
+        if(marks>90 && marks<100)
         {
-            System.out.println("Your Grade is A "+ Marks);
+            System.out.println("Grade A :"+ marks);
         }
-          else if (Marks >= 80 && Marks <=89)
+        else if (marks>80 && marks<89)
         {
-            System.out.println("Your Grade is B "+ Marks);
+            System.out.println("Grade B :"+marks);
         }
-        else if (Marks >= 70 && Marks <=79)
+        else if (marks>70 && marks<79)
         {
-            System.out.println("Your Grade is C "+ Marks);
+            System.out.println("Grade C :"+ marks);
         }
-        else if (Marks >= 60 && Marks <=69)
+        else if (marks>60 && marks<69)
         {
-            System.out.println("Your Grade is D "+ Marks);
+            System.out.println("Grade D :"+marks);
         }
-        else if (Marks >= 35 && Marks <=59)
+        else if (marks>35 && marks<59)
         {
-            System.out.println("Your Grade is E "+ Marks);
+            System.out.println("Grade E :" +marks);
         }
         else
         {
-            System.out.println("Your Grade is F "+ Marks);
+            System.out.println("Failed :"+marks);
         }
-
-
     }
 
 }

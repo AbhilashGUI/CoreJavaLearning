@@ -2,35 +2,28 @@ package CentricToAll4;
 
 public class Lab040
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         //3rd example
-        byte b=110;
-        int i=420;
-        long l=3000;
-        if(i>l)
+
+        byte b=125;
+        int i=450;
+        long l=1200;
+
+        if(i<b)
         {
-            System.out.println("Value is <500");
+            System.out.println("Intentionally failing the criteria");
         }
-        else if (b<i)
+        else if(l<i)
         {
-            System.out.println("Value is less than the declared variable");
+            System.out.println("Intentionally failing the criteria");
+
         }
         else
         {
-            System.out.println("Value is =3k");
+            System.out.println("Condition is satisfied");
         }
 
-
     }
-
-
-
-
-
-
-
-
 
 
 }

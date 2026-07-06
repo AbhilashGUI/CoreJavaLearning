@@ -9,50 +9,39 @@ public class    Lab045 {
         // If the break statement is not found, it executes the next case/cases as well
 
         //Which day is today
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the daynumber, it will appear the calender day");
 
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the number, I will reveal the calendar day");
         int daynumber=sc.nextInt();
 
-        switch(daynumber) {
+        switch (daynumber)
+        {
             case 1:
                 System.out.println("Sunday");
-
                 break;
-
             case 2:
                 System.out.println("Monday");
-
                 break;
-
             case 3:
                 System.out.println("Tuesday");
-
                 break;
-
             case 4:
                 System.out.println("Wednesday");
                 break;
-
-
             case 5:
                 System.out.println("Thursday");
                 break;
-
-
             case 6:
                 System.out.println("Friday");
                 break;
-
-
             case 7:
                 System.out.println("Saturday");
                 break;
-
             default:
-                System.out.println("Restricted");
+                System.out.println("restricted");
 
         }
+        System.out.println("End of the program");
 
     }
 }

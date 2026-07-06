@@ -23,7 +23,10 @@ public class Lab048 {
                 break;
             case "Chennai":
                 System.out.println("Is the capital of TamilNadu");
-                break;                                      // First five belongs to southern part of india
+                break;
+
+            // First five belongs to Southern part of india
+
             case "Lucknow":
                 System.out.println("Is the capital of UttarPradesh");
                 break;
@@ -50,7 +53,8 @@ public class Lab048 {
                 break;
             case "Srinagar&Jammu":
                 System.out.println("Is the capital of Jammu&Kashmir(UT)");
-                break;                         // Second nine belongs to Northern part of india
+                break;
+                // Second nine belongs to Northern part of india
             case "Jaipur":
                 System.out.println("Is the capital of Rajasthan");
                 break;
@@ -62,7 +66,8 @@ public class Lab048 {
                 break;
             case "Daman":
                 System.out.println("Is the capital of Dadra&NagarHaveli&Dama&Diu(UT)");
-                break;                           // Third 4 belongs to western part of india
+                break;
+                // Third 4 belongs to western part of india
             case "Bhubaneswar":
                 System.out.println("Is the capital of Odisha");
                 break;
@@ -74,13 +79,15 @@ public class Lab048 {
                 break;
             case "Ranchi":
                 System.out.println("Is the capital of Jharkhand");
-                break;                           // Fourth 4 belongs to eastern part of india
+                break;
+                // Fourth 4 belongs to eastern part of india
             case "Bhopal":
                 System.out.println("Is the capital of Madhyaradesh");
                 break;
             case "Raipur":
                 System.out.println("Is the capital of Chhattisgarh");
-                break;                          // Fifth 2 belongs to Central part of india
+                break;
+                // Fifth 2 belongs to Central part of india
             case "Itanagar":
                 System.out.println("Is the capital of ArunachalPradesh");
                 break;
@@ -104,10 +111,12 @@ public class Lab048 {
                 break;
             case "Gangtok":
                 System.out.println("Is the capital of Sikkim");
-                break;    //Sixth 8 belongs to northeastern part of india
+                break;
+                //Sixth 8 belongs to northeastern part of india
             case "Panaji":
                 System.out.println("Is the capital of Goa");
-                break;  //Seventh 1 belongs to southwestern part of india
+                break;
+                //Seventh 1 belongs to southwestern part of india
             case "Portblair":
                 System.out.println("Is the capital of Andaman and nicobar Island");
                 break;

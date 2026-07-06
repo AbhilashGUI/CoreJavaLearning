@@ -13,13 +13,13 @@ public class Lab035 {
         Nested if: if condition inside the another if condition*/
 
 
-        //1st example:
-        boolean b = true;
-        if (b=true) {
-            System.out.println("Value of the boolean is true");
+        boolean b=true;
+        if(b=true)
+        {
+            System.out.println("Condition is satisfied");
         }
 
-      //2nd example
+        //2nd example
         boolean b1= true;
         if(b1=false)
         {
@@ -29,15 +29,7 @@ public class Lab035 {
             System.out.println("Value of the boolean is false");
         }
 
-
-        byte b2=114;
-        int i=210;
-        if(b2<i)
-        {
-            System.out.println("Satisfying the If condition");
-        }
     }
 }
-
 
 

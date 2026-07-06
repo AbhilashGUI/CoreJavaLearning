@@ -6,7 +6,7 @@ public class Lab046
     {
         //Which month of the year
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the Monthname, it will appear the respective monthnumber :");
+        System.out.print("Enter the Monthname,it appears the defined one in the calendar year :");
         String Monthname=sc.nextLine();
         //Note: For String we are using sc.nextline statement
         switch (Monthname)
