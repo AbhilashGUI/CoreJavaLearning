@@ -5,13 +5,12 @@ public class Lab064
     public static void main(String[] args)
     {
 
-        //Printing the double using for loop
-        double d= 1.7;
-        for (int i = 1 ;i < 7.7; i++)
+        //int
+        for (double d = 1 ;d < 7.7; d++)
         {
          System.out.println(d);
         }
-        System.out.println("Double");
+       //String
         for(double b=1.4; b<=8.2; b++)
         {
             System.out.println(b);

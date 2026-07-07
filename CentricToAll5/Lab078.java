@@ -2,16 +2,17 @@ package CentricToAll5;
 
 public class Lab078
 {
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
 
-        //
-        for (int i = 0; i <=10; i++)
+        for(int i=0;i<10;i++)
         {
-            if(i==6)
+            if(i==4)
             {
-                continue; //It skips the provided condition and prints rest/ other numbers
+                continue;//It skips the provided condition and prints rest
             }
-            System.out.println(i);
+            System.out.println("i = "+i);
         }
+
     }
 }

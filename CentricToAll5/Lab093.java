@@ -6,7 +6,7 @@ public class Lab093
     {
         //factorial using while loop
         int i=1;
-        int number = 6;
+        int number = 4;
         int fact = 1;
         while (i <= number)
         {

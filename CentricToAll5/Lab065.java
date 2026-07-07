@@ -2,11 +2,14 @@ package CentricToAll5;
 
 public class Lab065 {
     public static void main(String[] args) {
-        float f = 2.9f;
-        for (int i = 0; i < 9; i++) {
-            System.out.println(f);
+
+        //Int
+        for (float i = 2.9f; i < 9f; i++) {
+            System.out.println(i);
         }
-        for (int i = 0; i < 9; i++) {
+
+        //String
+        for (float i = 1.5f; i < 9f; i++) {
 
             System.out.println("float");
         }

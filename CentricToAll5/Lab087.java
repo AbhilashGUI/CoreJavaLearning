@@ -7,12 +7,12 @@ public class Lab087 {
     //It is also known as entry controlled loop
     //In while loop increment/decrement happens at the end of the loop
 
-    public static void main(String args[]) {
-        int i = 10;
-        while (i <= 25) {
-            System.out.println(i);
-            i++;  //If we don't declare the exit condition, it keeps printing
 
+    public static void main(String[] args) {
+        int i = 10;
+        while (i < 15) {
+            System.out.println("i = " + i);
+            i++;
         }
     }
 }

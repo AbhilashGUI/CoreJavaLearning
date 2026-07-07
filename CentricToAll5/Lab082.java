@@ -12,7 +12,7 @@ public class Lab082
 
             if(i==6)
             {
-                continue; //It skips the provided condition and prints rest/ other numbers
+                continue;
             }
 
         }

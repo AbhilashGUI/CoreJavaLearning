@@ -1,17 +1,16 @@
 package CentricToAll5;
 
 public class Lab069 {
+
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            System.out.println(i);
-
-            if (i == 7) {
-                break;  //Since we are printing the statement before the break.
-
+            System.out.println("i = "+i);
+            //Since we are printing the statement before the condition, it prints and then breaks.
+            if (i == 4) {
+                break;
             }
         }
-        System.out.print("It prints the provided condition and then breaks");
+        System.out.println("It breaks after printing the condition 4");
     }
 }
-
 

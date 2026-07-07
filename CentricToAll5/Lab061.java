@@ -4,8 +4,7 @@ public class Lab061
 {
     public static void main(String[] args)
     {
-        //Printing the integer using forloop
-
+        //Printing the integer using forloop by limiting the condition.
         int a=10;
         for (int i = 10; i < 15; i++)
         {

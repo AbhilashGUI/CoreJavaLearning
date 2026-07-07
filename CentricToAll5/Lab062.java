@@ -4,10 +4,13 @@ public class Lab062
 {
     public static void main(String[] args)
     {
-        int a=1; //Here we are declaring an integer
+
+        //Printing the integer using forloop by limiting the condition.
+
+        int b=1;
         for (int i = 0; i <10 ; i++)
         {
-         System.out.println(a);
+         System.out.println(b);
         }
         System .exit(-1);
     }

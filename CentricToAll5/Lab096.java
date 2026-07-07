@@ -9,6 +9,6 @@ public class Lab096
            System.out.println(i);
            i--;
        }
-       while(i>=14);
+       while(i>=51);
        }
 }
