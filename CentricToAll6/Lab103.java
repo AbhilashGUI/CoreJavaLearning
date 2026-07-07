@@ -8,32 +8,49 @@ public class Lab103
         which is static However, the values are varied*/
 
 
-        final int[] a = new int[4];
-        //a[0] to a[2] =0
-        System.out.println(a[0]);
-        System.out.println(a[1]);
-        System.out.println(a[2]);
-        System.out.println(a[3]);
-        a[0]=10;
-        a[1]=20;
-        a[2]=30;
-        a[3]=30;
-        System.out.println(a[0]);
-        System.out.println(a[1]);
-        System.out.println(a[2]);
-        System.out.println(a[3]);
+        final int[] i= new int[5];
+        System.out.println(i[0]);
+        System.out.println(i[1]);
+        System.out.println(i[2]);
+        System.out.println(i[3]);
+        System.out.println(i[4]);
+        i[0]=15;
+        i[1]=25;
+        i[2]=35;
+        i[3]=45;
+        i[4]=55;
+        System.out.println(i[0]);
+        System.out.println(i[1]);
+        System.out.println(i[2]);
+        System.out.println(i[3]);
+        System.out.println(i[4]);
 
-        //As discussed the above elements in array are varied though we are using final keyword for an array/array index.
-        // Which is correct as per the logic.
 
-        final int[] a1 = {10,20,30,40};
-        a1[0]=100;
-        System.out.println(a1[0]);
+        final int[] marks={36,44,43,71,52};
+        System.out.println(marks[4]);
+        marks[4]=67;
+        System.out.println(marks[4]);
 
         //It works fine for String as well
         final String[] Qualities={"Passion","Ambitious"};
-        Qualities[0]="Distraction";
-        System.out.println(Qualities[0]);
+        {
+            System.out.println(Qualities[0]);
+            Qualities[0]="Enthusiasm";
+            System.out.println(Qualities[0]);
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

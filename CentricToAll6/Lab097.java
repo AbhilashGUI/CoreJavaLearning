@@ -2,15 +2,15 @@ package CentricToAll6;
 
 public class Lab097
 {
-    //Array: Is a collection of data(elements), which is of similar type.
+    //Array: Is a collection of data elements, which is of similar type.
 
 
     public static void main(String[] args)
 
     {
      //Fetching of marks through array
-        int[] marks={47,63,74,79,85,97};
-        //Declaring array in square braces and assigning values in flower braces.
+       int[] marks={43,86,79,71,65,81};
+        //Declaring array in square braces and should assign the values in flower braces.
         //In array, index starts from 0
         //In this case, index 0 to 5 represents subjects like Hindi,Telugu,English,Maths,Science and Social.
 

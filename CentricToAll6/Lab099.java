@@ -2,50 +2,36 @@ package CentricToAll6;
 
 public class Lab099 {
     public static void main(String[] args) {
-        int[] Hyderabadconstituencies = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
-        String constituency0 = "Musheerabad";
-        String constituency1 = "Malkpet";
-        String constituency2 = "Amberpet";
-        String constituency3 = "Khairtabad";
-        String constituency4 = "Jubilee hills";
-        String constituency5 = "Sanathnagar";
-        String constituency6 = "Nampally";
-        String constituency7 = "Karwan";
-        String constituency8 = "Goshamahal";
-        String constituency9 = "Charminar";
-        String constituency10 = "Chandryangutta";
-        String constituency11 = "Yakutpura";
-        String constituency12 = "Bahadurpura";
-        String constituency13 = "Secunderabad";
-        String constituency14 = "Secunderabad cantonment";
+        String[] Telangana_Assembly_Constituencies = {"Bahadurpura", "Chandryangutta", "Charminar", "Goshamahal", "Karwan", "Malakpet", "Yakutpura"};
+        System.out.println("Following are the constituencies falls under the Hyderabad lok sabha constituency");
+        System.out.println(Telangana_Assembly_Constituencies[0]);
+        System.out.println(Telangana_Assembly_Constituencies[1]);
+        System.out.println(Telangana_Assembly_Constituencies[2]);
+        System.out.println(Telangana_Assembly_Constituencies[3]);
+        System.out.println(Telangana_Assembly_Constituencies[4]);
+        System.out.println(Telangana_Assembly_Constituencies[5]);
+        System.out.println(Telangana_Assembly_Constituencies[6]);
+        System.out.println(Telangana_Assembly_Constituencies.length);
+        System.out.println("I was a voter of " + Telangana_Assembly_Constituencies[0] + "Constituency");
+        System.out.println(Telangana_Assembly_Constituencies[1] + "has a highest number of voters");
+
+        System.out.println('\n');
+
+        String[] Telangana_Assembly_Constituencies2 = {"Amberpet", "Jubliee hills", "Khairtabad", "Musheerabad", "Nampally", "Sanathnagar", "Secuderabad"};
+        System.out.println("Following are the constituencies falls under the Secunderabad lok sabha constituency");
+        System.out.println("They comes under the Hyderabad district");
+        System.out.println(Telangana_Assembly_Constituencies2[0]);
+        System.out.println(Telangana_Assembly_Constituencies2[1]);
+        System.out.println(Telangana_Assembly_Constituencies2[2]);
+        System.out.println(Telangana_Assembly_Constituencies2[3]);
+        System.out.println(Telangana_Assembly_Constituencies2[4]);
+        System.out.println(Telangana_Assembly_Constituencies2[5]);
+        System.out.println(Telangana_Assembly_Constituencies2[6]);
+        System.out.println(Telangana_Assembly_Constituencies2[1] + " has a highest number of voters");
 
 
-
-            System.out.println("I was a constituent of:" +constituency12);
-            System.out.println(Hyderabadconstituencies.length);
-
-        int[] RangareddyMuncipalities = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15,16};
-
-        String Muncipalities1="Adibatla";
-        String Muncipalities2="Amangal";
-        String Muncipalities3="Bandangpet";
-        String Muncipalities4="Bandlaguda jagir";
-        String Muncipalities5="Chevella";
-        String Muncipalities6="Ibrahimpatnam";
-        String Muncipalities7="Jalpally";
-        String Muncipalities8="Manikonda";
-        String Muncipalities9="Meerpet";
-        String Muncipalities10="Moinabad";
-        String Muncipalities11="Narsingi";
-        String Muncipalities12="Pedda Amberpet";
-        String Muncipalities13="Shadnagar";
-        String Muncipalities14="Shamshabad";
-        String Muncipalities15="Shankarpally";
-        String Muncipalities16="Tukkuguda";
-        String Muncipalities17="Thurkayamjal";
-
-        System.out.println("I belong to " + Muncipalities3 + " Muncipality") ;
-        System.out.println(RangareddyMuncipalities.length);
-        }
     }
+}
+
+
 

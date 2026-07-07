@@ -13,6 +13,13 @@ public class Lab108
             System.out.println(continents[i]);
         }
 
+        System.out.println('\n'+"Elements of an array are listed below in reverse order");
+
+        for (int i=continents.length-1;i>0;i--)
+        {
+            System.out.println(continents[i]);
+
+        }
 
         System.out.println("Length of an array is : " + continents.length );
 

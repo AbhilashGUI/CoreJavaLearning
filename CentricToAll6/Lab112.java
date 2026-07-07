@@ -18,13 +18,18 @@ public class Lab112
 
         for (int i = 0; i < ordervalue.length; i++)
         {
-            if(ordervalue[i]>100000)
+            if(ordervalue[i]>=100000)
             {
-             System.out.println("You availed 10% discount worth  coupon on "+ ordervalue[i]) ;
+             System.out.println("You availed 10% discount on "+ ordervalue[i]) ;
 
             }
 
+
         }
+        int invoice=ordervalue[0]+ordervalue[1]+ordervalue[2]+ordervalue[3]+ordervalue[4];
+        System.out.println("You availed an additional 5% discount on the invoice "+invoice);
+
+
 
     }
 

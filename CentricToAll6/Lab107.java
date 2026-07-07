@@ -1,27 +1,24 @@
 package CentricToAll6;
 
-public class Lab107
-{
-    public static void main(String[] args)
-    {
-        int[] array1={45,54,67,72,89};
-        System.out.println("Length of  an array is " + array1.length);
-        //System.out.println("Reference address "+ array1);
+public class Lab107 {
 
-       //No. of indexes in an array
-        System.out.println("Elements of an array are listed below");
-        for (int i = 0; i <= array1.length-1; i++)
-        {
-            System.out.println(array1[i]);
-        }
+    public static void main(String[] args) {
+        int[] arr1 = {10, 20, 30, 40, 50};
+        System.out.println("Length of an array " + arr1.length);
+        System.out.println("Reference location " + arr1);
 
-        System.out.println("Retrieving the Specific element using index from an array");
-        System.out.println(array1[0]);
+        //Fetching the indexes in an array
+        for (int i = 0; i < arr1.length - 1; i++) {
+            System.out.println("Indexes defined in an array " + arr1[i]);
 
         }
+
+        System.out.println("Retrieving the specified elements from an array using index");
+        System.out.println(arr1[3]);
 
 
     }
+}
 
 
 

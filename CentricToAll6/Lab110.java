@@ -21,9 +21,7 @@ public class Lab110
         System.out.println(c.length);//Length of a char array
         System.out.println(d.length);//Length of a double  array
         System.out.println(names.length); //Length of a String array
-        for (int j = 0; j <= names.length-1; j++)
-        {
-          System.out.println(names[j]);
+        System.out.println(names[1]);
         }
 
 
@@ -35,4 +33,4 @@ public class Lab110
 
 
     }
-}
+

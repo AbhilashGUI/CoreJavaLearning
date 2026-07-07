@@ -5,7 +5,7 @@ public class Lab105
     public static void main(String[] args)
     {
         String[] Dairyproducts1={"Milk","Curd","Butter","Cheese","Ghee"};
-        String[] Dairyproducts2={"Cream","Yogurt","Frozen","Custurd","Buttermilk"};
+        String[] Dairyproducts2={"Cream","Yogurt","Frozen","Custard powder","Buttermilk"};
         String[] Dairyproducts3=Dairyproducts1;
         System.out.println(Dairyproducts1.equals(Dairyproducts2));
         System.out.println(Dairyproducts3.equals(Dairyproducts1));

@@ -4,32 +4,26 @@ public class Lab113
 {
     public static void main(String[] args)
     {
-        int age[]=new int[6];
-        age[0]=12;
-        age[1]=22;
-        age[2]=32;
-        age[3]=42;
-        age[4]=56;
-        age[5]=67;
+        //1D array
+        int[] agegroups=new int[4];
+        agegroups[0]=20;
+        agegroups[1]=25;
+        agegroups[2]=30;
+        agegroups[3]=40;
 
-
-        for (int i = 0; i <age.length; i++)
+        for (int i=0;i<agegroups.length;i++)
         {
-          System.out.println(age[i]);
+            System.out.println(agegroups[i]);
         }
-        System.out.println(age.length);
+             System.out.println("Length "+ agegroups.length);
 
-
-        //Using whileloop
+      //Same using the while loop
         int i=0;
-        while (i<=age.length-1)
+        while (i<agegroups.length)
         {
-            System.out.println(age[i]);
-
-            i++;   //This is a 1D array
+            System.out.println(agegroups[i]);
+            i++;
         }
-
-
 
 
     }
