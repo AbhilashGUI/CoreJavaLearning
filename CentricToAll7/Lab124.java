@@ -4,42 +4,27 @@ public class Lab124
 {
     public static void main(String[] args)
     {
-        int b=sub(17,12);  //Declaring 2 arguments
-        System.out.println(b);
-        int b1=sub(62);  //Declaring 1 argument
-        System.out.println(b1);
-        int b2=sub();
-        System.out.println(b2);
+      int a=sub(150,73);
+      System.out.println(a);
+      int b=sub(96);
+      System.out.println(b);
+      int c=sub();
+      System.out.println(c);
+
 
     }
 
-
-
- static int sub(int input_1,int input_2)    //Definition of the
-         //Sub represent the name of the function
+    static int sub(int input1, int input2)
     {
-        return input_1-input_2;
+        return input1-input2;
     }
 
-    static int sub(int input_1)
-
+    static int sub(int input2)
     {
-        return input_1;
+        return input2;
     }
     static int sub()
-
     {
-        return 74;
+        return 17;
     }
-
-
-
-
-
-
 }
-
-
-
-
-

@@ -12,7 +12,7 @@ public class Lab134
 
     }
 
-    //Though we are defining multiple main methods with different arguments , JVM executes only one method.
+    //Though we are defining multiple main methods with different arguments , JVM executes only one which is defined within the main method.
     //This concept is called as Methodoverloading
     public static void main(int a)
     {

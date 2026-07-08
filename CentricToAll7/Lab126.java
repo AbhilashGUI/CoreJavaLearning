@@ -2,26 +2,32 @@ package CentricToAll7;
 
 public class Lab126
 {
+
     public static void main(String[] args)
     {
-         int c=div(100,5);  //Declaring 2 arguments
-         System.out.println(c);
-         int c1=div(100,15,5);  //Declaring 3 arguments
-         System.out.println(c1);
+
+       int a= div(225,15);
+       System.out.println(a);
+       double b=div(45.3,122.4);
+       System.out.println(b);
+       double c= div(141.2,151.7,66.2);
+       System.out.println(c);
+
 
     }
 
-
-
-    static int div(int input_1,int input_2)  //Definition of function
-            //div represents name of the function
+    static int div(int input1, int input2)
     {
-        return input_1/input_2;   //It displays the value of Quotient
+        return input1%input2;
     }
-    static int div(int input_1,int input_2,int input_3)
+    static double div(double input1, double input2)
     {
-        return input_1/input_2;   //It displays the value of Quotient
+        return input2%input1;
     }
+    static double div(double input3,double input4,double input5)
+    {
+        return input4%input5;
     }
 
 
+}

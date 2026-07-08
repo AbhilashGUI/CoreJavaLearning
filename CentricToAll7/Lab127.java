@@ -2,28 +2,26 @@ package CentricToAll7;
 
 public class Lab127
 {
-    public static void main(String[] args)
-    {
-        int c=mod(225,15);   //declaring 2 arguments
-        System.out.println(c);
-        int c1=mod(5,15,327); //declaring 3 arguments
-        System.out.println(c1);
+   public static void main(String[] args)
+   {
 
-    }
+       int i=mod(230,78);
+       System.out.println(i);
+       double j= mod(514,116);
+       System.out.println(j);
 
+   }
 
-    static int mod(int input_1,int input_2) //Defintion of function
-            //mod represents name of the function
-    {
-        return input_1%input_2;  //It displays the value of remainder
-    }
-    static int mod(int input_1,int input_2,int input_3)
-    {
-        return input_3%input_1;  //It displays the value of remainder
-    }
+   static int mod(int input1, int input2)
+   {
+       return input1%input2;
+   }
+   static double mod(double input3,double input4)
+   {
+       return input3%input4;
+   }
 
 
 }
-
 
 

@@ -1,41 +1,32 @@
 package CentricToAll7;
 
-public class Lab129
-{
+public class Lab129 {
     public static void main(String[] args) {
         //Function: Which can do some task
         //How to create a function
         //Definition
         //Call the function
 
-        sayHello4times();  //Call the function
-        singhisking();     //Call the function
-        double i=Math.pow(4,2);  //These are built in functions
-        System.out.println(i);
+        declinetraction();
+        cashwithdrawl();
+
+
+
 
     }
 
-        static void sayHello4times()  //Definition
-
-        {
-            for (int i = 0; i < 14; i++)
-            {
-                System.out.println("Hello");
-            }
+    static void declinetraction() {
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Card got blocked, due to incorrect pin multiple times");
         }
-
-
-
-        static void singhisking()
+    }
+        static void cashwithdrawl()
         {
-            for (int i = 0; i < 12; i++)
+            for (int i=0;i<3;i++)
             {
-                System.out.println("Singh is King");
-
-            }
+                System.out.println("Please collect your cash");
         }
+    }
 
 }
-
-
 

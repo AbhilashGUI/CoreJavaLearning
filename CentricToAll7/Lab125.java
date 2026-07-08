@@ -1,35 +1,31 @@
 package CentricToAll7;
 
 public class Lab125 {
-    public static void main(String[] args) {
-        int c = mul(12, 16);    //Declaring 2 arguments
-        System.out.println(c);
-        int c1 = mul1(10, 20, 30);   //Declaring 3 arguments
-        System.out.println(c1);
-        int c2 = mul2(17, 10, 33);   //Declaring 3 arguments
-        System.out.println(c2);
 
-
-    }
-
-
-
-    static int mul(int input_1, int input_2)  //Definition of the function
-            //mul represents the name of the function
+    public static void main(String[] args)
     {
-        return input_1 * input_2;
+
+        int a=mul(32,44);
+        System.out.println(a);
+        int b=mul(23,37,51);
+        System.out.println(b);
+        float f=mul(23.2f,45.4f,66.3f);
+        System.out.print(f);
+
     }
 
-    static int mul1(int input_1, int input_2, int input_3)
+
+    static  int mul(int input1, int input2)
     {
-        return input_1 * input_3;
+        return input1*input2;
     }
-
-    static int mul2(int input_1, int input_2, int input_3)
+    static  int mul(int input1, int input2,int input3)
     {
-        return input_2 * input_3;
-
-
+        return input3*input2;
     }
+    static  float mul(float input1, float input2,float input3)
+    {
+        return input3*input1;
+    }
+
 }
-
