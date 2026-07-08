@@ -14,7 +14,8 @@ public class Lab139
         System.out.println(s1);   //New value is created in SCP and old value is just present without reference
 
         String s2=new String("Vemula Abhilash Sharma");  //A new string is created in object area
-        System.out.println(s2);
+        System.out.println(s2.equals(s1));
+        System.out.println(s2==s1);
 
 
 

@@ -4,26 +4,24 @@ public class Lab137
 {
     public static void main(String[] args)
     {
-        String str1="Vemula";
-        System.out.println(str1.concat("Abhilash"));
-        System.out.println(str1+ "Abhilash");
-        System.out.println(str1.contains("n"));
-        //Used to check if a certain sequence of characters is present within a string
+        //String inbuilt functions
+        String str="Vemula";
+        System.out.println(str.concat("Abhilash"));
+        //It works in the same way
+        System.out.println(str +" Abhilash Sharma");
+        System.out.println(str.contains("e"));
+        System.out.println(str.contains("n"));
 
-
-        String password1="Vemula@123";
-        String confirmpassword1="vemula@123";
-        if(password1.equalsIgnoreCase(confirmpassword1))
-                // compares two strings, ignoring lower case and upper case differences.
+        String Resetpassword="Testcheck@123";
+        String confirmpassword="testcheck@123";
+        if(Resetpassword.equalsIgnoreCase(confirmpassword))
         {
-            System.out.println("True");
+            System.out.println("Password updated successfully");
         }
-        else{
-            System.out.print("False");
+        else
+        {
+            System.out.println("Password Mismatch");
         }
-
-
-
 
 
 

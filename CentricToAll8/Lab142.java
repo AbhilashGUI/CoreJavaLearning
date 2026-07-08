@@ -17,11 +17,11 @@ public class Lab142
 
 
 
-         StringBuffer sbf= new StringBuffer("India");
+         StringBuffer sbf= new StringBuffer("MOM");
          sbf.reverse();
          System.out.println(sbf);
 
-         StringBuilder sb= new StringBuilder("ye mera india, I love my india");
+         StringBuilder sb= new StringBuilder("ANNA");
          System.out.println(sb.reverse());
 
 
