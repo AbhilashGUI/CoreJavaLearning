@@ -6,44 +6,48 @@ public class Lab116 {
         //First array[5] represents 5 rows
         //second array[3] represents 3 columns
 
+        //First row and columns
 
-        //Declaring the values for the 1stArray/row
-        arr2[0][0] = 3;
-        arr2[0][1] = 6;
-        arr2[0][2] = 9;
+        arr2[0][0]=17;
+        arr2[0][1]=34;
+        arr2[0][2]=51;
 
+        //Second row and columns
 
-        //Declaring the values for the 2ndArray/2nd row
-        arr2[1][0] = 4;
-        arr2[1][1] = 8;
-        arr2[1][2] = 12;
+        arr2[1][0]=18;
+        arr2[1][1]=36;
+        arr2[1][2]=54;
 
+        //Third row and columns
 
-        //Declaring the values for the 3rd Array/3rd row
-        arr2[2][0] = 5;
-        arr2[2][1] = 10;
-        arr2[2][2] = 15;
+        arr2[2][0]=19;
+        arr2[2][1]=38;
+        arr2[2][2]=57;
 
+        //Fourth row and columns
 
-        //Declaring the values for the 4rth Array/4rth row
-        arr2[3][0] = 6;
-        arr2[3][1] = 12;
-        arr2[3][2] = 18;
+        arr2[3][0]=20;
+        arr2[3][1]=40;
+        arr2[3][2]=60;
 
+        //Fifth row and columns
 
-        //Declaring the values for the 5th Array/5th row
-        arr2[4][0] = 7;
-        arr2[4][1] = 14;
-        arr2[4][2] = 21;
+        arr2[4][0]=21;
+        arr2[4][1]=42;
+        arr2[4][2]=63;
 
+        for (int i=0;i<arr2.length;i++)
+        {
+            for (int j=0;j<arr2[i].length;j++)
+            {
 
-        for (int i = 0; i <= arr2.length - 1; i++) {
-            for (int j = 0; j <= arr2[i].length - 1; j++) {
-                System.out.print(arr2[i][j] + "\t");
+                System.out.print(arr2[i][j] + "\t");   //It creates space between numbers
             }
-
             System.out.println();
-        }
-    }
 
+        }
+
+
+
+    }
 }

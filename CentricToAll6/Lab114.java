@@ -1,41 +1,51 @@
 package CentricToAll6;
 
 public class Lab114 {
-    public static void main(String[] args) {
+
+    public static void main(String[] args)
+    {
         //2D array
-        int[][] arr = new int[3][3];
-        //First array[3] represents 3 rows
-        //second array[3] represents 3 columns
+        int[][] arr = new int[4][4];
+        //First array[4] represents 4 rows
+        //second array[4] represents 4 columns
 
-        //Declaring the values for the 1stArray/row
 
-        arr[0][0] = 25;
-        arr[0][1] = 50;
-        arr[0][2] = 75;
+        //First row and columns
+        arr[0][0]=10;
+        arr[0][1]=20;
+        arr[0][2]=30;
+        arr[0][3]=40;
 
-        //Declaring the values for the 2ndArray/2nd row
+        //Second row and columns
+        arr[1][0]=50;
+        arr[1][1]=60;
+        arr[1][2]=70;
+        arr[1][3]=80;
 
-        arr[1][0] = 100;
-        arr[1][1] = 125;
-        arr[1][2] = 150;
+        //Third row and columns
+        arr[2][0]=90;
+        arr[2][1]=100;
+        arr[2][2]=110;
+        arr[2][3]=120;
 
-        //Declaring the values for the 3rdArray/3rd row
+        //Fourth row and columns
+        arr[3][0]=130;
+        arr[3][1]=140;
+        arr[3][2]=150;
+        arr[3][3]=160;
 
-        arr[2][0] = 175;
-        arr[2][1] = 200;
-        arr[2][2] = 225;
 
-        //Nested for loop to validate rows and columns
+        //i=Rows/Outerloop  and j=Columns/Innerloop
 
-        for (int i = 0; i <= arr.length-1; i++)
+        for (int i=0;i< arr.length;i++)
         {
-            for(int j=0;j<=arr[i].length-1;j++)
+            for (int j=0;j<arr[i].length;j++)   //arr[i]= No. of columns in a row (i)
             {
-                System.out.print(arr[i][j]+ "\t");
+                System.out.print(arr[i][j] + "\t");   //It creates space between numbers
             }
             System.out.println();
-            }
-
         }
-    }
 
+
+    }
+}
