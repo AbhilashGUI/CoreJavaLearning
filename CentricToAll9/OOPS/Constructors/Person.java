@@ -1,51 +1,47 @@
 package CentricToAll9.OOPS.Constructors;
 
-public class Person
-{
+public class Person {
 
-    //Attributes
-    String Name;                                //All these are instance variables
-    String Gender;
-    int Age;
+    //Declaring the attributes
+
+    String Name;    //All these are instance variables
+    char Gender;
+    int age;
+    boolean married;
     String Occupation;
-    String EmployerAddress;
-    long Mobilenumber;
-    float Package;
+    long mobilenumber;
+    float annualctc;
 
 
-    //Behaviour : Functionalities
+    //Declaring the behaviour : Functionalities
 
-    void work()
+    static void work()
     {
-        System.out.println("Working at Perigord Life Sciences");
-    }
-    void learn()
-    {
-        System.out.println("Upskilling Java");
-    }
-    void think()
-    {
-        System.out.println("Thinking to switch to automation");
-    }
-    void walking()
-    {
-        System.out.println("I walk 1 hour a day, to avoid tummy");
-    }
-    void sleeping()
-    {
-        System.out.println("I sleep 8-9 hrs a day");
+        System.out.println("Working as a IT professional");
 
     }
-    static String eat()
-    {
-        return("I eat 3 times a day");
-    }
-    static String watching()
-    {
-        return("I spend 1 hour a day in using mobile");
-    }
+   static void think()
+   {
+       System.out.println("Critical thinking is a primary skill for QA");
+   }
+   static void learn()
+   {
+       System.out.println("Enthusiastic to learn new skills ");
+   }
+   static void workout()
 
+   {
+       System.out.println("Any physical activity in a day");
+   }
+   static void eat()
+   {
+       System.out.println("I'll eat food as medicines (Timely)");
 
+   }
+   static void sleep()
+   {
+       System.out.println("I rest for 7-8 hours in a day");
+   }
 
 
 

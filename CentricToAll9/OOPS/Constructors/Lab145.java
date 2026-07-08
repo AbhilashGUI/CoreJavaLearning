@@ -1,35 +1,29 @@
 package CentricToAll9.OOPS.Constructors;
 
-import CentricToAll9.OOPS.Constructors.Animal;
-
 public class Lab145
-
 {
-
-    public static void main(String[] args)
+    public static void main()
     {
 
-        //RUNNER OF ANIMALCLASS//
+        Pet p= new Pet();
+        p.Petname="Tuffy";
+        p.Petbreed="Germanshepard";
+        p.PetOrigin="German";
+        p.Petcolor="Brown";
+        p.Petheight=60;
+        p.Petweight=80;
+        p.Lifespan=15;
 
-    Animal dog =new Animal();
-    dog.Dog="Tuffy";
-    dog.Breed="German Shepard";  //Referring to the instance variables created in the source file with the same  class name
-    dog.Origin="German";
-    dog.Colour="Brown";
-    dog.Height=65; //In cm's
-    dog.Weight=40; //In kg's
-    dog.Lifespan=15;
-    System.out.println(dog.Dog);
-    System.out.println(dog.Breed);
-    System.out.println(dog.Origin);
-    System.out.println(dog.Colour);
-    System.out.println(dog.Height);
-    System.out.println(dog.Weight);
-    System.out.println(dog.Lifespan);
-
+        System.out.println("My pet details");
+        System.out.println(p.Petname);
+        System.out.println(p.PetOrigin);
+        System.out.println(p.Petbreed);
+        System.out.println(p.Petcolor);
+        System.out.println(p.Lifespan);
+        System.out.println(p.Petheight);
+        System.out.println(p.Petweight);
 
 
 
     }
 }
-

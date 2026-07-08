@@ -1,42 +1,27 @@
 package CentricToAll9.OOPS.Constructors;
 
-public class Lab144
-{
-    public static void main(String[] args)
+public class Lab144 {
+
+    //Runner class
+    public static void main(String [] args)
     {
+        Person p= new Person();
+        p.Name="Abilash";
+        p.Gender='M';
+        p.age=30;
+        p.married=false;
+        p.Occupation="IT professional";
+        p.mobilenumber=5656539874l;
+        p.annualctc=7.5f;
 
-        //RUNNER OF PERSONCLASS//
-
-
-     Person p = new Person();
-     p.Name="Abhilash";   //Referring to the instance variables created in the source file with the same class name
-     p.Age=30;
-     p.Gender="Male";
-     System.out.println(p.Name);
-     System.out.println(p.Age);
-     System.out.println(p.Gender);
-
-     System.out.println("Other employee details:");
-     Person p2=new Person();
-     p2.Name="Vicky";
-     p2.Occupation="Selfemployed";
-     p2.Package=4.2f;
-     p2.Mobilenumber=7095363018l;
-     System.out.println(p2.Name);
-     System.out.println(p2.Occupation);
-     System.out.println(p2.Package);
-     System.out.println(p2.Mobilenumber);
-
-    System.out.println("Incomplete info");
-    new Person();//The moment you enter new , an object is created in OA/heap area
-    Person p3=null;  //This is null
-    System.out.println(p3);
-
-
-
-
-
-
+        System.out.println("Following are the applicant details");
+        System.out.println(p.Name);
+        System.out.println(p.Gender);
+        System.out.println(p.age);
+        System.out.println(p.married);
+        System.out.println(p.Occupation);
+        System.out.println(p.mobilenumber);
+        System.out.println(p.annualctc);
 
 
     }
