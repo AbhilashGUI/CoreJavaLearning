@@ -1,9 +1,9 @@
 package CentricToAll10.OOPS.Inheritance.Multilevel;
 
-public class Gamechanger extends Runner
-{
-    void built()
+public class Gamechanger extends Runner {
+
+    void established()
     {
-        System.out.println("Adapted the technology driven business and listed in forbes for 3 years");
+        System.out.println("Adpated the technology and listed under forbes");
     }
 }

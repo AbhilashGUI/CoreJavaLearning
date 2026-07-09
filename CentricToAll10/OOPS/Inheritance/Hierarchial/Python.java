@@ -1,30 +1,22 @@
 package CentricToAll10.OOPS.Inheritance.Hierarchial;
 
-public class Python extends PROGRAMMINGLANG
-{
+public class Python extends Proglanguages{
 
-   String feature1;
-   String feature2;
+
+    String Feature1;
+    String Feature2;
 
 
     Python(String feature1,String feature2)
     {
-        this.feature1=feature1;
-        this.feature2=feature2;
+        this.Feature1=feature1;
+        this.Feature2=feature2;
     }
 
-   void printdetails()
-   {
-       System.out.println("Syntax -> "+this.feature1 );
-       System.out.println("Performance -> " +this.feature2);
-   }
-
-
+    void printdetails()
+    {
+        System.out.println("Syntax-->"+Feature1);
+        System.out.println("Performance-->"+Feature2);
     }
 
-
-
-
-
-
-
+}

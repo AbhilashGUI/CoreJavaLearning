@@ -5,9 +5,9 @@ import CentricToAll10.OOPS.Inheritance.Multilevel.Father;
 public class Grandson extends Father
 {
 
-    void properties()
+    void propertiesearned()
     {
-        System.out.println("Earned >"+ 1);
+        System.out.println(1);
 
     }
 }

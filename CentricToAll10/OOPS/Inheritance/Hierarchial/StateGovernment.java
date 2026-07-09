@@ -3,8 +3,10 @@ package CentricToAll10.OOPS.Inheritance.Hierarchial;
 public class StateGovernment
 {
 
-    StateGovernment()
+    void StateGovernment()
     {
-        System.out.println("Functioning of state government : Executive, Legislature, Judiciary");
+        System.out.println("Functions: Executive, Legislature, Judiciary");
     }
+
+
 }

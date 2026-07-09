@@ -1,33 +1,12 @@
 package CentricToAll10.OOPS.Inheritance.Single;
 
-import CentricToAll10.OOPS.Inheritance.Single.EcommerceSites;
+public class Lab149 {
 
-public class Lab149
-{
-
-    public static void main(String[] args)
+    public static void main(String [] args)
     {
-        //RUNNER OF ECOMMERCESITESCLASS//
 
-
-        EcommerceSites flipkart= new EcommerceSites("T-shirts","Telivision","Namkeen","babycare",1,10);
+        EcommerceSites flipkart=new EcommerceSites("Royalformal","Oneplus","Air conditioner","Utensils","Millets","Cleanliness",10,5);
         flipkart.printdetails();
 
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

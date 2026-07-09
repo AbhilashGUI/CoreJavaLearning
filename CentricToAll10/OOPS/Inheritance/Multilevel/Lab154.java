@@ -1,40 +1,37 @@
 package CentricToAll10.OOPS.Inheritance.Multilevel;
 
-public class Lab154
-{
-    public static void main(String[] args)
-    {
+public class Lab154 {
+    public static void main(String[] args) {
 
         //RUNNER OF FOUNDERCLASS//
 
+        Founder founder = new Founder();
+        founder.established();
+
+        Runner runner = new Runner();
+        runner.established();
+
+        Gamechanger gamechanger = new Gamechanger();
+        gamechanger.established();
+
+        Ruiner ruiner= new Ruiner();
+        ruiner.established();
 
 
-        Founder f= new Founder();
-        f.built();   //Established business
+        //Inheritance concept
+        Founder f1 = new Ruiner();
+        f1.established();
 
-        Runner r=new Runner();
-        r.built();    // Ran business
+        Runner r1= new Ruiner();
+        r1.established();
 
-        Gamechanger g=new Gamechanger();
-        g.built();    //Tech implementation
+        Gamechanger g1=new Ruiner();
+        g1.established();
 
+        Ruiner u1= new Ruiner();
+        u1.established();
 
-
-
-        Founder f1=new Gamechanger();
-        f1.built();    //Founder is happy with a Gamechanger
-
-        Runner r1= new Gamechanger();
-        r1.built();   //Runner is too happy to continuing the legacy of his father by his son
-
-
-        Gamechanger g1=new Gamechanger();
-        g1.built();   //Gamechanger is thankful to the founder and runner for establishment of the business
-
-
-
-        //Gamechanger gc= new Founder();   //Same logic
-        //Gamechanger gc1= new Runner();
 
     }
+
 }

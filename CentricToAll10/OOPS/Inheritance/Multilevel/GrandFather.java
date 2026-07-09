@@ -3,10 +3,10 @@ package CentricToAll10.OOPS.Inheritance.Multilevel;
 public class GrandFather
 {
 
-    void properties()
+    void propertiesearned()
     {
 
-        System.out.println("Earned ->"+3);
+        System.out.println(3);
 
     }
 

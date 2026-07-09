@@ -1,39 +1,33 @@
 package CentricToAll10.OOPS.Inheritance.Hierarchial;
 
-public class Lab151
-{
+public class Lab151 {
+
     public static void main(String[] args)
     {
-        //RUNNER OF PROGRAMMINGLANGUAGESCLASS//
 
 
-     PROGRAMMINGLANG pl=new PROGRAMMINGLANG();
+        Proglanguages pl= new Proglanguages();
+        pl.java_author();
         // In this case, only parent class is invoked
-        //Java j=new Java();
-     //Both parent and child classes are invoked.
+
+        //Java j= new Java();
 
 
-        PROGRAMMINGLANG pl2=new Java("Verbose","Faster");  //Parent reference can be allowed to use  child object
-        //Java J=new PROGRAMMINGLANG();     //Child reference cannot be allowed to use parent object
+        //Single inheritance concept, where child objects referring to the parent class
 
+        //pl=new Java("Verbose","Faster");
+        Proglanguages pl1=new Java("Verbose","Faster");
+        //Parent reference can be allowed to use  child object
 
+        //Java java=new Proglanguages() //Child reference cannot be allowed to use parent object
 
-       //Single inheritance concept, where child objects referring to the parent class
+        //Above both works in the same way
 
-        Java j1=new Java("Verbose", "Faster");
-        j1.printdetails();  //Printing paramters
-
-        j1.java_author();
-        j1.java_oops_author();
-
-
-
-
-
-
-
-
-
+        Java java= new Java("Verbose","Faster");
+        java.printdetails();
+        java.java_author();
 
     }
 }
+
+

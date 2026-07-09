@@ -3,11 +3,11 @@ package CentricToAll10.OOPS.Inheritance.Multilevel;
 public class Father extends GrandFather
 {
 
-    void properties()
+    void propertiesearned()
 
 
     {
-    System.out.println("Earned -> " + 2);
+    System.out.println(2);
    }
 
 }

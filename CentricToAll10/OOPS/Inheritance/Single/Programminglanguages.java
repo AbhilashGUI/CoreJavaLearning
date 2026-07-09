@@ -16,8 +16,8 @@ public class Programminglanguages {
      * }
      **/
 
-    Programminglanguages(String lang, int FOY) {
-        this.language = lang;
+    Programminglanguages(String language, int FOY) {
+        this.language = language;
         this.Foundedyear = FOY;
     }
 
@@ -25,7 +25,7 @@ public class Programminglanguages {
     void printinfo() {
         //System.out.println(language);
         //System.out.println(Foundedyear);
-        System.out.println(" Programming info : " + "Language-->" + this.language + " Founded in the year---> " + this.Foundedyear);
+        System.out.println("Language-->" + this.language + " was founded in---> " + this.Foundedyear);
     }
 
 

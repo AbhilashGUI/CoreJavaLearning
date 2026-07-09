@@ -1,62 +1,45 @@
 package CentricToAll10.OOPS.Inheritance.Single;
 
-import java.util.jar.Attributes;
 
 public class EcommerceSites {
 
-    //Attributes
+    //Attriubtes
+    String Fashion;
+    String Mobiles;
+    String Electronics;
+    String HomeAppliances;
+    String Food;
+    String Healthcare;
+    int Quantity;
+    double Discount;
 
-       String apparel;
-       String electronics;
-       String groceries;
-       String Health;
-       int quantity;
-       int discount;
-
-
-
-
-       EcommerceSites(String ap,String ec, String gr,String He, int qnt,int dis) {
-           this.apparel = ap;
-           this.electronics = ec;
-           this.groceries = gr;
-           this.Health = He;
-           this.quantity=qnt;
-           this.discount = dis;
-
-       }
-
-
-       void printdetails()
-       {
-           System.out.println("apparel - "+ this.apparel);
-           System.out.println("electronics - "+ this.electronics);
-           System.out.println("groceries - " + this.groceries);
-           System.out.println("Health products - "+this.Health);
-           System.out.println("Health products - "+this.quantity);
-           System.out.println("Flat discout - " +this.discount);
+    EcommerceSites(String fashion,String mobiles,String electronics,String homeAppliances,String food,String healthcare,int quantity, int discount)
+    {
+        this.Fashion=fashion;
+        this.Mobiles=mobiles;
+        this.Electronics=electronics;
+        this.HomeAppliances=homeAppliances;
+        this.Food=food;
+        this.Healthcare=healthcare;
+        this.Quantity=quantity;
+        this.Discount=discount;
+    }
 
 
-
-    //
-
-
-}
+    void printdetails()
+    {
+        System.out.println("Fashion-->"+Fashion);
+        System.out.println("Mobiles-->"+Mobiles);
+        System.out.println("Electronics-->"+Electronics);
+        System.out.println("HomeAppliances-->"+HomeAppliances);
+        System.out.println("Food-->"+Food);
+        System.out.println("Healthcare-->"+Healthcare);
+        System.out.println("Quantity-->"+Quantity);
+        System.out.println("Discount-->"+Discount);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 }
+

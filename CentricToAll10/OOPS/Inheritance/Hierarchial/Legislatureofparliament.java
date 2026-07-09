@@ -1,15 +1,22 @@
 package CentricToAll10.OOPS.Inheritance.Hierarchial;
 
-import CentricToAll10.OOPS.Inheritance.Hierarchial.Governmentofindia;
 
 public class Legislatureofparliament extends Governmentofindia
 
-
 {
 
-    void functioining()
+    String Legislature1;
+    String Legislature2;
+
+    Legislatureofparliament(String legislature1, String legislature2)
     {
-        System.out.println("Legislative body:Loksabha(PM),Rajyasabha(VP)");
+        this.Legislature1=legislature1;
+        this.Legislature2=legislature2;
+    }
+    void headedby()
+    {
+        System.out.println("Prime minister is the leader of the house-->" +Legislature1);
+        System.out.println("Vice President is the  leader of the house-->"+Legislature2);
     }
 
 
