@@ -7,11 +7,12 @@ public class BankAccount
     //Note: If you don't define the parameter constructor. It works as  default constructor
 
     //Attributes
-
-    String bankname;   //null
-    int balance;      //0
+    String bankname;
     String bankcode;
-    String location;
+    int balance;
+    String Location;
+
+
 
 
     //Initializing the default constructor
@@ -38,34 +39,28 @@ public class BankAccount
 
     //Initializing the parameter constructor
 
-    BankAccount(String bn,String bc,int bal,String hyd)
-    {
-        this.bankname=bn;
-        this.bankcode=bc;
-        this.balance=bal;
-        this.location=hyd;
-    }
+     BankAccount (String bn,String bc, int bal,String loc)
+     {
+         this.bankname=bn;
+         this.bankcode=bc;
+         this.balance=bal;
+         this.Location=loc;
 
-    void  printdetails()
-    {
-     System.out.println("BankName : -->" + this.bankname);
-     System.out.println("BankCode : -->" + this.bankcode);
-     System.out.println("Balance  : -->" + this.balance);
-     System.out.println("Location : -->" + this.location);
 
     }
 
 
     //In parameterised constructor reference value already changed using this keyword.
 
-    /***void printinfo()
+    void printinfo()
     {
         System.out.println("BankName : -->" +bankname);
         System.out.println("BankCode : -->" +bankcode);
         System.out.println("Balance  : -->" +balance);
+        System.out.println("Location : -->" +Location);
 
 
-    }***/
+    }
 
 
 

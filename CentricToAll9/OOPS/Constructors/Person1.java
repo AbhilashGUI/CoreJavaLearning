@@ -1,45 +1,29 @@
 package CentricToAll9.OOPS.Constructors;
 
-import java.util.jar.Attributes;
-
 public class Person1
 {
     //Attributes
     //Default values of primitive data types
-     String name;
-
-     String emailaddress;
-
-     long  mobilenumber;
-
-     String nationality;
-
-     String locality;
-     boolean married;
+    String name;
+    String emailaddress;
+    int empid;
+    String department;
+    long  mobilenumber;
+    float experience;
+    double salary;
 
 
 
     //Initializing default constructor
-     Person1()             //Constructor name Should be same as the class name
-     {
-         name="Abhilash";
-         emailaddress="vemulaabhilash4321@gmail.com";
-         mobilenumber= 123459875;
-         nationality="India";
-         locality="hyderabad";
-         married=false;
-     }
-
-
-     //Initializing the parameter constructor
-   Person1 (String valuefromreferenceobject)
+    Person1()             //Constructor name Should be same as the class name
     {
-       this.name=valuefromreferenceobject;
-       this.emailaddress=valuefromreferenceobject;
-       this.nationality=valuefromreferenceobject;
-       this.locality=valuefromreferenceobject;
-
-
+    name="Abhilash";
+    emailaddress="Abhitestcheck@gmail.com";
+    empid=100;
+    department="Software Testing";
+    mobilenumber=9075632145l;
+    experience=4.2f;
+    salary=7.5;
 
     }
 
@@ -56,14 +40,13 @@ public class Person1
     void printdetails() {
         System.out.println(name);
         System.out.println(emailaddress);
+        System.out.println(empid);
+        System.out.println(department);
         System.out.println(mobilenumber);
-        System.out.println(nationality);
-        System.out.println(locality);
-        System.out.println(married);
+        System.out.println(experience);
+        System.out.println(salary);
 
 
     }
-    }
-
-
+}
 

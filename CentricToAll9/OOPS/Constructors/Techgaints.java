@@ -1,42 +1,68 @@
 package CentricToAll9.OOPS.Constructors;
 
 public class Techgaints {
-    String name;
-    String company;
-    String industry;
-    int since;
+
+    String Name;
+    String Company;
+    String Role;
+    int Since;
 
 
-    Techgaints(String name, String company, String industry, int since) {
-        this.name = name;
-        this.company = company;
-        this.industry = industry;
-        this.since = since;
+
+    Techgaints(String Name, String Company, String Role, int Since)
+    {
+        this.Name=Name;
+        this.Company=Company;
+        this.Role=Role;
+        this.Since=Since;
+    }
+
+
+    void printdetails()
+    {
+        System.out.println("Name : "+Name);
+        System.out.println("Company : "+Company);
+        System.out.println("Role : "+Role);
+        System.out.println("Since : "+Since);
+
 
     }
-        void printdetails()
-        {
-            System.out.println("name-->" + this.name);
-            System.out.println("company-->" + this.company);
-            System.out.println("industry-->" + this.industry);
-            System.out.println("since-- >" + this.since);
-        }
+
+
+    public static void main(String[] args)
+    {
+        Techgaints techie=new Techgaints("Shantanu Narayen","Adobe","Chairman & CEO",2007);
+        techie.printdetails();
+
+        Techgaints techie2=new Techgaints("Jayashree Ullal","Arista Networks","President & CEO",2008);
+        techie2.printdetails();
+
+        Techgaints techie3=new Techgaints("Satya Nadella","Microsoft","Chairman & CEO",2014);
+        techie3.printdetails();
+
+        Techgaints techie4=new Techgaints("George Kurian","NetApp","CEO",2015);
+        techie4.printdetails();
+
+        Techgaints techie5=new Techgaints("Sundar Pichai","Google"," CEO",2015);
+        techie5.printdetails();
+
+        Techgaints techie6=new Techgaints("Sunjay Mehrotra","Micron","President & CEO",2017);
+        techie6.printdetails();
+
+        Techgaints techie7=new Techgaints("Nikesh Arora","Palo Alto Networks","Chariman & CEO",2018);
+        techie7.printdetails();
+
+        Techgaints techie8=new Techgaints("Arvind Krishna","IBM","Chariman & CEO",2020);
+        techie8.printdetails();
+
+        Techgaints techie9=new Techgaints("Neal Mohan","Youtube"," CEO",2023);
+        techie9.printdetails();
+
+        Techgaints techie10=new Techgaints("Anjali Sud","Tubi"," CEO",2023);
+        techie10.printdetails();
 
 
 
 
-        public static void main (String[] args)
-        {
-
-            Techgaints techie = new Techgaints("SundarPichari","Google","IT",2015);
-            techie.printdetails();
-            Techgaints techie2= new Techgaints("Satyanadella","Microsoft","IT",2014);
-            techie2.printdetails();
-            Techgaints techie3= new Techgaints("Shantanu narayen","Adobe","IT",2007);
-            techie3.printdetails();
-            Techgaints techie4= new Techgaints("ArvindKrishna","IBM","IT",2020);
-            techie4.printdetails();
-
-
-        }
     }
+}

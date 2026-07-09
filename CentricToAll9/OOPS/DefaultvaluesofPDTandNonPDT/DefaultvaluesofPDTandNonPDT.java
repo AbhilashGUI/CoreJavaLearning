@@ -6,7 +6,7 @@ public class DefaultvaluesofPDTandNonPDT
 
         //Attributes
         //Default values of primitive and non-primitive data types
-        //Applicant details
+
         String name;
         char gender;
         boolean ismarried;
@@ -67,7 +67,7 @@ public class DefaultvaluesofPDTandNonPDT
         }
 
 
-    public void printDetails()
+    public void printinfo()
     {
         System.out.println(name);            //null
         System.out.println(ismarried);   //false
