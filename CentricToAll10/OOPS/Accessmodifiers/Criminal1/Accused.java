@@ -7,11 +7,9 @@ public class Accused
     public static void main(String[] args)
     {
 
-        Judgement jd=new Judgement("Evidence ");
+        Judgement accused=new Judgement("False allegation");
         System.out.println("Innocent util proven guilty");
-        //jd.verdict();
-        //jd.verdict1();
-        jd.verdict2();
+        accused.verdict2();  //Allowing the accused to fight for false allegation
 
 
 

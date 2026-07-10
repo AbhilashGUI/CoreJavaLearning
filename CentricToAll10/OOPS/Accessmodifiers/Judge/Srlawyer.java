@@ -5,10 +5,10 @@ public class Srlawyer {
 public static void main(String [] args)
 {
 
-    Judgement jd= new Judgement("Evidence");
+    Judgement srlawyer= new Judgement("Based on Evidence Examined");
     System.out.println("I'm examining the evidence collected");
-    jd.verdict2();
-    jd.verdict1();
+    srlawyer.verdict2();
+    srlawyer.verdict1();
 
 
 }

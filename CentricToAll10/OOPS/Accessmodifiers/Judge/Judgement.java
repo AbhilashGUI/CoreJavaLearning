@@ -15,11 +15,6 @@ public class Judgement {
     }
 
     protected void verdict1()
-    //Note:If we declare as public, granting access to Accused class and Lawyer class
-    //Note: If we declare as protected, only lawyer class can access
-    //Note: If we declare as private, only Accused class  can access
-
-
 
     {
         System.out.println("Requesting for expedite");
@@ -29,9 +24,10 @@ public class Judgement {
     {
         System.out.println("Bringing to notice");
     }
+
     public static void main(String [] args)
     {
-     Judgement judgement= new Judgement("My lord");
+     Judgement judgement= new Judgement("Based on Evidence Submitted");
      judgement.verdict();
      System.out.println("My judgement is final");
     }
