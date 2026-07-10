@@ -6,14 +6,15 @@ public class Runnerclass1
     public static void main(String[] args)
     {
        //Parent class to parent object
-        Humans h=new Humans();
-        h.existence();
-      //Parent class to child object
-        Humans h1=new Male();
-        h1.existence();
+        Humans humans=new Humans();
+        humans.existence();
 
-        Humans h2=new Female();
-        h2.existence();
+      //Parent class to child object
+        Humans humans1=new Male();
+        humans1.existence();
+
+        Humans humans2=new Female();
+        humans2.existence();
 
 
 

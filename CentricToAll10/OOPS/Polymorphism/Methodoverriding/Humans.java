@@ -5,6 +5,6 @@ public class Humans
 
     void existence()
     {
-        System.out.println("Find your purpose of life");
+        System.out.println("Find your purpose of life through consciousness");
     }
 }

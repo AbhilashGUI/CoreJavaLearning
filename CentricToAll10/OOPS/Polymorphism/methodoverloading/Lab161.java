@@ -7,9 +7,10 @@ public class Lab161
     {
 
         new Classroom().Students(65);
-        new Classroom().Students(67.3);
         new Classroom().Students(45);  //No. of male students
         new Classroom().Students(20);  //No. of female students
+        new Classroom().Students(67.3);
+        new Classroom().Students('A');
         new Classroom().Students("Sundar");
 
 

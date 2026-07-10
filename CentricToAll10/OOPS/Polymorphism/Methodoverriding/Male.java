@@ -5,7 +5,7 @@ public class Male extends Humans
     void existence()
     {
 
-    System.out.println("Face the challenges");
+    System.out.println("Face the challenges, overcome the failures");
 
     }
 }

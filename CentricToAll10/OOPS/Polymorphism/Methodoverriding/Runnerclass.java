@@ -4,16 +4,16 @@ public class Runnerclass
 {
     public static void main(String[] args)
     {
-         Dog D= new Dog();
-         D.bark();
-//bark() is a method, which is used in both subclass and parent class
+         Dog dog= new Dog();
+         dog.bark();
+        //bark() is a method, which is used in both subclass and parent class
 
-         Hound H=new Hound();
-         H.bark();
-//
+         Hound hound=new Hound();
+         hound.bark();
 
-         Dog D1=new Hound();
-         D1.bark();             //Assigning child object to parent class
+
+         Dog dog1=new Hound();
+         dog1.bark();             //Assigning child object to parent class
 
 
          //Hound h=new Dog(); //Cannot Assign parent object to child class

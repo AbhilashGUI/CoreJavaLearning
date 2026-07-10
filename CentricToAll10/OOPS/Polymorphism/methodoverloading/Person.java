@@ -9,38 +9,38 @@ public class Person
 
        void Gift(char a)
        {
-           System.out.println("Character is :" + a);
+           System.out.println("Character:" + a);
        }
 
        void Gift(String name)
        {
 
-           System.out.println("String is :" + name);
+           System.out.println("String :" + name);
        }
 
 
       byte Gift(byte b)
       {
-          System.out.println("Byte is :" + b);
+          System.out.println("Byte  :" + b);
           return b;
       }
 
 
      int Gift(int i)
     {
-        System.out.println("Integer is:" + i);
+        System.out.println("Integer :" + i);
         return i;
     }
 
     short Gift(short s)
     {
-        System.out.println("Short is :"+ s );
+        System.out.println("Short :"+ s );
         return  s;
     }
 
   long Gift(long l)
   {
-      System.out.println("Long value is :" + l);
+      System.out.println("Long value :" + l);
       return l;
   }
 

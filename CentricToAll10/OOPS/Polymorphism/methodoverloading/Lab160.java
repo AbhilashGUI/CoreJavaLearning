@@ -11,7 +11,7 @@ public class Lab160
         new Person().Gift(4.37);   //Double/float
         new Person().Gift(123654987685434L);
 
-
+  //Since, byte, short are int type and float is decimal type, which is already declared.
 
 
 
