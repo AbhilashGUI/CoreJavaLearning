@@ -1,63 +1,61 @@
 package CentricToAll10.OOPS.Encapsulation;
 
-public class Encapsulation2
+public class Encapsulation2 {
 
-{
     public static void main(String[] args)
     {
-        //Enabling the Getter and Setter condition
-       Vwologin2 vwologin2=new Vwologin2("Abhilash","Learning");
-
-       boolean check=vwologin2.isLoggedin("Abhilash","learning"); //It should thro
-       System.out.println(check);
 
 
-       vwologin2.setUsername("vicky");
-       //Note: Unable to set the password , user is allowed to set  and get the password
-        String username=vwologin2.getUsername();
+        Vwologin2 vwologin2= new Vwologin2("Suraj","Sangve");
 
-        System.out.println(username);
+        boolean check=vwologin2.isloggedin("suraj","sangve");
+        System.out.println(check);
 
-        boolean check2= vwologin2.isLoggedin("vicky","learning");
+        boolean check2= vwologin2.isloggedin("Suraj","Sangve");
         System.out.println(check2);
 
+        vwologin2.setUsername("manish");
+        String username=vwologin2.getUsername();
+        System.out.println(username);
 
-
+        boolean check3= vwologin2.isloggedin("manish","sangve");
+        System.out.println(check3);
     }
+
+
 }
 
-//Concept of encapsulation
+
 class Vwologin2 {
 
-    public void setUsername(String username) {    //Allowing the user to set the username
-        this.username = username;
-    }
 
     public String getUsername() {
-        return username;
+        return Username;
     }
 
-    private String username;
-    private String password;
+    public void setUsername(String username) {
+        Username = username;
+    }
+
+    private String Username;
+    private String Password;
 
 
     public Vwologin2(String username, String password) {
-        this.username = username;
-        this.password = password;
-
-
+        Username = username;
+        Password = password;
     }
 
-    boolean isLoggedin(String username, String password) {
-        if (this.username.toLowerCase().equals(username) && this.password.toLowerCase().equals(password))
-        {
-            System.out.println("LoggedIn Successfully");
+
+    boolean isloggedin(String username, String password) {
+        if (username.toLowerCase().equals(username) && password.toLowerCase().equals(password)) {
+            System.out.println("User is logged in successfully");
             return true;
-        }
-        else
-        {
-            System.out.println("Wrong Credentials");
+        } else {
+            System.out.println("Invalid credentials");
             return false;
+
         }
     }
 }
+

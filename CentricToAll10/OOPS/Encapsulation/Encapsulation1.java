@@ -4,60 +4,48 @@ public class Encapsulation1 {
 
     public static void main(String[] args) {
 
-        vwologin vwologin = new vwologin("Abhilash", "Learning");
+        Vwologin vwologin = new Vwologin("Abhilash", "Testcheck");
 
-        boolean check = vwologin.isloggedin("abhilash", "learning");
+        boolean check = vwologin.isloggedin("abhilash", "testcheck");
         System.out.println(check);
 
-        boolean check2 =vwologin.isloggedin("Abhilash","Learning");
+        boolean check2 = vwologin.isloggedin("ABHILASH", "TESTCHECK");
         System.out.println(check2);
 
-        boolean check3=vwologin.isloggedin("ABHILASH","LEARNING");
+        boolean check3 = vwologin.isloggedin("Abhilash", "Testcheck");
         System.out.println(check3);
 
+        String username="vicky";
+        String password="test";
 
-        vwologin.username="Vicky";
-        vwologin.password="Notinterested";
-
-        //Since, we have declared username and password in public. User is able to manipulate them.
-
-        boolean check4=vwologin.isloggedin("vicky","notinterested");
+        boolean check4= vwologin.isloggedin("vicky","test");
         System.out.println(check4);
 
-        boolean check5=vwologin.isloggedin("VICKY","NOTINTERESTED");
-        System.out.println(check5);
+
+    }
+
+
+}
+class Vwologin {
+
+
+    public String Username;
+    public String Password;
+
+
+    Vwologin(String username, String password) {
+        Username = username;
+        Password = password;
+    }
+
+    //Creating a function
+    boolean isloggedin(String username, String password) {
+        if (username.toLowerCase().equals(username) && password.toLowerCase().equals(password)) {
+            System.out.println("User is loggedin Successfully");
+            return true;
+        } else {
+            System.out.println("Invalid crdentials");
+            return false;
+        }
     }
 }
-    class vwologin {
-
-        public String username;
-        public String password;
-
-
-        public vwologin(String username, String password) {
-            this.username = username;
-            this.password = password;
-        }
-
-        //Creating the function
-
-        boolean isloggedin(String username, String password) {
-            if (this.username.toLowerCase().equals(username) && this.password.toLowerCase().equals(password)) {
-                System.out.println("User loggedin successfully");
-                return true;
-
-
-            } else {
-                System.out.println("Invalid credentials");
-                return false;
-            }
-
-        }
-    }
-
-
-
-
-
-
-
