@@ -4,13 +4,23 @@ public class Runnerclass {
 
     public static void main(String[] args) {
 
-      Elderson er= new Elderson();
-      er.loan10cr();
-      er.villa();
+        Father father= new Father() {
+            @Override
+            void debt10cr() {
 
+            }
+        };
+        //father.ownaproperty();
+        //father.debt10cr();
 
-      Youngerson yr= new Youngerson();
-      yr.loan10cr();
-      yr.villa();
-    }
-    }
+        Elderson elderson=new Elderson();
+        elderson.ownaproperty();
+        elderson.debt10cr();
+
+        Youngerson youngerson=new Youngerson();
+        youngerson.ownaproperty();
+        youngerson.debt10cr();
+
+            }
+        }
+

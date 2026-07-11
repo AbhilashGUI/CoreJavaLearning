@@ -1,6 +1,6 @@
 package CentricToAll10.OOPS.Abstraction.Interface.RealtimeExample;
 
-public interface Accelerator {
+public interface Clutch {
 
-    void accelarte();
+    void clutch();
 }

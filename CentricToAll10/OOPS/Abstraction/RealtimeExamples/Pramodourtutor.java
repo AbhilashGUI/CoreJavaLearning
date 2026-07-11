@@ -4,10 +4,8 @@ public abstract class Pramodourtutor
 {
    abstract void dohomework();
 
-        void IwillmakeyouAT()
-
         {
-        System.out.println("Do follow my instructions");
+        System.out.println("Do follow my instructions, I'll help you become an Automation tester");
 }
 
 

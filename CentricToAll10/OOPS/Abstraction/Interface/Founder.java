@@ -2,7 +2,7 @@ package CentricToAll10.OOPS.Abstraction.Interface;
 
 public interface Founder
 {
-    void earned100cr();
+    void earned10cr();
 
 
     default  void  print()

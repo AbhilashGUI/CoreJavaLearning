@@ -1,7 +1,8 @@
 package CentricToAll10.OOPS.Abstraction.Interface.RealtimeExample;
 
-public interface Break
-{
+public interface Storage {
 
-    void  Break();
+    void ssd();
+
 }
+

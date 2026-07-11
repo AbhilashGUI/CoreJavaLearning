@@ -1,13 +1,13 @@
 package CentricToAll10.OOPS.Abstraction.Example2;
 
-public abstract class Father
-{
+public abstract class Father{
 
-  void villa()
-  {
-      System.out.println("Owns a villa of 100cr");
-  }
-
-   abstract void loan10cr();
-
+    Father()
+    {
+    }
+    void ownaproperty()
+    {
+        System.out.println("I'm a property owner of 100cr villa");
+    }
+    abstract void debt10cr();
 }

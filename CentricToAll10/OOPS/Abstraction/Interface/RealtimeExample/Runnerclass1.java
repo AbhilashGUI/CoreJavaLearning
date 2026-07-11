@@ -6,8 +6,8 @@ public class Runnerclass1 extends Computer
     {
 
 
-        Computer cp=new Computer();
-        cp.turnonCPU();
+        Computer cpworking=new Computer();
+        cpworking.turnonCPU();
 
 
 

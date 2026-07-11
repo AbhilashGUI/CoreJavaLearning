@@ -1,16 +1,12 @@
 package CentricToAll10.OOPS.Abstraction.Example1;
 
-public class Lab162
-{
+public class Lab162 {
+
     public static void main(String[] args)
     {
-      Dog d = new Dog();
-      d.pet();
-      d.domesticanimal();
-
-
-
-
+        Dog dog= new Dog();
+        dog.domesticanimal();
+        dog.pet();
 
     }
 }

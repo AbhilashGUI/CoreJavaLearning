@@ -1,33 +1,32 @@
 package CentricToAll10.OOPS.Abstraction.Interface.RealtimeExample;
 
-public class Computer implements SMPS,Processor,RAM
-{
-    void turnonCPU()
-    {
+public class Computer implements SMPS,Processor,RAM,Storage {
+    void turnonCPU() {
         System.out.println("Computer should be working");
-        startprocessor();
-        startram();
-        powersupply();
-    }
-
-
-    @Override
-    public void startprocessor()
-    {
-        System.out.println("To perform computer operations");
+        sourceofpowersupply();
+        performanceoffetchingresults();
+        processinstructions();
+        ssd();
 
     }
 
     @Override
-    public void startram()
-    {
-        System.out.println("To store the data");
-
+    public void sourceofpowersupply() {
+        System.out.print("SMPS is Working fine");
     }
 
     @Override
-    public void powersupply()
-    {
-      System.out.println("Yeah, we have uninterrupted power supply");
+    public void processinstructions() {
+        System.out.println("Processor is Working fine");
+    }
+
+    @Override
+    public void performanceoffetchingresults() {
+        System.out.println("RAM is Working fine");
+    }
+
+    @Override
+    public void ssd() {
+        System.out.println("Storage is working fine");
     }
 }

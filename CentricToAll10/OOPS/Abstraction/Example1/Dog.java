@@ -2,8 +2,9 @@ package CentricToAll10.OOPS.Abstraction.Example1;
 
 public class Dog extends Animal{
 
-    Dog() {
-        super();
+    Dog()
+    {
+
     }
 
     @Override
@@ -13,6 +14,7 @@ public class Dog extends Animal{
 
     @Override
     void pet() {
-       System.out.println("My name is tuffy");
+        System.out.println("My name is Snupy");
+
     }
 }

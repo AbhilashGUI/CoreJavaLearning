@@ -2,14 +2,15 @@ package CentricToAll10.OOPS.Abstraction.Example2;
 
 public class Youngerson extends Father {
 
+
     @Override
-    void villa() {
-        super.villa();
-        System.out.println("I am a secondary share holder");
+    void ownaproperty() {
+        super.ownaproperty();
+        System.out.println("Let the elder one take the decision");
     }
 
     @Override
-    void loan10cr() {
-       System.out.println("I wil pay rest 2.5cr ");
+    void debt10cr() {
+        System.out.println("As instructed, I'll pay the other half");
     }
 }

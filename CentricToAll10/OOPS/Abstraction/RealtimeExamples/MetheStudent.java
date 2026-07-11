@@ -8,11 +8,7 @@ public class MetheStudent extends  Pramodourtutor {
 
     @Override
     void dohomework() {
-        System.out.println("Sure Sir");
+        System.out.println("Sure Sir, Thank you !");
     }
 
-    @Override
-    void IwillmakeyouAT() {
-        super.IwillmakeyouAT();
-    }
 }
