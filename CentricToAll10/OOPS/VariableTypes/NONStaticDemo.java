@@ -9,13 +9,26 @@ public class NONStaticDemo
 
     public void printfruit()
     {
-        System.out.println("Regularly  available fruit is :"+fruit);
+       System.out.println("Regular available fruit is :"+fruit);
+
 
     }
 
     public void printdozen()
     {
-        System.out.println("Which is sold in dozen count :"+dozen);
+        //System.out.println("Which is sold in dozen count :"+dozen);
     }
 
+
+    public static void main(String[] args)
+    {
+
+        NONStaticDemo nonStaticDemo= new NONStaticDemo();
+        nonStaticDemo.printfruit();
+        nonStaticDemo.printdozen();
+        nonStaticDemo.dozen=24;
+        nonStaticDemo.fruit="Most of the fruits are available across the seasons";
+        nonStaticDemo.printfruit();
+        nonStaticDemo.printdozen();
+    }
 }

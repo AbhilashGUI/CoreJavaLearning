@@ -15,7 +15,7 @@ public static void main(String[] args)
 
     C1 c3=null;    //No object is created
    // c3.m1();      //When we invoking the null object reference with non-static function. It will throw an "nullpointerexception"
-    c3.m2();       //When we are invoking the null object reference with static function. It will return variables declared the static function
+    c3.m2();       //When we are invoking the null object reference with static function. It will return variables declared in the static function
 
 
 }
