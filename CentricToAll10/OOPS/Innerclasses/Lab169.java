@@ -1,35 +1,33 @@
 package CentricToAll10.OOPS.Innerclasses;
 
-public class Lab169
-{
-    public static void  main(String[] args)
+public class Lab169 {
+
+    public static void main(String[] args)
     {
-
-        Abhilash ab=new Abhilash();
-        Abhilash.Disciple disciple=new Abhilash.Disciple();
-        disciple.learning();
+        Abhilash abhilash= new Abhilash();
+        Abhilash.Passionate passionate= new Abhilash.Passionate();
+        abhilash.Striving();
+        passionate.learning();
+    }
 
     }
 
 
-}
 
-class Abhilash {
-    int age = 30;
-    void striving() {
-        System.out.println("For a good career");
+class Abhilash
+{
+    int age=30;
+    void Striving()
+    {
+        System.out.println("Looking for a career transition into Automation");
     }
 
-
-    static class Disciple {     //Make class as non-static my removing it
-
-        void learning() {
-
-            //System.out.println(age);   //If the class is non-static can use instance variable
-            System.out.println("Upgrading skills");  //Static class cannot access instance variable and functions defined in non-static class
-
-        }
-
-
-    }
+  static class Passionate
+  {
+      void learning()
+      {
+          //System.out.println(age);
+          System.out.println("Upgrading skills");
+      }
+  }
 }

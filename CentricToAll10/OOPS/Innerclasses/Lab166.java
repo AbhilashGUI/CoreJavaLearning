@@ -1,50 +1,41 @@
 package CentricToAll10.OOPS.Innerclasses;
 
 public class Lab166 {
+
     public static void main(String[] args) {
 
-        Car car = new Car("TataMotors");
-        Car.Engine engine= car.new Engine("400cc");
+        Car car= new Car("Tata Motors");
+        Car.Engine engine=car.new Engine("1000cc");
         car.drive();
-        engine.start();
-
+        engine.startengine();
 
     }
-
-}
-     //Outerclass.Innerclass innerclassref=outerclassref.new Innerclass();
-
-class  Car
-{
-
-    String CarManufacturingcompany;
-    public Car(String carManufacturingcompany) {
-        CarManufacturingcompany = carManufacturingcompany;
-    }
-    void drive()
-    {
-        System.out.println("You can drive");
-    }
- class  Engine
- {
-     String horsepower;
-     public Engine(String horsepower) {
-         this.horsepower = horsepower;
-     }
-
-     void start()
-     {
-         System.out.println("Engine is started");
-     }
- }
 }
 
+    class Car {
+        String Carmanufacturingcompany;
+
+        public Car(String carmanufacturingcompany) {
+            Carmanufacturingcompany = carmanufacturingcompany;
+        }
+
+        void drive() {
+            System.out.println("Car is a mode of transport");
+        }
 
 
+        class Engine {
 
+            String horsepower;
 
+            public Engine(String horsepower) {
+                this.horsepower = horsepower;
+            }
 
+            void startengine() {
+                System.out.println("Lets go for a long drive");
+            }
 
-
-
+        }
+    }
 

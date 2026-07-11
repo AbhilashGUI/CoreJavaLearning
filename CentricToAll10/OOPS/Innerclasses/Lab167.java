@@ -1,45 +1,50 @@
 package CentricToAll10.OOPS.Innerclasses;
 
-public class Lab167
-{
+public class Lab167 {
 
     public static void main(String[] args)
     {
 
-  Mobile mobile=new Mobile("Apple");
-  Mobile.Processor processor=mobile.new Processor("Apple A14 Bionic");
-  mobile.turnon();
-  processor.operations();
-
+        Socialmedia socialmedia= new Socialmedia("It has large number of active users");
+        Socialmedia.Utilization utilization= socialmedia.new Utilization("Info exchange");
+        socialmedia.compatible();
+        utilization.usedfor();
 
     }
+
 }
-class Mobile{    //Outer class
 
-    String mobilemanufacturingcompany;
-    public Mobile(String mobilemanufacturingcompany) {     //Parma cons.
-        this.mobilemanufacturingcompany = mobilemanufacturingcompany;
+
+
+class Socialmedia{
+
+    public Socialmedia(String watsapp) {
+        this.watsapp = watsapp;
     }
 
-     void turnon()    //function/method
-     {
-         System.out.println("Access granted");
-     }
+    String watsapp;
 
-
-class   Processor{   //Innerclasss
-
-    String Processor;
-    public Processor(String processor) {   //Param cons.
-        Processor = processor;
+    void compatible()
+    {
+        System.out.println("It is compatible for android and ios");
     }
 
-        void operations()  //Functions/method
-        {
-            System.out.println("For performing various operations in smartphone");
+    class Utilization
+    {
+        public Utilization(String feature) {
+            this.feature = feature;
         }
+
+        String feature;
+
+        void usedfor()
+        {
+            System.out.println("It is widely used for sharing information");
+        }
+    }
 }
 
 
 
-}
+
+
