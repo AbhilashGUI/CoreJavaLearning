@@ -7,17 +7,17 @@ public class Lab170
     {
 
 
-        int a=10;   //Primitive data types
+        int a=30;   //Primitive data types
         //Due to this data types java is not 100% oops
-        byte b=20;
+        byte b=40;
         System.out.println(a);
         System.out.println(b);
 
 
-       // Note: We don't have any built in functions to PDT. However,For WRAPPER classes, we hava a built in functions
+       // Note: We don't have any in-built functions in PDT. However, wrapper classes, have a many in-built functions
 
-        Integer A=10;
-        Byte B=20;
+        Integer A=60;
+        Byte B=100;
 
         System.out.println(A);
         System.out.println(B);

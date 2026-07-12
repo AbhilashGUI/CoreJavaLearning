@@ -16,7 +16,7 @@ public class Lab171
        System.out.println(number2);
 
        byte b=125;
-       String num=String.valueOf(b);
-       System.out.print(b);
+       String number3=String.valueOf(b);
+       System.out.print(number3);
     }
 }
