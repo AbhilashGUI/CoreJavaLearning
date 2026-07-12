@@ -4,15 +4,13 @@ public class Anonymousclass3
 {
     public static void main(String args[])
     {
-        Runnable R= new Runnable() {
+        Runnable runnable= new Runnable() {
             @Override
-            public void run()  //Default function
-            {
-               System.out.println("I am a THREAD!");
+            public void run() {
+                System.out.println("This concept of runnable is used in the Threads");
+
             }
         };
-       R.run();
-
-
+        runnable.run();
     }
 }
