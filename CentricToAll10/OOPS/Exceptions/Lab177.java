@@ -15,6 +15,7 @@ public class Lab177 {
             int c=b/0;
         } catch (ArithmeticException exception) {
             exception.printStackTrace();
+
         }
 
   //Note: Since we  are not passing any argument in CLA , it is throwing the below exception

@@ -4,26 +4,19 @@ public class Lab178 {
     public static void main(String[] args) {
 
         //Note: Handling the arithmetic exception, by using try catch (Customized error)
-     try
-     {
+        try {
+            int a = 0;
+            int b = 0 / a;
 
-        int a = 0;
-        int b = 0 / a;
-    }catch (Exception e)
+        } catch (Exception e) {
+            //System.out.println(e);
+            //e.printStackTrace();
+            System.out.println("Exit");
 
-      {
-          System.out.println("Exit");
-          System.exit(0);    //exit function : Does not allows to execute finally statement.
-      }
-
-      //Since we are disabling the exit() function, it prints the finally block
-      finally {
-          {
-              System.out.println("Mandate, Incase of exit is disabled");
-          }
-      }
-
+           // System.exit(0); // //exit function : Does not allows to execute finally statement.
+        } finally {
+            System.out.println("Mandatorily executed, incase of exit is disabled");
+        }
 
     }
-
 }

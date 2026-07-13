@@ -4,14 +4,14 @@ public class Lab174
 {
     public static void main(String[]args)
     {
-     String str=args[0];   //Passing the CLA from IDE and running the code.Which results the expected output
+     String string= args[0];   //Passing the CLA from IDE and running the code.Which results the expected output
 
      //Note: When we are passing no element in an CLA array it throws >>ArrayIndexOutOfBoundsException
      //Note: When we are passing string element(Name) and converting then to Int in CLA, it throws >>NumberFormatException
      //Note: When we are passing 0 in CLA ,it throws >>Arithmetic exception
-        int x=Integer.parseInt(str);
+        int x=Integer.parseInt(string);
         int a=20/x;
-        int b=a/x;
+        int b=x/a;
 
      System.out.println(x);
      System.out.println(a);
@@ -22,7 +22,7 @@ public class Lab174
 }
 
 //Note: Understanding the flow of the program
-/* JvM will be initialized
+/* JVM will be initialized
 Creates and starts the main thread(Main method)
 Note:Main thread will do the following tasks
 1.Collects the command line argument
