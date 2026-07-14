@@ -3,15 +3,18 @@ package CentricToAll10.OOPS.Exceptions;
 public class Lab180 {
 
     public static void main(String args[]) {
-        try {
+
+      try {
 
 
+            boolean isatmtransaction=false;
             int Amount_debited = 1000;
-            int atm_txn = 0;
-            int result = Amount_debited / atm_txn;
+            int atmtransactions=0;
+            int message=Amount_debited/atmtransactions;
+      }catch (Exception e)
 
-        } catch (Exception e) {
-           System.out.println("Do not worry, amount will be credited back in 24 hours");
+         {
+           System.out.println("Do not worry, if the transaction is initiated via ATM, amount will be credited back in 24 hours");
         }
 
 

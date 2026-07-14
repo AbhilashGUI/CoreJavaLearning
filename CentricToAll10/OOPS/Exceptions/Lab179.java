@@ -8,14 +8,14 @@ public class Lab179 {
         try {
             int a = 0;
             int b = 10 / a;
-        }catch (Exception e)
+        }catch (ArithmeticException e)
         {
             System.out.println("Exit the code, since i'm aware about the kind of exception");
-            System.exit(0);     //exit function : Does not allows to execute finally statement
+            //System.exit(0);     //exit function : Does not allows to execute finally statement
         }
         finally {
             {
-                System.out.println("Mandate, incase of exit is disabled");
+                System.out.println("Disabled the exit line, so that finally block gets executed");
             }
         }
 

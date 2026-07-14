@@ -7,22 +7,20 @@ import java.io.FileReader;
 public class Lab189 {
     public static void main(String[] args) throws FileNotFoundException {
 
-        int a=10/0;
+        //int a=10/0;
         // Note: This is an example of unchecked exception. Where JVM doesn't know about the error in advance.
 
 
-        try
+        try (FileReader fileReader = new FileReader(new File("C://Abhilash.txt")))
         {
-        FileReader f= new FileReader(new File("C://Abhilash.txt"));
-        //Note:This is an example of checked exception.Where JVM is aware about the error in advance
         }catch (Exception e)
+        //Note:This is an example of checked exception.Where JVM is aware about the error in advance
         {
             System.out.println(e.getMessage());
         }
 
 
-        FileReader f= new FileReader(new File("C://Abhilash.txt"));
-
+        FileReader fileReader= new FileReader(new File("C://Abhilash.txt"));
 
 
 

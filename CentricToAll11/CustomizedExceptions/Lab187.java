@@ -1,7 +1,7 @@
 package CentricToAll11.CustomizedExceptions;
 
 public class Lab187 {
-  public static void main(String[] args) throws  Exception{
+  public static void main(String[] args) throws Exception {
     name("abhilash");
 
 
@@ -9,15 +9,18 @@ public class Lab187 {
 
   //Note:It is mandate to pass a "throws exception" in the function and also in the main method
 
-  static void name(String person) throws Exception{
-    if (person.equals("Abhilash"))
+  static void name(String person) throws Exception {
+    if (person.equals("ABHILASH"))
     //Note: Since the condition is false, get to see the customized exception
 
     {
       throw new ArithmeticException();
     }
-    System.out.println("Throwing a Customized Exception");
+    else {
 
+      System.out.println("Throwing a Customized Exception");
+
+    }
   }
 }
 

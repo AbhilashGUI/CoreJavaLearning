@@ -4,8 +4,12 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class Lab190 {
+
+    public Lab190() throws FileNotFoundException {
+    }
+
     public static void main(String[] args)  {
-        String path = "C:/a.txt";
+        String path = "C://Aadhar.jpg";
         try {
             FileInputStream f = new FileInputStream(path);
 
@@ -16,10 +20,13 @@ public class Lab190 {
 
         }
 
+        String path= "C://Aadhar.pdf";
+
+      FileInputStream fileInputStream= new FileInputStream(path);
 
     }
 
-        //In this case, we have a choice of using try&catch block or throws keyword at the method level
+        //In this case, we have a choice of using try&catch block or throws keyword using the constructor
 
 
 
