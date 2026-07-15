@@ -3,6 +3,7 @@ package CentricToAll12.CollectionFramework.List;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class Lab203
 {
@@ -28,7 +29,7 @@ public class Lab203
         onlinetutorials.addAll(coursefee);
         System.out.println(onlinetutorials);
 
-        //Using iterator interface
+        //Using iterator
 
         Iterator iterator=onlinetutorials.iterator();
         while (iterator.hasNext())
@@ -36,7 +37,12 @@ public class Lab203
             System.out.println(iterator.next());
         }
 
-
+        //Using Listiterator
+        ListIterator listIterator= onlinetutorials.listIterator(onlinetutorials.size());
+        while (listIterator.hasPrevious())
+        {
+            System.out.println(listIterator.previous());
+        }
 
 
     }

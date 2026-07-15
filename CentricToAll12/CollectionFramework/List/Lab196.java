@@ -7,9 +7,10 @@ public class Lab196
     public static void main(String[] args)
     {
         Vector v= new Vector();
+        v.add("Vemula");
         v.add("Abhilash");
         v.add("Sharma");
-        v.add("Vemula");
+
 
         System.out.println(v);
     }

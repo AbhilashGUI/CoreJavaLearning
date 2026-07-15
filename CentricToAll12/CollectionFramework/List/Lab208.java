@@ -13,13 +13,14 @@ public class Lab208
         stack.push("B");
         stack.push("C");
         stack.push("D");
+        stack.push("E");
         System.out.println(stack);
-        stack.pop();              //pop() function is used to remove the items
+        stack.pop();
+        stack.pop(); //pop() function is used to remove the items
         System.out.println(stack);
             //peek() function is used to display the top element without deleting it.
-        System.out.println(stack.peek());
         System.out.println(stack);
-        stack.push("E");
+        stack.push("F");
         System.out.println(stack);
         System.out.println(stack.peek());
 

@@ -10,16 +10,16 @@ public class Lab198
     {
         //Invoking  multi objects using the iterator interface
 
-     List mylist=new LinkedList<>();     //Note:List is the PARENT class
-     mylist.add('V');               //Since we did not specified the diamond operator, it allows the object
-     mylist.add("Abhilash");
-     mylist.add("Sharma");
-     mylist.add(123);
-     mylist.add(true);
-     System.out.println(mylist);
+     List listofdata=new LinkedList<>();     //Note:List is the PARENT class
+     listofdata.add('V');               //Since we did not specified the diamond operator, it allows the object
+     listofdata.add("Abhilash");
+     listofdata.add("Sharma");
+     listofdata.add(123);
+     listofdata.add(true);
+     System.out.println(listofdata);
 
 
-     Iterator iterator= mylist.iterator();
+     Iterator iterator= listofdata.iterator();
      while (iterator.hasNext())
      {
          System.out.println(iterator.next());

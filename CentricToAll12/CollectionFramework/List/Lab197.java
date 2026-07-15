@@ -10,30 +10,29 @@ public class Lab197
 
         //Invoking both String and Integer objects using iterator interface
 
-        List<String> mylist=new LinkedList<>();
-        mylist.add("Abhilash");
-        mylist.add("Sharma");
-        mylist.add("Vemula");
-        System.out.println(mylist);
+        List<String> List1=new LinkedList<>();
+        List1.add("Abhilash");
+        List1.add("Sharma");
+        List1.add("Vemula");
+        System.out.println(List1);
 
-        List<Integer> mylist1=new LinkedList<>();
-        mylist1.add(1);
-        mylist1.add(2);
-        mylist1.add(3);
-        System.out.println(mylist1);
+        List<Integer> List2=new LinkedList<>();
+        List2.add(1);
+        List2.add(2);
+        List2.add(3);
+        System.out.println(List2);
 
       //Using the iterator approach for both objects
-        Iterator iterator=mylist.iterator();
-        while (iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
-
-        Iterator iterator1= mylist1.iterator();
+        Iterator iterator1= List1.iterator();
         while (iterator1.hasNext())
         {
             System.out.println(iterator1.next());
-
         }
 
+        Iterator iterator2= List2.iterator();
+        while (iterator2.hasNext())
+        {
+            System.out.println(iterator2.next());
+        }
+        }
     }
-}

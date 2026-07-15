@@ -12,6 +12,7 @@ public class  Lab205
         vector.add("Abhilash");
         vector.add(420);
         vector.add(false);
+        vector.add(23.6f);
 
 
         Enumeration e= vector.elements();

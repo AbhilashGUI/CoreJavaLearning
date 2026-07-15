@@ -4,28 +4,20 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Lab200
-{
-    public static void main(String[] args)
-    {
-  //Restricting the other datatypes
-        List<String> mylist=new LinkedList<>();
-        mylist.add("Abhilash");
-        mylist.add("Sharma");
-        mylist.add("Vemula");
-        //mylist.add(123);
-        //mylist.add(true)
-        //System.out.println(mylist);
+public class Lab200 {
+    public static void main(String[] args) {
+        //Restricting the other datatypes
 
+        List<String> Selectedlist= new LinkedList<>();
+        //Selectedlist.add('V');
+        Selectedlist.add("Abhilash");
+        Selectedlist.add("Sharma");
+        //Selectedlist.add(123);
 
-        mylist.remove("Sharma");
-        System.out.println(mylist);
-        mylist.set(0,"Vicky");
-        System.out.println(mylist);
-        System.out.println(mylist.indexOf("Vemula"));
+        Selectedlist.remove("Sharma");
+        Selectedlist.add(1,"Vemula");
 
-
-        Iterator iterator= mylist.iterator();
+        Iterator iterator= Selectedlist.iterator();
         while (iterator.hasNext())
         {
             System.out.println(iterator.next());

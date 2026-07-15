@@ -13,7 +13,10 @@ public class Lab199
         mynumlist.add(10);
         mynumlist.add(20);
         mynumlist.add(30);
+        mynumlist.add(40);
         System.out.println(mynumlist);
+
+        //Using Iterator approach
 
         Iterator iterator=mynumlist.iterator();
         while (iterator.hasNext())

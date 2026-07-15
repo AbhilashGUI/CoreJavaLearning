@@ -1,5 +1,6 @@
 package CentricToAll12.CollectionFramework.List;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
@@ -8,20 +9,16 @@ public class Lab204
 {
     public static void main(String[] args)
     {
-        List onlinetutorials=new LinkedList<>();
-        onlinetutorials.add("Scaler");
-        onlinetutorials.add("Coursera");
-        onlinetutorials.add("The Testing Academy");
-        onlinetutorials.add("Talentsprint");
-        onlinetutorials.add("LinkedIn Learning");
-        System.out.println(onlinetutorials);
+        List offlinetutorials=new LinkedList<>();
+        offlinetutorials.add("NareshIT");
+        offlinetutorials.add("Talkgross");
+        offlinetutorials.add("Veda");
+        System.out.println(offlinetutorials);
 
         List coursefee=new LinkedList<>();
         coursefee.add(10000);
         coursefee.add(9000);
         coursefee.add(8000);
-        coursefee.add(7000);
-        coursefee.add(6000);
         System.out.println(coursefee);
 
 
@@ -29,8 +26,15 @@ public class Lab204
         //Using ListIterator interface
         //Note: It is mandate to use size() function, if using list-iterator to print the elements in reverse direction
 
+        Iterator iterator= coursefee.iterator();
+        while (iterator.hasNext())
 
-        ListIterator lt=onlinetutorials.listIterator(onlinetutorials.size());
+        {
+            System.out.println(iterator.next());
+        }
+
+
+        ListIterator lt= offlinetutorials.listIterator(offlinetutorials.size());
         while (lt.hasPrevious())
         {
             System.out.println(lt.previous());
