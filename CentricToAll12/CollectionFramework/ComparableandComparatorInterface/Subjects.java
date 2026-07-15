@@ -26,7 +26,7 @@ class SortbySubjectsDsc implements Comparator<Subjects>
     }
 }
 
-class  SortbySubjectsName implements Comparator<Subjects>
+class  SortbySubjectNameAsc implements Comparator<Subjects>
 {
 
     @Override

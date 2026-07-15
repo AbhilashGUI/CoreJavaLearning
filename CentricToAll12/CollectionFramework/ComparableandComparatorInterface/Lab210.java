@@ -23,9 +23,6 @@ public class Lab210
         System.out.println(subjects);
 
 
-        //Comparable fetchings
-        Collections.sort(subjects);
-        System.out.println(subjects);
 
 
         //Comparator fetchings
@@ -33,7 +30,7 @@ public class Lab210
         System.out.println(subjects);
         Collections.sort(subjects,new SortbySubjectsDsc());
         System.out.println(subjects);
-        Collections.sort(subjects,new SortbySubjectsName());
+        Collections.sort(subjects,new SortbySubjectNameAsc());
         System.out.println(subjects);
         Collections.sort(subjects,new SortbySubjectNameDesc());
         System.out.println(subjects);
