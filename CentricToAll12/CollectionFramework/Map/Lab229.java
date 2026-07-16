@@ -19,13 +19,16 @@ public class Lab229
         GoogleProducts4.put("GoogleSites,Slides",39);
         GoogleProducts4.put("GoogleFlights,Travel",40);
 
+        System.out.println(GoogleProducts4.get("GoogleFit"));
+        System.out.println(GoogleProducts4.isEmpty());
+        System.out.println(GoogleProducts4.size());
+
         //Enhanced for loop
-        for (Map.Entry<String,Integer> item: GoogleProducts4.entrySet())
+
+        for (Map.Entry<String, Integer> item : GoogleProducts4.entrySet())
         {
-            System.out.println(item.getKey() + "-->" + item.getValue());
+            System.out.println(item.getKey() + " "+ item.getValue());
         }
-
-
 
 
 

@@ -9,12 +9,12 @@ public class Lab231
     public static void main(String[] args)
     {
 
-        Map<Integer,String> HT=new Hashtable<>();  //In descending order
-        HT.put(1, "Abhilash");
-        HT.put(2, "Sharma");
-        HT.put(3, "Vemula");
+        Map<Integer,String> hashtable=new Hashtable<>();  //In descending order
+        hashtable.put(1, "Abhilash");
+        hashtable.put(2, "Sharma");
+        hashtable.put(3, "Vemula");
 
-        Enumeration<Integer> e = ((Hashtable<Integer, String>) HT).keys();
+        Enumeration<Integer> e = ((Hashtable<Integer, String>) hashtable).keys();
 
         // Iterating through the Hashtable object
 
@@ -27,7 +27,7 @@ public class Lab231
             // Print and display the Rank and Name
             System.out.println("Rank : " + key
                     + "\t Name : "
-                    + HT.get(key));
+                    + hashtable.get(key));
         }
 
 

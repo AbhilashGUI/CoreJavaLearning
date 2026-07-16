@@ -21,14 +21,16 @@ public class Lab228
         GoogleProducts3.put("Youtube,Youtubekids,YoutubeMusic,YoutubeTv",30);
 
 
+        System.out.println(GoogleProducts3.containsValue(30));
+        System.out.println(GoogleProducts3.containsKey("Googleone"));
+
         //Enhanced for loop
-        for (Map.Entry<String,Integer> item: GoogleProducts3.entrySet())
+
+
+        for (Map.Entry<String,Integer> item : GoogleProducts3.entrySet())
         {
-            System.out.println(item.getKey()+ "-->" + item.getValue());
+            System.out.println(item.getKey() + "-->" + item.getValue());
         }
-
-
-
 
 
 

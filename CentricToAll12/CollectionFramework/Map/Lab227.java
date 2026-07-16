@@ -20,11 +20,15 @@ public class Lab227
         GoogleProducts2.put("GooglePhotos",19);
         GoogleProducts2.put("GoogleTv",20);
 
+        System.out.println(GoogleProducts2);
+        System.out.println(GoogleProducts2.values());
+        System.out.println(GoogleProducts2.keySet());
 
          //Enhanced for loop
-        for (Map.Entry<String, Integer> item :GoogleProducts2.entrySet()) {
-            System.out.println(item.getKey() + "-->" + item.getValue());
-        }
+       for(Map.Entry<String,Integer> item: GoogleProducts2.entrySet())
+       {
+           System.out.println(item.getKey() + "-->"+ item.getValue());
+       }
 
 
 
