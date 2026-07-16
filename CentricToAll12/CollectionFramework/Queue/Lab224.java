@@ -9,6 +9,7 @@ public class Lab224
     public static void main(String[] args)
     {
         //It throws a ClassCastException:An unchecked exception that signals the code has attempted to cast a reference to a type of which it's not a subtype
+        //Expected
 
         Queue CollarTypejobs=new PriorityQueue();
         CollarTypejobs.offer(1);

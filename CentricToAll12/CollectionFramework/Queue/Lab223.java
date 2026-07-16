@@ -9,14 +9,21 @@ public class Lab223
     public static void main(String[] args)
     {
 
-        //For strings it follows as per FIFO
-        Queue<String> Nameset=new PriorityQueue<String>();
+        //For Strings it follows as per FIFO
+        Queue<String> Nameset=new PriorityQueue<>();
         Nameset.offer("Abhilash");
-        Nameset.offer("Akash");
-        Nameset.offer("Advait");
+        Nameset.offer("Apurva");
+        Nameset.offer("Suvan");
+        Nameset.offer("Suraj");
+        Nameset.offer("Nirmal");
+        Nameset.offer("Nirmala");
+        Nameset.offer("Ayush");
+        Nameset.offer("Sana");
+        Nameset.offer("Usha");
         Nameset.offer("Aravind");
-        Nameset.offer("Avinash");
-        //Nameset.offer(123)
+
+
+        //Nameset.offer(123) //Specific datatype
         System.out.println(Nameset);
 
         System.out.println(Nameset.peek());

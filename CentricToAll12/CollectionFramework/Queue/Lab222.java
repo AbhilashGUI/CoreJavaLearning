@@ -19,10 +19,10 @@ public class Lab222
         //numset.offer("Abhilash")
         System.out.println(numset);
 
-        Iterator it=numset.iterator();
-        while (it.hasNext())
+        Iterator iterator=numset.iterator();
+        while (iterator.hasNext())
         {
-            System.out.println(it.next());
+            System.out.println(iterator.next());
         }
     }
 }
