@@ -8,10 +8,10 @@ public class Lab215
     public static void main(String[] args)
     {
        //Combination of both String and int
-        Set Tier1Cities=new HashSet();
-        Tier1Cities.add("Hyderabad");
-        Tier1Cities.add(6);
-        System.out.println( Tier1Cities + "-->"+" Known for its technology industry and historical sites, it is a growing economic center.");
+        Set Tier1_Cities=new HashSet();
+        Tier1_Cities.add("Hyderabad");
+        Tier1_Cities.add(6);
+        System.out.println( Tier1_Cities + "-->"+" Known for its technology industry and historical sites, it is a growing economic center.");
 
 
 

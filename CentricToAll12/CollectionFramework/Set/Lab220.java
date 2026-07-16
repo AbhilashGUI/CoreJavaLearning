@@ -17,9 +17,9 @@ public class Lab220
         Tiertypes.add(4);
         System.out.println("They are divided into:");
 
-        //It sort in the alphabetical order
+        //It sorts in the  order
         Iterator it=Tiertypes.iterator();
-        //Tiertypes.add(5);  //It throws a concurrent modificaton exception
+        //Tiertypes.add(5);  //It throws a concurrent modification exception
         while (it.hasNext())
         {
             System.out.println(it.next());

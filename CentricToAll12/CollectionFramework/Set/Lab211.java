@@ -7,23 +7,26 @@ public class Lab211
 {
     public static void main(String[] args)
     {
-        Set fruits= new HashSet();
-        fruits.add("Apple");
-        fruits.add("Orange");
-        fruits.add("Banana");
-        fruits.add("Grapes");
-        fruits.add("Guava");
-        System.out.println(fruits);  //Note:It doesn't follow any order
-        fruits.add("Banana");
-        System.out.println(fruits);  //Note: It doesn't allow the duplicate elements
+        Set Fruits= new HashSet();
+        Fruits.add("Apple");
+        Fruits.add("Banana");
+        Fruits.add("Guava");
+        Fruits.add("Orange");
+        Fruits.add("Watermelon");
+        Fruits.add("apple");//Note:It doesn't follow any order
+        Fruits.add("Guava");//Note: It doesn't allow the duplicate elements
 
 
         //Verifying some functions
-        System.out.println(fruits.remove("Orange"));
-        System.out.println(fruits);
-        System.out.println(fruits.size());
-        System.out.println(fruits.isEmpty());//It returns boolean result
-        System.out.println(fruits.contains("Orange"));//It returns boolean result
+        System.out.println(Fruits);
+        System.out.println(Fruits.size());
+        System.out.println(Fruits.remove("apple"));
+        System.out.println(Fruits);
+        System.out.println(Fruits.isEmpty());
+        System.out.println(Fruits.contains("apple"));
+
+
+
 
 
 

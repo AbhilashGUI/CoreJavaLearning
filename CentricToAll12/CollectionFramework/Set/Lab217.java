@@ -9,34 +9,33 @@ public class Lab217
     public static void main(String[] args)
     {
         //List of Tier3 cities
-        Set Tier3Cities=new LinkedHashSet();   //It follows a sequence order as defined
-        Tier3Cities.add("Etawah");
-        Tier3Cities.add("Roorkee");
-        Tier3Cities.add("Rajamundry");
-        Tier3Cities.add("Bhatinda");
-        Tier3Cities.add("Hajipur");
-        Tier3Cities.add("Rohtak");
-        Tier3Cities.add("Housar");
-        Tier3Cities.add("Gandhinagar");
-        Tier3Cities.add("Junagadh");
-        Tier3Cities.add("Udaipur");
-        Tier3Cities.add("Salem");
-        Tier3Cities.add("Jhansi");
-        Tier3Cities.add("Madurai");
-        Tier3Cities.add("Vijaywada");
-        Tier3Cities.add("Meerut");
-        Tier3Cities.add("Mathura");
-        Tier3Cities.add("Bikaner");      //It doesn't allow duplicate elements
-        Tier3Cities.add("Cuttack");
-        Tier3Cities.add("Vijayawada");
-        Tier3Cities.add("Nashik");
+        Set Tier3_cities=new LinkedHashSet();   //It follows a sequence order as defined
+        Tier3_cities.add("Etawah");
+        Tier3_cities.add("Roorkee");
+        Tier3_cities.add("Rajamundry");
+        Tier3_cities.add("Bhatinda");
+        Tier3_cities.add("Hajipur");
+        Tier3_cities.add("Rohtak");
+        Tier3_cities.add("Housar");
+        Tier3_cities.add("Gandhinagar");
+        Tier3_cities.add("Junagadh");
+        Tier3_cities.add("Udaipur");
+        Tier3_cities.add("Salem");
+        Tier3_cities.add("Jhansi");
+        Tier3_cities.add("Madurai");
+        Tier3_cities.add("Vijaywada");
+        Tier3_cities.add("Meerut");
+        Tier3_cities.add("Mathura");
+        Tier3_cities.add("Bikaner");      //It doesn't allow duplicate elements
+        Tier3_cities.add("Cuttack");
+        Tier3_cities.add("Vijayawada");
+        Tier3_cities.add("Nashik");
 
 
-        Iterator it= Tier3Cities.iterator();
-        while(it.hasNext())
+        Iterator iterator= Tier3_cities.iterator();
+        while (iterator.hasNext())
         {
-            System.out.println(it.next());
+            System.out.println(iterator.next());
         }
-
     }
 }

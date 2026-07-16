@@ -1,6 +1,6 @@
 package CentricToAll12.CollectionFramework.Set;
 
-import java.util.HashSet;
+
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -9,40 +9,40 @@ public class Lab216
 {
     public static void main(String[] args)
     {
-        //List of Tier2 cities sort in the defined order and no duplicates allowed
+        //List of Tier2 cities sort in the defined order/insertion order and no duplicates allowed
 
-        Set Tier2Cities=new LinkedHashSet();
-        Tier2Cities.add("Amritsar");
-        Tier2Cities.add("Bhopal");
-        Tier2Cities.add("Bhubaneswar");
-        Tier2Cities.add("Chandigarh");
-        Tier2Cities.add("Faridabad");
-        Tier2Cities.add("Ghaziabad");
-        Tier2Cities.add("Jamshedpur");
-        Tier2Cities.add("Jaipur");
-        Tier2Cities.add("Kochi");
-        Tier2Cities.add("Lucknow");
-        Tier2Cities.add("Nagpur");
-        Tier2Cities.add("Patna");
-        Tier2Cities.add("Raipur");
-        Tier2Cities.add("Surat");
-        Tier2Cities.add("Visakhapatnam");
-        Tier2Cities.add("Agra");
-        Tier2Cities.add("Ajmer");
-        Tier2Cities.add("Kanpur");
-        Tier2Cities.add("Mysore");
-        Tier2Cities.add("Srinagar");
-        Tier2Cities.add("Nagpur");
+        Set Tier2_cities=new LinkedHashSet();
+        Tier2_cities.add("Amritsar");
+        Tier2_cities.add("Bhopal");
+        Tier2_cities.add("Bhubaneswar");
+        Tier2_cities.add("Chandigarh");
+        Tier2_cities.add("Faridabad");
+        Tier2_cities.add("Ghaziabad");
+        Tier2_cities.add("Jamshedpur");
+        Tier2_cities.add("Jaipur");
+        Tier2_cities.add("Kochi");
+        Tier2_cities.add("Lucknow");
+        Tier2_cities.add("Nagpur");
+        Tier2_cities.add("Patna");
+        Tier2_cities.add("Raipur");
+        Tier2_cities.add("Surat");
+        Tier2_cities.add("Visakhapatnam");
+        Tier2_cities.add("Agra");
+        Tier2_cities.add("Ajmer");
+        Tier2_cities.add("Kanpur");
+        Tier2_cities.add("Mysore");
+        Tier2_cities.add("Srinagar");
+        Tier2_cities.add("Nagpur");
 
         System.out.println("Tier 2 cities known for-->Developing rapidly, good infrastructure, moderate cost of living, often considered emerging urban");
 
-        Iterator it=Tier2Cities.iterator();
-        while (it.hasNext())
+
+
+        Iterator iterator= Tier2_cities.iterator();
+        while (iterator.hasNext())
         {
-            System.out.println(it.next());
+            System.out.println(iterator.next());
         }
-
-
 
     }
 }

@@ -9,19 +9,19 @@ public class Lab213
     {
 
         //List of Tier1 cities
-        Set<String> Tier1cities=new HashSet();
-        Tier1cities.add("Bangalore");
-        Tier1cities.add("Delhi");
-        Tier1cities.add("Chennai");
-        Tier1cities.add("Hyderabad");
-        Tier1cities.add("Mumbai");
-        Tier1cities.add("Pune");
-        Tier1cities.add("Kolkata");
-        Tier1cities.add("Ahmedabad");
-        //Tier1cities.add(8);  Since we are specified strings in the diamond operators it restricts the int
+        Set<String> Tier1_cities=new HashSet();
+        Tier1_cities.add("Bangalore");
+        Tier1_cities.add("Delhi");
+        Tier1_cities.add("Chennai");
+        Tier1_cities.add("Hyderabad");
+        Tier1_cities.add("Mumbai");
+        Tier1_cities.add("Pune");
+        Tier1_cities.add("Kolkata");
+        Tier1_cities.add("Ahmedabad");
+        //Tier1_cities.add(8);  Since we are specified strings in the diamond operators it restricts the integer
 
 
-        System.out.println("The following cities falls under Tier1 ==>" + Tier1cities);
+        System.out.println("The following cities falls under Tier1 ==>" + Tier1_cities);
 
 
 

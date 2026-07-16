@@ -9,19 +9,19 @@ public class IV9
 {
     public static void main(String [] args){
 
-        Set TyesofOS=new HashSet();   //Unordered
-        TyesofOS.add("IOS");
-        TyesofOS.add("Android");
-        TyesofOS.add("Windows");
-        TyesofOS.add("MacOs");
-        TyesofOS.add("ChromeOs");
-        TyesofOS.add("Unix");
-        TyesofOS.add("Linux");
-        TyesofOS.add("Ubuntu");
-        TyesofOS.add("Fedora");
-        TyesofOS.add("BlackberryOs");
-        TyesofOS.add(null);   //Allowed
-        System.out.println(TyesofOS);
+        Set TypesofOS=new HashSet();   //Unordered
+        TypesofOS.add("IOS");
+        TypesofOS.add("Android");
+        TypesofOS.add("Windows");
+        TypesofOS.add("MacOs");
+        TypesofOS.add("ChromeOs");
+        TypesofOS.add("Unix");
+        TypesofOS.add("Linux");
+        TypesofOS.add("Ubuntu");
+        TypesofOS.add("Fedora");
+        TypesofOS.add("BlackberryOs");
+        TypesofOS.add(null);   //Allowed
+        System.out.println(TypesofOS);
 
 
        Set TypesofOS2= new LinkedHashSet(); //Insertion order
@@ -39,7 +39,7 @@ public class IV9
        System.out.println(TypesofOS2);
 
 
-       Set TypesofOS3=new TreeSet<>(); //Alphabetical order
+       Set TypesofOS3=new TreeSet<>(); //Alphabetical order (sorting)
        TypesofOS3.add("IOS");
        TypesofOS3.add("Android");
        TypesofOS3.add("Windows");

@@ -9,24 +9,26 @@ public class Lab219
     public static void main(String[] args)
     {
 
-        Set Tier4Cities=new TreeSet();
-        Tier4Cities.add("Kasganj");
-        Tier4Cities.add("Nagda");
-        Tier4Cities.add("Datia");
-        Tier4Cities.add("Gangtok");
-        Tier4Cities.add("Banswara");
-        Tier4Cities.add("Bhadreswar");
-        Tier4Cities.add("Kalyani");
-        Tier4Cities.add("Kapurthala");
-        Tier4Cities.add("Sujangarh");
-        Tier4Cities.add("Chilakaluripet");
+        Set Tier4_cities=new TreeSet();
+        Tier4_cities.add("Kasganj");
+        Tier4_cities.add("Nagda");
+        Tier4_cities.add("Datia");
+        Tier4_cities.add("Gangtok");
+        Tier4_cities.add("Banswara");
+        Tier4_cities.add("Bhadreswar");
+        Tier4_cities.add("Kalyani");
+        Tier4_cities.add("Kapurthala");
+        Tier4_cities.add("Sujangarh");
+        Tier4_cities.add("Chilakaluripet");
         //It doesn't allow duplicate elements
-        Tier4Cities.add("Chilakaluripet");
+        Tier4_cities.add("Chilakaluripet");
        //It sort in the alphabetical order
-        Iterator it=Tier4Cities.iterator();
-        while (it.hasNext())
+
+
+        Iterator iterator=Tier4_cities.iterator();
+        while (iterator.hasNext())
         {
-            System.out.println(it.next());
+            System.out.println(iterator.next());
         }
 
     }

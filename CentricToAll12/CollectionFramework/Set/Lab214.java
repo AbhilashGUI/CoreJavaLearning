@@ -7,12 +7,12 @@ public class Lab214
 {
     public static void main(String[] args)
     {
-        Set<Integer> numberofTier1cities= new HashSet<>(); //Refer previous code
-        numberofTier1cities.add(8);
-        //numberofTiercities.add("Banglore")
+        Set<Integer> numberof_Tier1cities= new HashSet<>(); //Refer previous code
+        numberof_Tier1cities.add(8);
+        //numberof_Tiercities.add("Banglore");
         // Since we are specified integers in the diamond operators it restricts the strings
 
-        System.out.println(numberofTier1cities );
+        System.out.println("There are" + numberof_Tier1cities + " Tier1_cities" );
 
 
 
