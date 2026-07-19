@@ -2,29 +2,36 @@ package CentricToAll13.Multithreading.Generics;
 
 public class Lab242A {
 
-    public static void main(String[] args) {
-        user<Integer> i=new user<Integer>(50);
+
+    public static void main(String[] args)
+    {
+
+        userdefined<Integer> i= new userdefined<>(100);
         System.out.println(i.getObjects());
-        user<Double> i2=new user<Double>(12.74);
-        System.out.println(i2.getObjects());
-        user<String> i3=new user <String>("Abhilash");
-        System.out.println(i3.getObjects());
+        userdefined<String> s= new userdefined<>("Abhilash");
+        System.out.println(s.getObjects());
+        userdefined<Character> c= new userdefined<>('A');
+        System.out.println(c.getObjects());
+        userdefined<Float> f= new userdefined<>(22.7f);
+        System.out.println(f.getObjects());
 
 
     }
 }
 
 //Operation: D is replaced with the datatype passed , executes accordingly and displays the results
-class  user <D> {
-    D Objects;
-    public user(D objects) {
-        Objects = objects;     //Generating the constructor
+
+class userdefined<O>{
+
+    public O getObjects() {
+        return Objects;
     }
 
-    public D getObjects() {
-        return Objects;        //Generating the Getter method
-    }
+    O Objects;
 
+    public userdefined(O objects) {
+        Objects = objects;
+    }
 
 
 }

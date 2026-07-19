@@ -4,29 +4,26 @@ public class Lab236 {
     public static void main(String[] args) {
         //Maximum of three numbers(Int)  using the function
 
+        int Maxout=Maxnumber(15,75,150);
+        System.out.println(Maxout);
 
-       int maxnum=maximumnumber(10,20,30);
-       System.out.println(maxnum);
     }
 
+        //Non-Generic, here we are specifying the datatype
 
-    //Non-Generic, here we are specifying the datatype
-
-    public static int maximumnumber(int a, int b, int c)
-    {
-        int max=a;
-            if (b>max)
-            {
-                max=b;
-            }
-            if (c>max)
-            {
-                max=c;
-            }
-            return max;
+        public static int Maxnumber( int a, int b, int c)
+        {
+        int max = a;
+        if (b > max) {
+            max = b;
         }
-
+        if (c > max) {
+            max = c;
+        }
+        return max;
     }
+
+}
 
 
 

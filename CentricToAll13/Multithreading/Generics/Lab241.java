@@ -3,8 +3,8 @@ package CentricToAll13.Multithreading.Generics;
 public class Lab241 {
 
 
-    public static <Generic1 extends Comparable<Generic1>> Generic1 Minimumof(Generic1 a, Generic1 b, Generic1 c) {
-        Generic1 min = a;
+    public static <Gen1 extends Comparable<Gen1>> Gen1 Minimumof(Gen1 a, Gen1 b, Gen1 c) {
+        Gen1 min = a;
 
         if (b.compareTo(min) <0) {
             b = min;

@@ -4,18 +4,18 @@ public class Lab238 {
 
     //Defining the main method and arguments outside the class
 
-   public static <Generic>void Studentdetails(Generic student1)
-   {
-       System.out.println(student1);
-   }
 
-   public static void main(String[] args)
-   {
-       Studentdetails("Abhilash");
-       Studentdetails('M');
-       Studentdetails(29.8);
-       Studentdetails(true);
-       Studentdetails(4);
+    public static <Generic> void Aspirant(Generic id1) {
+        System.out.println(id1);
+    }
 
-   }
+
+    public static void main(String[] args) {
+        Aspirant("Registered for Java with selenium");
+        Aspirant('M'); //Morning batch
+        Aspirant(10000); //fee
+        Aspirant(3.5); //Duration in months
+
+
+    }
 }

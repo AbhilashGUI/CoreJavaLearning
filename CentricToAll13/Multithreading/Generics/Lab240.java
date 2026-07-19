@@ -2,30 +2,32 @@ package CentricToAll13.Multithreading.Generics;
 
 public class Lab240 {
     //Note: Generics are widely used in API Automation
-    //Finding out the maximum number using compareto() method, for which we have to use comparable interface which can even compare strings and characters
+    //Finding out the maximum number using compareto() method, for which we have to use comparable interface which can compare all datatypes
 
-    public static <Generic extends Comparable<Generic>> Generic maximumof(Generic a, Generic b, Generic c) {
+    public static <Generic extends Comparable<Generic>> Generic Maximumof(Generic a, Generic b, Generic c)
         //Note: Here the Generic in the diamond operator is a customised class
 
-        Generic max = a;
+    {
+        Generic Max=a;
 
-        if (b.compareTo(max) > 0) {
-            max = b;
+        if(b.compareTo(Max)>0)
+        {
+            Max=b;
         }
-
-        if (c.compareTo(max) > 0) {
-            max = c;
+        if(c.compareTo(Max)>0)
+        {
+            Max=c;
         }
-        return max;
+        return c;
 
     }
+        public static void main(String[] args)
+        {
+            System.out.println(Maximumof("Abhilash","Ajay","Aditya"));
+            System.out.println(Maximumof('V','W','K'));
+            System.out.println(Maximumof(22.3f,63.3f,45.4f));
+            System.out.println(Maximumof(66,77,88));
+        }
 
-     public static void main(String[] args)
-     {
-      System.out.println(maximumof("Abhilash","Vicky","Cow"));
-      System.out.println(maximumof('V','A','S'));
-      System.out.println(maximumof(12,17,36));
-      System.out.println(maximumof(24.5,74.5,99.9));
 
-    }
-}
+       }

@@ -15,14 +15,14 @@ public class Lab232
         //Example of generic code
 
 
-        List  Multidatatype=new ArrayList<>();
-        Multidatatype.add("Abhilash");
-        Multidatatype.add('M');
-        Multidatatype.add(29.8);
-        Multidatatype.add(false);
-        Multidatatype.add(30);
-        System.out.println(Multidatatype);
-
+        List Multi_datatype= new ArrayList();
+        Multi_datatype.add("Abhilash");
+        Multi_datatype.add('M');
+        Multi_datatype.add(32);
+        Multi_datatype.add(false);
+        Multi_datatype.add(8.5f);
+        Multi_datatype.add(8655745963l);
+        System.out.println(Multi_datatype);
 
     }
 }

@@ -3,22 +3,18 @@ package CentricToAll13.Multithreading.Generics;
 public class Lab233 {
     public static void main(String[] args) {
 
-          Multidatatype("Abhilash");
-          Multidatatype('M');
-          Multidatatype(29.8);
-          Multidatatype(false);
-
-
-
-    }
-
-
-    public static <Gen> void Multidatatype(Gen Applicantdetails) {
-        System.out.println(Applicantdetails);
-
-
-
+        Multi_datatype("Abhilash");
+        Multi_datatype('M');
+        Multi_datatype(32);
+        Multi_datatype(false);
+        Multi_datatype(9563258742l);
 
 
     }
+
+    public static <Gen> void Multi_datatype(Gen Customerdetails)
+    {
+        System.out.println(Customerdetails);
+    }
+
 }

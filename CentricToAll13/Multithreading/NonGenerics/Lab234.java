@@ -9,11 +9,12 @@ public class Lab234
     {
         //Non-Generic allows only the specific datatype, which is defined with in the diamond operator
 
-        List<Integer> SingleDatatype=new ArrayList();
-        //SingleDatatype.add("Thief");
-        SingleDatatype.add(420);
-        SingleDatatype.add(235);
-        System.out.println(SingleDatatype);
+        List<Integer> Unique_datatype=new ArrayList();
+        //Unique_datatype.add("Thief");
+          Unique_datatype.add(123);
+          Unique_datatype.add(365);
+
+        System.out.println(Unique_datatype);
 
 
 
