@@ -1,16 +1,20 @@
 package CentricToAll13.Multithreading.Threads;
 
-public class Lab244
-{
-    public static void main(String[] args)
-    {
-        Thread t=Thread.currentThread();
-        for (int i = 0; i < 10; i++)
-        {
-         System.out.println(t.getName()  +  i  + "-" +t.getThreadGroup()+ "-"+t.getPriority());
-        }
+public class Lab244 {
 
-        //getName(): The getName() method of java Class class is used to get the name of the entity
+    public static void main(String[] args) throws InterruptedException {
+
+        Thread t= Thread.currentThread();
+        System.out.println(t);
+        for (int i=0;i<5;i++)
+        {
+            System.out.println(t.getName()+ "--"+t.getThreadGroup()+ "--"+t.getPriority());
+
+}
+        Thread.sleep(3000);
+
+
+        //getName(): The getName() method of java Class  is used to get the name of the entity
         // and that entity can be class, interface, array, enum, method, etc. of the class object.
 
        //getThreadGroup: Is used to return the thread's thread group to which this thread belongs.
