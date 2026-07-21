@@ -2,36 +2,28 @@ package CentricToAll13.Multithreading.Threads;
 
 public class Lab245
 {
-
-
     public static void main(String[] args)
     {
 
+        Worker worker= new Worker();
+        worker.start();   //To start the thread
 
-                    Worker w1=new Worker();
-                    w1.start();   //To start the thread
+        Worker worker2= new Worker();
+        worker2.start();
 
-                    Worker w2=new Worker();
-                    w2.start();
     }
-
-
 }
 
+class Worker extends Thread {   //Worker is a class extends from the thread, which has 2 functions start and run the threads
 
-//Let's create a thread by class
-
-class Worker extends Thread {    //Worker is a class extends from the thread, which has 2 functions start and run the threads
-
-    @Override
-    public void run() {       //To work the threads
-        for (int i = 0; i < 5; i++)
+    public void run() {  //To work the threads
+        for (int i = 0; i < 5; i++) {
+            System.out.println(Thread.currentThread().getName());
             try {
-                System.out.println(Thread.currentThread().getName());
-                //currentthread()>returns a Thread object that represents the current thread
-                Thread.sleep(2000);
+                Thread.sleep(3000);
             } catch (Exception e) {
-                e.getStackTrace();
+                e.printStackTrace();
             }
+        }
     }
 }
