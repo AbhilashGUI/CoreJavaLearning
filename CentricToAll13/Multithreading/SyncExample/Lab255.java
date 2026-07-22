@@ -1,47 +1,58 @@
 package CentricToAll13.Multithreading.SyncExample;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class Lab255
-{
-    public static void main(String[] args){
+public class Lab255 {
+    public static void main(String[] args) {
+
+        sync s= new sync();
+        s.m1();
+        sync.m2();
+        s.m3();
+        s.m4();
 
 
-        Sync a =new Sync();
-        a.m1();
-        a.m2();
-        a.m3();
-        a.m4();
+    }
 
+}
 //Synchronization at the method level
-    }
-}
-class Sync {
-    void m1() {
-        synchronized (this.getClass()) {
-            System.out.println("Default Object of Class will be locked!!");
+
+class sync {
+    void m1()
+    {
+        synchronized (this.getClass())
+        {
+            System.out.println("Default object of the class will be locked !!");
         }
     }
 
-    static void m2() {
-        synchronized (Sync.class) {
-            System.out.println("Default Object of Class will be locked!!");
+    static void m2()
+    {
+        synchronized (sync.class) {
+                System.out.println("Default object of the class will be locked !!");
+            }
         }
-    }
 
-    void m3() {
-        synchronized (this) {
-            System.out.println("Current Object of Class will be locked!!");
+    void m3()
+    {
+            synchronized (this)
+            {
+                System.out.println("Current Object of the class will be locked !!");
+            }
         }
-    }
 
-    void m4() {
-        ArrayList a = new ArrayList();
-        synchronized (a) {
-            //thread 1 and thread 2 will not add to the a. They will add one by one
-            System.out.println("Third Party Object of Class will be locked!!");
+        void m4()
+        {
+            List list= new ArrayList<>();
+            synchronized (list)
+            //thread 1 and thread 2 will not add to the list at a time. They will add one by one
+
+            {
+                System.out.println("Third party of the class will be locked !!");
+            }
         }
-    }
+
+        }
 
 
-}

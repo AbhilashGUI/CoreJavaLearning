@@ -1,68 +1,66 @@
 package CentricToAll13.Multithreading.AsyncExample;
 
+public class BankAppDemo1 {
 
-public class BankAppDemo1
-{
     public static void main(String[] args)
     {
-        Bank b1=new Bank();
-        Runnable runnable=new Account(b1);
-        Thread t=new Thread(runnable,"Abhilash");
-        t.start();
-        Thread t2=new Thread(runnable,"vicky");
-        t2.start();
 
-//It displays the result randomly
+     Bankrepo1 bankrepo1= new Bankrepo1();
+     Runnable runnable= new Account(bankrepo1);
+     Thread t1= new Thread(runnable,"Vivek");
+     t1.start();
+     Thread t2= new Thread(runnable,"Vishwank");
+     t2.start();
+
     }
 }
 
-class Account implements Runnable {
-    Bank bank;
 
-    public Account(Bank accservice) {
-        this.bank = accservice;
+class Account implements Runnable
+{
+    Bankrepo1 bankrepo1;
+    public Account(Bankrepo1 bankrepo1) {
+        this.bankrepo1 = bankrepo1;
     }
 
-    @Override
-    public void run() {
-        for (int i = 0; i < 5; i++)
+    public void run()
+    {
+        for(int i=0;i<5;i++)
         {
-            bank.withdraw(300);
-         if (bank.getbalance()<0)
-         {
-             System.out.println("Amount Max out!!");
-         }
+            bankrepo1.withdraw(250);
+            if(bankrepo1.getBalance()<0)
+            {
+                System.out.println("Amount Max out!!");
+            }
         }
     }
 }
 
-class Bank {
-    int balance=1000;
-     void withdraw (int amountTo){
-        Thread t =Thread.currentThread();
-        if (balance >=amountTo)
+class Bankrepo1{
+
+    int balance=1500;
+    void withdraw(int Amount)
+    {
+        Thread t=Thread.currentThread();
+        if(balance>Amount)
         {
-            System.out.println("Withdraw -->" +amountTo + "\t"+t.getName());
+            System.out.println("Withdraw-->"+Amount+ "\t"+t.getName());
             try {
-                Thread.sleep(1000);
-            }catch (Exception e)
-            {
+                Thread.sleep(5000);
+            } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
-            balance=balance-amountTo;
-            System.out.println(balance + "done-->\t"+t.getName());
+            balance=balance-Amount;
+            System.out.println(balance+ " Available bal ");
         }
         else
         {
-            System.out.println("Low Balance");
+            System.out.println("Low balance, cannot dispense cash");
         }
+
     }
-    public int getbalance()
+    public int getBalance()
     {
         return balance;
     }
 }
-
-
-
-
