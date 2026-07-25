@@ -6,11 +6,12 @@ public class Lab254
     {
 
         //Two method in one class sync with m1 and m2.
-        //One method is synchronized and other is static synchronized
+        //Both methods are static synchronized
         //Thread K,L
-        //Thread K calling m1,s1 and Thread L calling m1 with s2
+        //Thread K calling m1,s1 and Thread L calling m1, s2
         //May be inconsistent result due to lock on one method
         //Thread will  run Concurrently
+
 
 
 
@@ -68,7 +69,7 @@ class Sync5 {
         }
     }
 
-    static synchronized void m2() {   //Still it is executing step by step
+    static synchronized void m2() {
         Thread t2 = Thread.currentThread();
         for (int i = 100; i < 105; i++) {
             System.out.println(t2.getName() + " -m2 " + i);
