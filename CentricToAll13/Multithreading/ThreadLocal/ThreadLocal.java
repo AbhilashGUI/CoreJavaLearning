@@ -2,41 +2,42 @@ package CentricToAll13.Multithreading.ThreadLocal;
 
 public class ThreadLocal
 {
+    public static void main(String[] args) throws InterruptedException {
+        Unsafecounter usc= new Unsafecounter();
+        Thread[] task= new Thread[100];
 
-        public static void main( String args[] ) throws Exception{
+        for (int i=0;i<100;i++)
+        {
+            Thread t1= new Thread(() ->
+            {
+                for (int j=0;j<100;j++)
+                    usc.increment();
 
-            UnsafeCounter usc = new UnsafeCounter();
-            Thread[] tasks = new Thread[100];
-
-            for (int i = 0; i < 100; i++) {
-                Thread t = new Thread(() -> {
-//                try {
-//                    Thread.sleep(2000);
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
-                    for (int j = 0; j < 100; j++)
-                        usc.increment();
                 });
-                tasks[i] = t;
-                t.start();
+
+                  task[i]=t1;
+                  t1.start();
+
             }
 
-            for (int i = 0; i < 100; i++) {
-                tasks[i].join();
-            }
-
-            System.out.println(usc.count);
+              for (int i=0;i<100;i++)
+              {
+                  task[i].join();
         }
+       System.out.println(usc.count);
+
     }
 
-    class UnsafeCounter {
 
-        // Instance variable
-        int count = 0;
 
-        void increment() {
-            count = count + 1;
-        }
+}
+
+class Unsafecounter
+{
+    int count=0;
+
+    void increment()
+    {
+        count=count+1;
     }
-
+}
