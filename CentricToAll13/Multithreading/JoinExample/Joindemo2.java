@@ -3,62 +3,57 @@ package CentricToAll13.Multithreading.JoinExample;
 public class Joindemo2 {
 
     public static void main(String[] args) throws InterruptedException {
+     Dailywages dailywages= new Dailywages();
+     MyThread1 myThread1=new MyThread1("Thread-A",dailywages);
+     myThread1.start();
+     myThread1.join();
+     Thread t2=Thread.currentThread();
+     for (int i=0;i<5;i++)
+     {
+         System.out.println(t2.getName()+"--"+i);
+         }
+        try {
+            Thread.sleep(3000);
+        } catch (Exception e) {
 
-        Dailywages dw= new Dailywages();
-        Mythread1 t1= new Mythread1("Labour",dw);
-        t1.start();
-        t1.join();
-        Thread t2= Thread.currentThread();
-        for(int i=0;i<=5;i++)
-        {
-            System.out.println(t2.getName()+i);
         }
-        try
-        {
-            Thread.sleep(1500);
-        }catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-
+    }
 
     }
-}
 
 
-class Mythread1 extends Thread
+
+class MyThread1 extends Thread
 {
-    Dailywages dw;
-    String threadname;
-
-    public Mythread1(String threadname, Dailywages dw) {
-        super(threadname);
-        this.dw = dw;
+    public MyThread1(String threadname, Dailywages dailywages) {
+        Threadname = threadname;
+        this.dailywages = dailywages;
     }
 
-   public void run()
-   {
-       Thread.currentThread().setName(threadname);
-       dw.labour();
-   }
+    Dailywages dailywages;
+    String Threadname;
 
-}
-
-class Dailywages{
-
-    void labour()
+    public void run()
     {
-        Thread t1= Thread.currentThread();
-        for(int i=0;i<=5;i++)
+        Thread.currentThread().setName(Threadname);
+        dailywages.Labour();
+    }
+}
+class Dailywages
+{
+    void Labour()
+    {
+        Thread t1=Thread.currentThread();
+        for(int i=0;i<5;i++)
         {
-            System.out.println(t1.getName()+i);
+            System.out.println(t1.getName()+ "--"+i);
         }
-        try
-        {
-            Thread.sleep(1500);
-        }catch (Exception e)
-        {
+
+        try {
+            Thread.sleep(3000);
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 }
+
