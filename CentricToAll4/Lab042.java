@@ -11,31 +11,31 @@ public class Lab042 {
         //0-34                           Fail
 
 
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the percentage obtained: ");
-        int percentage =sc.nextInt();
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the percentage obtained:");
+        int percentage=sc.nextInt();
 
-        if(percentage>70 && percentage<100)
+        if (percentage>70 && percentage<100)
         {
-            System.out.println("First class with distinction");
+            System.out.println("First class with distinction:"+percentage);
         }
-        else if (percentage>60 && percentage<69)
+        else if (percentage>60 && percentage <69)
         {
-            System.out.println("First class");
+            System.out.println("First class:"+percentage);
         }
         else if (percentage>50 && percentage<59)
         {
-            System.out.println("Second class");
+            System.out.println("Second class"+percentage);
         }
         else if (percentage>35 && percentage<49)
         {
-
-          System.out.println("Third class");
+            System.out.println("Third class");
         }
         else
         {
-            System.out.println("Fail");
+            System.out.println("Fail:"+percentage);
         }
+
 
     }
 }

@@ -2,28 +2,27 @@ package AssignmentPrograms;
 
 public class ReverseString2 {
 
-    public static void main(String[] args) {
-        String name = "VemulaAbhilash";
-        String y = "";
-
-        for (int i = name.length() - 1; i >= 0; i--) {
-            y = y + name.charAt(i);
-
-        }
-        System.out.println(y);
-
-       String name1="Sharma";
-       String y1="";
-       for(int j=name1.length()-1;j>=0;j--)
+    public static void main(String[] args)
     {
-        y1=y1+name1.charAt(j);
 
+        String name="This is most frequently asked question";
+        char[] charArray=name.toCharArray();
+        System.out.println(charArray.length);
+
+        int left=0;
+        int right=charArray.length-1;
+
+        while (left<right)
+        {
+            char temp=charArray[left];
+            charArray[left]=charArray[right];
+            charArray[right]=temp;
+
+            left++;
+            right--;
+        }
+
+        String reversedstring=new String(charArray);
+        System.out.println(reversedstring);
     }
-       System.out.println(y1);
 }
-
-    }
-
-
-
-

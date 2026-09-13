@@ -2,19 +2,16 @@ package CentricToAll4;
 
 import java.util.Scanner;
 
-public class Lab039
-{
-    public static void main(String[] args)
+public class Lab039 {
 
+    public static void main(String[] args)
     {
-        //Taking two inputs from keyboard and displaying the min number
 
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the number 1");
-        byte number1=sc.nextByte();
-        System.out.println("Enter the number 2 ");
-        byte number2=sc.nextByte();
-
+        int number1=sc.nextInt();
+        System.out.println("Enter the number 2");
+        int number2=sc.nextInt();
         if(number1<number2)
         {
             System.out.println("It is a minimum number");
@@ -26,5 +23,4 @@ public class Lab039
 
 
     }
-
 }

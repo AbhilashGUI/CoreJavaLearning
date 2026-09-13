@@ -5,27 +5,23 @@ public class ReversingString {
     public static void main(String[] args)
     {
 
-        String name="Vemula";
-        char[] chararray=name.toCharArray();
-        System.out.println(chararray.length-1);
+        String name="My name is Abhilash";
+        char[] charArray=name.toCharArray();
+        System.out.println(charArray.length);
 
         int left=0;
-        int right=chararray.length-1;
+        int right=charArray.length-1;
 
-        while (left<right) {
-            char temp = chararray[left];
-            chararray[left] = chararray[right];
-            chararray[right] = temp;
+        while (left<right)
+        {
+            char temp=charArray[left];
+            charArray[left]=charArray[right];
+            charArray[right]=temp;
 
             left++;
             right--;
         }
-
-        String reversenum=new String(chararray);
-        System.out.println(reversenum);
-
-
-
-
+        String reversedstring=new String(charArray);
+        System.out.println(reversedstring);
     }
 }

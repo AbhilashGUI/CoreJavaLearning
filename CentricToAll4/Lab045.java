@@ -1,8 +1,7 @@
 package CentricToAll4;
 import java.util.Scanner;
 public class    Lab045 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         //Break loop or switch statement is used to break the current flow of the code at the specified condition
         //It executes one statement from multiple conditions
         //Each case statement can have a break statement, which is optional.
@@ -10,11 +9,12 @@ public class    Lab045 {
 
         //Which day is today
 
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the number, I will reveal the calendar day");
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the daynumber, will reveal the calendarday");
         int daynumber=sc.nextInt();
 
         switch (daynumber)
+
         {
             case 1:
                 System.out.println("Sunday");
@@ -38,10 +38,11 @@ public class    Lab045 {
                 System.out.println("Saturday");
                 break;
             default:
-                System.out.println("restricted");
+                System.out.println("Restricted");
+
 
         }
-        System.out.println("End of the program");
 
     }
 }
+

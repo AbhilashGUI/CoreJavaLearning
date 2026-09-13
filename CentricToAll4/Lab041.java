@@ -25,67 +25,37 @@ public class Lab041 {
         // 3. Write the real code
 
         //Taking the inputs from the keyboard/user
+
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the marks secured :");
-        int marks= sc.nextInt();
+        System.out.println("Enter the marks obtained: ");
+        int marks=sc.nextInt();
 
         if(marks>90 && marks<100)
         {
-            System.out.println("Grade A :"+ marks);
+            System.out.println("Grade A: "+marks);
         }
         else if (marks>80 && marks<89)
         {
-            System.out.println("Grade B :"+marks);
+         System.out.println("Grade B: "+marks);
         }
         else if (marks>70 && marks<79)
         {
-            System.out.println("Grade C :"+ marks);
+          System.out.println("Grade C: "+marks);
         }
-        else if (marks>60 && marks<69)
+        else if (marks>60  && marks<69)
         {
-            System.out.println("Grade D :"+marks);
+          System.out.println("Grade D: "+marks);
         }
         else if (marks>35 && marks<59)
         {
-            System.out.println("Grade E :" +marks);
+         System.out.println("Grade E: "+marks);
         }
         else
         {
-            System.out.println("Failed :"+marks);
+            System.out.println("Grade F:"+marks);
         }
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

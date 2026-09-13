@@ -13,27 +13,27 @@ public class Lab044 {
         //   Use an if-else statement to classify the triangle.
 
 
-        Scanner sc= new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Measurement of side1");
-        int side1=sc.nextInt();
+        int side1 = sc.nextInt();
         System.out.println("Measurement of side2");
-        int side2=sc.nextInt();
+        int side2 = sc.nextInt();
         System.out.println("Measurement of side3");
-        int side3=sc.nextInt();
+        int side3 = sc.nextInt();
 
 
-        if(side1==side2 && side2==side3 && side3==side1)
+        if (side1==side2 && side2==side3 && side1==side3 )
         {
-            System.out.println("It is an equilateral triangle");
+            System.out.println("It's an equilateral triangle");
         }
-        else if (side1==side2 || side2==side3 || side3==side1)
+        else if (side1==side2 || side2==side3 || side1==side3 )
         {
-            System.out.println("It is an Isosceles triangle");
+            System.out.println("It's an isosceles triangle");
         }
         else
         {
-            System.out.println("It is a scalene triangle");
+            System.out.println("It's a scalene triangle");
         }
-    }
 
+    }
 }

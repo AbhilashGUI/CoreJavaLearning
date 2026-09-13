@@ -27,7 +27,7 @@ public class Lab136 {
 
         //NOTE: IPV
         String str5="Hello ";  //Firstly we have assigned string, which will be permanently created in scp
-        str5=str5.concat("Abhilash");//Then re-assigning the string with a concatenation,now the string 4 is combination word.
+        str5=str5.concat("Abhilash");//Then re-assigning the string with a concatenation,now the string 5 is combination word.
         System.out.println(str5);
         String str6="Hello";       //However string6 and string7 are referring to the string5 which is created in scp, whose values were similar.
         String str7="Hello";

@@ -19,16 +19,18 @@ public class Lab060 {
 
 
         //Printing the string using the for loop
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Abhilash Vemula");
-        }
+      for (int i=0;i<15;i++)
+      {
+          System.out.println("Abhilash Vemula");
+      }
 
 
         //Printing the integer using the for loop
 
-        for (int j = 0; j < 10; j++) {
-            System.out.println(j);
-        }
+       for (int i=0;i<10;i++)
+       {
+           System.out.println(i);
+       }
     }
 }
 

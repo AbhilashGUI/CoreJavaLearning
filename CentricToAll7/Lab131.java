@@ -9,7 +9,7 @@ public static void main(String[] args) {
     //Access modifier
     //Return type
 
-     int c= sum(45,65);
+     int c=sum(25,36);
      System.out.println(c);
 
 
@@ -22,8 +22,8 @@ public static void main(String[] args) {
    return a+b;
 }***/
 
-      public static int sum(int num1, int num2)
-      {
-          return num1+num2;
-      }
+     public static int sum(int num1, int num2)
+     {
+         return num1+num2;
+     }
 }
