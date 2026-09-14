@@ -1,11 +1,13 @@
 package AssignmentPrograms;
 
-public class ReversingString {
+public class ReverseWord {
+
+    //Each word of a string
 
     public static void main(String[] args)
     {
 
-        String name="My name is Abhilash";
+        String name="This is most frequently asked question";
         char[] charArray=name.toCharArray();
         System.out.println(charArray.length);
 
@@ -21,6 +23,7 @@ public class ReversingString {
             left++;
             right--;
         }
+
         String reversedstring=new String(charArray);
         System.out.println(reversedstring);
     }

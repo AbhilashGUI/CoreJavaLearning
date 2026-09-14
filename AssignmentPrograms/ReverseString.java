@@ -2,6 +2,8 @@ package AssignmentPrograms;
 
 public class ReverseString {
 
+
+    //Each character in a String
     public static void main(String[] args)
     {
 
