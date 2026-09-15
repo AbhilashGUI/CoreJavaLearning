@@ -1,31 +1,24 @@
 package AssignmentPrograms;
-import java.util.Scanner;
-public class CalculateSimpleInterest
-{
-    public static void main(String[] args)
 
-    {
-        //write a program that calculates simple interest given principal, rate, and time. Use conditionals to validate input values.
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the Principal Amount");
-        double principal=sc.nextDouble();
+import java.util.Scanner;
+
+public class CalculateSimpleInterest {
+
+    public static void main(String[] args) {
+        System.out.println("Enter the principal amount");
+        Scanner sc = new Scanner(System.in);
+        double amount = sc.nextDouble();
 
         System.out.println("Enter the rate of interest");
-        double ROI=sc.nextDouble();
+        double roi = sc.nextDouble();
 
         System.out.println("Enter the time period");
-        double time=sc.nextDouble();
+        double timeduration = sc.nextDouble();
 
-        double SI=principal*ROI*time/100;
+        double Simpleinterest = amount * roi * timeduration / 100;
 
-        System.out.println("Simple interest is : "+ SI);
-
-
-
+        System.out.println("Simple interest: " + Simpleinterest);
 
     }
-
-
-
 
 }

@@ -1,7 +1,8 @@
 package AssignmentPrograms;
+
 import java.util.Scanner;
-public class Armstrongnumber
-{
+
+public class Armstrongnumber {
 
     public static void main(String[] args)
     {
@@ -9,20 +10,19 @@ public class Armstrongnumber
         // It is also known as pluperfect, or Plus Perfect, or Narcissistic number.
         //Example: 153: 1^3 + 5^3 + 3^3 = 1 + 125+ 27 = 153
 
-
+        System.out.println("Enter the number: ");
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the number : ");
         int number=sc.nextInt();
-        int sum=0,rem;
+        int remainder,sum=0;
         int temp=number;
 
         while (number>0)
         {
-            rem=number%10;
-            sum=sum+(rem*rem*rem*rem);   //Since we are declaring 4 digit number
+            remainder=number%10;
+            sum=sum+(remainder*remainder*remainder*remainder);
             number=number/10;
         }
-        if(temp==sum)
+        if (temp==sum)
         {
             System.out.println("It is an armstrong number");
         }
@@ -30,7 +30,5 @@ public class Armstrongnumber
         {
             System.out.println("It is not an armstrong number");
         }
-
-
     }
 }
