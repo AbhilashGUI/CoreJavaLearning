@@ -1,27 +1,24 @@
 package AssignmentPrograms;
+
 import java.util.Scanner;
-public class SwappingOfTwoNumbers
-{
- public static void main(String[] args) {
-     //Swapping of two numbers
 
-     Scanner sc = new Scanner(System.in);
-     System.out.println("Enter the value of A");
-     int a = sc.nextInt();
-     System.out.println("Enter the value of B");
-     int b = sc.nextInt();
+public class SwappingOfTwoNumbers {
 
+    public static void main(String[] args)
+    {
 
-     int temp = a;
-     a = b;
-     b=temp;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the value of A");
+        int value1=sc.nextInt();
+        System.out.println("Enter the value of B");
+        int value2=sc.nextInt();
 
 
+        int temp=value1;
+        value1=value2;
+        value2=temp;
 
-     System.out.println("Value of A------>" + a);
-     System.out.println("Value of B------>" + b);
- }
-
-
-
- }
+        System.out.println("Enter the value of A: "+value1);
+        System.out.println("Enter the value of B: "+value2);
+    }
+}

@@ -1,11 +1,13 @@
 package AssignmentPrograms;
+
 import java.util.Scanner;
-public class SumOfDigits
-{
+
+public class SumOfDigits {
+
     public static void main(String[] args)
     {
+        System.out.println("Enter the number");
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the number : ");
         int number=sc.nextInt();
 
         int i=0,rem=0;
@@ -18,12 +20,9 @@ public class SumOfDigits
             number=number/10;
             i++;
         }
-        System.out.println("Sum of number/digits: "+sum );
 
-
-
+       System.out.println("Sum of the digits: "+sum);
 
 
     }
-
 }
