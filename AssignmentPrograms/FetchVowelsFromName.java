@@ -12,7 +12,7 @@ public class FetchVowelsFromName {
         {
             char character=Character.toLowerCase(Name.charAt(i));
 
-            if (character=='a' || character=='e' | character=='i' || character=='o' || character=='u')
+            if (character=='a' || character=='e' || character=='i' || character=='o' || character=='u')
             {
                 System.out.println(character);
             }
